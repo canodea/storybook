@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { RadiusDocs } from './TokenDocs';
+
+<Meta title="Foundations/Radius" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Foundations"
+    title="Köşe yarıçapı"
+    lead="Yüzey hiyerarşisini taşıyan köşe ölçeği ve kenarlık kalınlıkları."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Yarıçapı px olarak yazmayın. Ölçekteki token’ı seçin; böylece kart ve içindeki kontroller aynı dilde kalır.
+      </p>
+    </DocTip>
+
+    <RadiusDocs />
+  </div>
+</div>

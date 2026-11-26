@@ -1,0 +1,74 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './QuickFilter.stories';
+import * as TagStories from '../QuickFilterTags/QuickFilterTags.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="686-2423" />
+
+Yatay kaydırılabilir hızlı filtre satırı. Etiketler `tags` dizisinden gelir; seçili etiket `selected` ile değer ya da indeks olarak verilir. Tıklama seçimi günceller ve `onChange` ile indeks olarak bildirir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Liste/arama sonuçlarının üstünde, tek seçimli hızlı filtre satırı olarak kullanılır.
+- Etiketler `tags` dizisinden gelir; başlangıç seçimi `selected` ile metin ya da indeks olarak verilir.
+- Tıklama seçimi değiştirir ve `onChange` ile indeks bildirir; seçim tek etikette tutulur.
+- Etiket sayısı arttığında satır sıkışmaz, yatay kaydırılır.
+
+## Varyantlar
+
+### Varsayılan
+
+<Canvas of={Stories.Varsayilan} />
+
+### Değerle seçili
+
+<Canvas of={Stories.SeciliDeger} />
+
+### Kaydırılabilir (12 etiket)
+
+Etiketler sıkışmadan tek satırda kalır; satır yatay kaydırılır, kaydırma çubuğu gizlidir.
+
+<Canvas of={Stories.Kaydirilabilir} />
+
+## Uç durumlar
+
+### Tek etiket
+
+<Canvas of={Stories.TekEtiket} />
+
+## Alt modül: Quick Filter Tag
+
+Quick Filter'ın alt modülü; tek başına kullanılmaz. Etiketlerin seçili ve seçilmemiş görünümleri.
+
+<Canvas of={TagStories.Secili} />
+
+<Canvas of={TagStories.Secilmemis} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Satır yatay kaydırılabilir (overflow-x auto), kaydırma çubuğu gizlidir.',
+    'selected hem etiket metni hem de indeks kabul eder; değişiklik onChange ile indeks olarak bildirilir.',
+    'Tıklanan etiket seçilir; seçim yalnızca bir etikette tutulur.',
+  ]}
+  donts={[
+    'Etiketler Quick Filter Tag alt modülü dışında elle çizilmez.',
+    'Birden fazla etiket aynı anda seçili tutulmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

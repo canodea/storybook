@@ -1,0 +1,56 @@
+.root {
+  width: 375px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-16) var(--space-24);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.button {
+  background: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.heading {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.supportingText {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.trailingArrow {
+  color: var(--odea-icon-color-default);
+  flex: none;
+}

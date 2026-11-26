@@ -1,0 +1,86 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './InAppNotification.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="670-2081" />
+
+Kart biçimindeki uygulama içi bildirim; başlık, açıklama, sol ikon, metin linki ve kapatma ikonundan oluşur. Tek görünümü vardır; varyantı yoktur. Metinler dummy'dir; gerçek veri ve kapatma/aksiyon davranışı uygulamada sağlanır.
+
+## Playground
+
+Figma'daki Show Avatar, Show Close ve Show Text Link aç/kapa özellikleri; Text Link metni yalnız Show Text Link açıkken görünür. **Theme** kontrolüyle bileşeni koyu temada da görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Uygulama içi bildirimleri kart biçiminde göstermek için kullanılır.
+
+## Varyantlar
+
+### Tam bildirim
+
+İkon, metin linki ve kapatma ikonu birlikte.
+
+<Canvas of={Stories.TamBildirim} />
+
+### Linksiz bildirim
+
+Aksiyon yok; Text Link gizlenir.
+
+<Canvas of={Stories.LinksizBildirim} />
+
+### Kalıcı bildirim
+
+Kapatma ikonu gizlenir; bildirim ekranda kalır.
+
+<Canvas of={Stories.KaliciBildirim} />
+
+### İkonsuz bildirim
+
+Avatar gizlenir; metin alanı sola dayanır ve tam genişliği kullanır.
+
+<Canvas of={Stories.IkonsuzBildirim} />
+
+### Tüm senaryolar
+
+Dört kart alt alta.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Uzun başlık
+
+Uzun başlık tek satırda "…" ile kesilir, açıklama ve metin linki yerinde kalır.
+
+<Canvas of={Stories.UzunBaslik} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Sol ikon (Icon Avatar) bildirim türünü gösterir; avatar kapalıyken metin alanı sola dayanır ve tam genişliği kullanır.',
+    'Metin linki tek bir eylem anlatır ve FULL CAPS yazılır (ör. TEXT LINK).',
+    'Kapatma ikon-only butondur, aria-label taşır; davranış onClose ile uygulamada bağlanır.',
+    'Başlık tek satırda "…" ile kesilir; açıklama kısa tutulur.',
+  ]}
+  donts={[
+    'Kalıcı bildirimlerde kapatma ikonu kapatılmadan (Show Close) bırakılmaz.',
+    'Aksiyon yoksa Text Link gizlenir; boş link metni gösterilmez.',
+    'Gerçek müşteri verisi veya bildirim metni örnek olarak kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onClose` verilmezse kapatma dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

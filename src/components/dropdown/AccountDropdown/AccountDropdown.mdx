@@ -1,0 +1,76 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './AccountDropdown.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="653-2051" />
+
+Hesap kartı. Hesap adı, alt bilgi ve iki tutar satırı gösterir. Dropdown=True kartı hesap seçme alanına dönüştürür; State=Checkbox çoklu seçim için onay kutusu gösterir.
+
+## Playground
+
+Figma'daki State, Dropdown ve Checked özellikleri ile metin alanları grup hâlinde. **Theme** kontrolüyle kartı koyu temada da görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Hesap seçimi ve çoklu hesap seçimi listelerinde kullanılır. Dropdown=True kartı seçme alanına, State=Checkbox onay kutusuna dönüştürür; tutarlar tek satırda kalır.
+
+## Varyantlar
+
+### Hesap seçici
+
+Dropdown=True: kart hesap seçme alanı olarak davranır, sağda aşağı ok vardır.
+
+<Canvas of={Stories.HesapSecici} />
+
+### Üzerine gelme
+
+Fare kartın üzerine geldiğinde kenarlık güçlenir.
+
+<Canvas of={Stories.Hover} />
+
+### Çoklu hesap seçimi
+
+Üç kart alt alta, checkbox durumunda; ikincisi seçili. Kartın tamamı tıklanabilir.
+
+<Canvas of={Stories.CokluHesapSecimi} />
+
+## Uç durumlar
+
+### Uzun metin
+
+Uzun başlık ve alt bilgi tek satırda "…" ile kesilir; büyük tutar tek satırda kalır.
+
+<Canvas of={Stories.UzunMetin} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Dropdown=True hesap seçme alanını açar; kart buton gibi davranır ve aşağı ok gösterilir.',
+    'State=Checkbox çoklu seçimde kullanılır; ok gösterilmez, kartın tamamı tıklanınca seçim değişir.',
+    'Tutarlar tek satırda kalır; sığmayan başlık ve alt bilgi "…" ile kesilir.',
+    'Koyu tema renk token’larıyla otomatik çalışır; ayrı prop gerekmez.',
+    'Örnek metinler dummy’dir (Title, Sub text goes here, 1.234,56 TL).',
+  ]}
+  donts={[
+    'Yetkisiz ekranlarda hesap tutarları gösterilmez.',
+    'Checkbox durumunda ayrıca ok ikonu eklenmez.',
+    'Tutarlar iki satıra bölünmez ya da kısaltılmaz.',
+    'Gerçek banka verisi (IBAN, hesap adı, kişi adı) örnek olarak kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,57 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0 var(--space-4);
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 48px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.iconGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 32px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: var(--odea-background-inverse);
+  flex-shrink: 0;
+}
+
+.off .dot {
+  opacity: 0;
+}
+
+.icon {
+  color: var(--odea-text-primary);
+}
+
+.off .icon {
+  color: var(--odea-text-secondary);
+}
+
+.label {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--odea-text-primary);
+}
+
+.off .label {
+  color: var(--odea-text-secondary);
+}

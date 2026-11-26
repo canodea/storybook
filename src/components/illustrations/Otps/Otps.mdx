@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Otps.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-13865" />
+
+Tek kullanımlık şifre akışlarında doğrulama kanalını gösteren illüstrasyon: push bildirimi, e-posta veya SMS.
+
+## Playground
+
+Figma'daki Channel özelliği ve Size. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Tek kullanımlık şifre akışlarında doğrulama kanalını gösterir; kanal ve sonraki adım yanındaki metinle anlatılır.
+
+## Varyantlar
+
+Tüm varyantlar bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kanalı (push bildirimi, e-posta, SMS) doğru görselle eşleştir.',
+    'Görselin yanında kanalı ve sonraki adımı anlatan metin bulundur.',
+    'Ölçek için Size kullan; görsel oranı korunur.',
+  ]}
+  donts={[
+    'Görseli tek başına kanal seçimi yapma.',
+    'Aynı ekranda birden fazla kanal görseli kullanma.',
+    'Figma setinde olmayan kanal görseli uydurma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,108 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+
+<Meta title="Getting Started/Contributing" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Getting Started"
+    title="Katkı"
+    lead="Yeni bir bileşen eklemek veya var olanı değiştirmek için izlenecek yol: Figma’dan koda, dokümandan yayına."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Kaynak Figma’dır. Kod, Figma’daki master component’in birebir karşılığıdır; Figma’da olmayan bir varyant veya prop koda
+        eklenmez.
+      </p>
+    </DocTip>
+
+    <h2 id="figma">1. Figma’da component set’i hazırlayın</h2>
+    <p>Kod yazmadan önce bileşen Figma’da tamamlanır. Component set ve açıklaması olmadan kod başlamaz.</p>
+    <ul>
+      <li>Bileşen ve özellik adları <strong>İngilizce</strong>, açıklamalar <strong>Türkçe</strong> olur.</li>
+      <li>Yalnızca set içindeki kombinasyonlar üretilir; set dışında varyant oluşturulmaz.</li>
+      <li>Instance’lar detach edilmez; değişiklik master component üzerinde yapılır.</li>
+      <li>Özellik adları kodda aynen kullanılacağı için son hâline karar verin.</li>
+    </ul>
+
+    <h2 id="kod">2. Bileşeni kodda oluşturun</h2>
+    <p>Her bileşen kendi klasöründe, aynı dosya düzeniyle yaşar; grup klasörü Figma sayfasıyla aynı adı taşır:</p>
+
+    ```text
+    src/components/<Grup>/<Ad>/
+      <Ad>.tsx           bileşen
+      <Ad>.module.css    stiller
+      <Ad>.stories.tsx   story ve playground
+      <Ad>.mdx           doküman sayfası
+      index.ts           dışa aktarım
+    ```
+
+    <p>Klasör adı ve dosya adları Figma’daki bileşen adıyla aynı olur. Foundations bileşenleri <code>src/foundations/</code>, logolar ve illüstrasyonlar <code>src/components/logos/</code> ile <code>src/components/illustrations/</code> altında yaşar.</p>
+
+    <h2 id="tokenlar">3. Renk ve ikonları token’larla kullanın</h2>
+    <ul>
+      <li>
+        Renkler yalnızca <code>--odea-*</code> token’larıyla verilir. Hex, rgb veya ham palet değeri kullanılmaz; böylece Light ve
+        Dark mod otomatik çalışır.
+      </li>
+      <li>
+        İkonlar yalnızca ortak <code>&lt;Icon set name /&gt;</code> bileşeniyle kullanılır; SVG dosyası doğrudan eklenmez.
+      </li>
+      <li>Boyut, boşluk ve yarıçap için de token ölçeğini kullanın.</li>
+    </ul>
+
+    <h2 id="playground">4. Playground kontrollerini Figma’yla eşleştirin</h2>
+    <p>
+      Story kontrollerinin adları Figma özellik adlarıyla birebir aynı olur. Ham prop kontrolleri gizlenir; yalnızca tasarımda
+      karşılığı olan özellikler açık kalır.
+    </p>
+
+    <h2 id="dokuman">5. Bileşen dokümanını yazın</h2>
+    <p>Her bileşen dokümanı şu bölümleri aynı sırayla içerir:</p>
+    <ol>
+      <li>
+        <strong>Playground</strong> — Figma özellik adlarıyla çalışan canlı kontroller (Canvas + Controls).
+      </li>
+      <li>
+        <strong>Kullanım</strong> — Bileşenin ne zaman ve nerede kullanıldığı.
+      </li>
+      <li>
+        <strong>Varyantlar / Senaryolar</strong> — Varyantlar ve gerçek ürün akışlarından örnekler; tüm varyant ızgarası en sonda.
+      </li>
+      <li>
+        <strong>Uç durumlar</strong> — Uzun metin, eksik veri, sıfır ve maskeli değerler.
+      </li>
+      <li>
+        <strong>YAP / YAPMA</strong> — Kullanım kuralları.
+      </li>
+      <li>
+        <strong>Props</strong> — Prop tablosu, tipler ve varsayılanlar.
+      </li>
+    </ol>
+    <p>
+      Foundations sayfalarında Playground ve Props zorunlu değildir; sayfa yapısı ortak hero, açıklama ve doküman bloklarıyla
+      tutarlı kalır. Tüm metinler Türkçe yazılır.
+    </p>
+
+    <h2 id="dogrulama">6. Doğrulayın</h2>
+    <p>Değişiklik tamamlanmadan önce iki komut hatasız geçmelidir:</p>
+
+    ```bash
+    npx tsc --noEmit -p .
+    npm run build-storybook
+    ```
+
+    <p>Tip hatası veya kırık story varsa yayına alınmaz.</p>
+
+    <h2 id="yayin">7. Figma kütüphanesini yayınlayın</h2>
+    <p>
+      Kod ile Figma aynı sürümde olmalıdır. Değişiklikler onaylandıktan sonra Figma kütüphanesini publish edin; tasarımcılar ve
+      geliştiriciler aynı bileşeni görsün.
+    </p>
+  </div>
+</div>

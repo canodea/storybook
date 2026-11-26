@@ -1,0 +1,66 @@
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+  width: 375px;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 327px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 0 16px;
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-default);
+  box-sizing: border-box;
+}
+
+.searchIcon {
+  flex: none;
+  color: var(--odea-icon-color-default);
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+  height: 24px;
+  border: 0;
+  background: none;
+  outline: none;
+  padding: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+  color: var(--odea-text-primary);
+  caret-color: var(--odea-text-primary);
+}
+
+.input::placeholder {
+  color: var(--odea-text-subtle);
+}
+
+.clear {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--odea-icon-color-default);
+}
+
+.clear:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}

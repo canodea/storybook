@@ -1,0 +1,45 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ShortcutLarge.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="230-6808" />
+
+Hesap IBAN'ını gösteren ve tek dokunuşla panoya kopyalayan kısayol kartı. Kopyalama sonrası kısa bir "Kopyalandı" geri bildirimi gösterilir.
+
+## Playground
+
+Figma'daki özelliklerin aynısı. Kopyalama ikonu her zaman görünür; **Action Icon** yalnız ikonu değiştirir. **Theme** ile koyu temayı görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Yalnız hesap IBAN'ını göstermek ve kopyalamak için kullanılır. Sağdaki kopyalama ikonu değeri panoya yazar ve kısa bir geri bildirim gösterir.
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız hesap IBAN’ını göstermek ve kopyalamak için kullanılır.',
+    'Kopyalama ikonu tıklanınca değer panoya yazılır ve geri bildirim gösterilir.',
+    'Kopyalama ikonu erişilebilir bir etiket (aria-label) taşır.',
+    'Kopyalama ikonu her zaman gösterilir; gizlenmez.',
+  ]}
+  donts={[
+    'IBAN dışında bir değer (telefon, tutar vb.) göstermek için kullanılmaz.',
+    'Geri bildirim gösterilmeden sessiz kopyalama yapılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,313 @@
+/* Odea metin stilleri — Figma Text Styles ile birebir (scripts/gen-foundation.py). Elle düzenlemeyin. */
+
+.odea-heading-4xl {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-4xl-font-size);
+  line-height: var(--heading-4xl-line-height);
+  letter-spacing: var(--heading-4xl-letter-spacing);
+}
+
+.odea-heading-3xl {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-3xl-font-size);
+  line-height: var(--heading-3xl-line-height);
+  letter-spacing: var(--heading-3xl-letter-spacing);
+}
+
+.odea-heading-2xl {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-2xl-font-size);
+  line-height: var(--heading-2xl-line-height);
+  letter-spacing: var(--heading-2xl-letter-spacing);
+}
+
+.odea-heading-xl {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-xl-font-size);
+  line-height: var(--heading-xl-line-height);
+  letter-spacing: var(--heading-xl-letter-spacing);
+}
+
+.odea-heading-lg {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-lg-font-size);
+  line-height: var(--heading-lg-line-height);
+  letter-spacing: var(--heading-lg-letter-spacing);
+}
+
+.odea-heading-md {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-md-font-size);
+  line-height: var(--heading-md-line-height);
+  letter-spacing: var(--heading-md-letter-spacing);
+}
+
+.odea-heading-base {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-base-font-size);
+  line-height: var(--heading-base-line-height);
+  letter-spacing: var(--heading-base-letter-spacing);
+}
+
+.odea-heading-sm {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-sm-font-size);
+  line-height: var(--heading-sm-line-height);
+  letter-spacing: var(--heading-sm-letter-spacing);
+}
+
+.odea-text-4xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-4xl-font-size);
+  line-height: var(--text-4xl-line-height);
+  letter-spacing: var(--text-4xl-letter-spacing);
+}
+
+.odea-text-3xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-3xl-font-size);
+  line-height: var(--text-3xl-line-height);
+  letter-spacing: var(--text-3xl-letter-spacing);
+}
+
+.odea-text-2xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-2xl-font-size);
+  line-height: var(--text-2xl-line-height);
+  letter-spacing: var(--text-2xl-letter-spacing);
+}
+
+.odea-text-xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-xl-font-size);
+  line-height: var(--text-xl-line-height);
+  letter-spacing: var(--text-xl-letter-spacing);
+}
+
+.odea-text-lg {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-lg-font-size);
+  line-height: var(--text-lg-line-height);
+  letter-spacing: var(--text-lg-letter-spacing);
+}
+
+.odea-text-md {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-md-font-size);
+  line-height: var(--text-md-line-height);
+  letter-spacing: var(--text-md-letter-spacing);
+}
+
+.odea-text-base {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-base-font-size);
+  line-height: var(--text-base-line-height);
+  letter-spacing: var(--text-base-letter-spacing);
+}
+
+.odea-text-sm {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-sm-font-size);
+  line-height: var(--text-sm-line-height);
+  letter-spacing: var(--text-sm-letter-spacing);
+}
+
+.odea-ui-display-xl {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-xl-font-size);
+  line-height: var(--ui-display-xl-line-height);
+  letter-spacing: var(--ui-display-xl-letter-spacing);
+}
+
+.odea-ui-display-lg {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-lg-font-size);
+  line-height: var(--ui-display-lg-line-height);
+  letter-spacing: var(--ui-display-lg-letter-spacing);
+}
+
+.odea-ui-display-md {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+}
+
+.odea-ui-display-base {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+}
+
+.odea-ui-display-sm {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  text-transform: uppercase;
+}
+
+.odea-ui-display-button-lg {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: 1.6px;
+}
+
+.odea-ui-display-button-sm {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: 1.4px;
+}
+
+.odea-ui-text-2xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-text-2xl-font-size);
+  line-height: var(--ui-text-2xl-line-height);
+  letter-spacing: var(--ui-text-2xl-letter-spacing);
+}
+
+.odea-ui-text-xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-text-xl-font-size);
+  line-height: var(--ui-text-xl-line-height);
+  letter-spacing: var(--ui-text-xl-letter-spacing);
+}
+
+.odea-ui-text-lg {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-text-lg-font-size);
+  line-height: var(--ui-text-lg-line-height);
+  letter-spacing: var(--ui-text-lg-letter-spacing);
+}
+
+.odea-ui-text-md {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+}
+
+.odea-ui-text-base {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+}
+
+.odea-ui-text-sm {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+}
+
+.odea-ui-text-xs {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+
+.odea-ui-text-xs-medium {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+
+.odea-ui-numbers-2xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-numbers-2xl-font-size);
+  line-height: var(--ui-numbers-2xl-line-height);
+  letter-spacing: var(--ui-numbers-2xl-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-xl {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-numbers-xl-font-size);
+  line-height: var(--ui-numbers-xl-line-height);
+  letter-spacing: var(--ui-numbers-xl-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-lg {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-numbers-lg-font-size);
+  line-height: var(--ui-numbers-lg-line-height);
+  letter-spacing: var(--ui-numbers-lg-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-md {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-md-font-size);
+  line-height: var(--ui-numbers-md-line-height);
+  letter-spacing: var(--ui-numbers-md-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-base {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-base-font-size);
+  line-height: var(--ui-numbers-base-line-height);
+  letter-spacing: var(--ui-numbers-base-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-sm {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}
+
+.odea-ui-numbers-sm-semi-bold {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+}

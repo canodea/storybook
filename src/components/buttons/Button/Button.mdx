@@ -1,0 +1,94 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Button.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="22-13864" />
+
+Birincil ve ikincil öncelikli buton. Karar alanındaki ana eylem Primary, yardımcı / vazgeç / alternatif eylemler Secondary ile gösterilir. Label her zaman tamamı büyük harfle yazılır.
+
+## Playground
+
+Figma'daki özelliklerin aynısı, ilgili kontroller gruplar hâlinde. **Leading Icon** yalnız Content = Icon + Text iken, **Icon** yalnız Content = Icon Only iken görünür; **Yok** ikonu gizler. **State** kontrolü durumu görsel olarak zorlar; **Theme** ile koyu temayı görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Ana karar alanında tek Primary kullanılır; yardımcı, vazgeç ve alternatif eylemler Secondary ile gösterilir. Boyut (Large 56px / Small 40px) ve içerik (yalnız metin, ikon + metin, yalnız ikon) seçilir. Icon-only butonlar erişilebilir bir ad (`aria-label`) taşır.
+
+## Varyantlar
+
+### Onayla / Vazgeç
+
+Primary (ONAYLA) ve Secondary (VAZGEÇ) yan yana; tek karar alanında tek Primary.
+
+<Canvas of={Stories.OnaylaVazgec} />
+
+### İkonlu buton
+
+Para gönderme gibi ikon destekli birincil eylem.
+
+<Canvas of={Stories.IkonluButon} />
+
+### Yalnız ikon
+
+Yalnız ikondan oluşan buton; erişilebilir ad (aria-label) zorunludur.
+
+<Canvas of={Stories.IconOnly} />
+
+### Tam genişlik
+
+Büyük, tam genişlikte birincil buton.
+
+<Canvas of={Stories.TamGenislik} />
+
+## Uç durumlar
+
+### Uzun label
+
+Sığmayan etiket tek satırda kalır ve "…" ile kesilir.
+
+<Canvas of={Stories.UzunLabel} />
+
+### Disabled
+
+Devre dışı durum; gölge kaldırılır, kenarlık ve soluk renkler kullanılır.
+
+<Canvas of={Stories.Disabled} />
+
+## Tüm varyantlar
+
+Priority × State × Size × Content matrisi.
+
+<Canvas of={Stories.TumVaryantlar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Label her zaman FULL CAPS yazılır; Türkçe İ/I/Ş/Ğ/Ü/Ö/Ç doğru kullanılır.',
+    'Primary ana kararı temsil eder; aynı karar alanında yalnız bir Primary bulunur.',
+    'Secondary yardımcı, vazgeç veya alternatif eylemler içindir.',
+    'Icon-only butonlar erişilebilir bir ad (aria-label) taşır.',
+    'Dokunma alanı görsel boyuttan daha geniş tutulur (erişilebilirlik).',
+  ]}
+  donts={[
+    'Aynı karar alanına birden çok Primary konulmaz.',
+    'Disabled durumu, gerekçesi kullanıcıya açık olmadan kullanılmaz.',
+    'Hover yalnız imleçli ortamlar içindir; mobilde seçme (Tapped) davranışı kullanılır.',
+    'Focused yalnız erişilebilirlik odağı içindir; dekorasyon olarak kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

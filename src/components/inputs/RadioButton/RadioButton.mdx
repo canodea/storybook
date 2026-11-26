@@ -1,0 +1,57 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './RadioButton.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4829" />
+
+> **Primitive**: Bu bileşen ürün ekranında TEK BAŞINA kullanılamaz; yalnızca üst bileşenlerin (Radio Button Field) içinde kullanılır.
+
+Birbirini dışlayan seçim düğmesi. Gerçek radio elemanıdır; görünümü CSS ile çizilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Radio Button Field gibi bir grup içinde, birbirini dışlayan seçenekler için kullanılır. Bağımsız çoklu seçim için kullanılmaz.
+
+## Varyantlar
+
+### Seçili
+
+<Canvas of={Stories.Secili} />
+
+### Seçili değil
+
+<Canvas of={Stories.SeciliDegil} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız üst bileşenlerin (Radio Button Field) içinde kullanılır.',
+    'Birbirini dışlayan seçimler için grup içinde kullanılır.',
+  ]}
+  donts={[
+    'Tek başına bir ekrana yerleştirilmez.',
+    'Bağımsız çoklu seçim için kullanılmaz (bkz. Checkbox).',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

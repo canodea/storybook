@@ -1,0 +1,12 @@
+.root {
+  width: 375px;
+  height: 2px;
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.line {
+  height: 2px;
+  background: var(--odea-border-divider);
+}

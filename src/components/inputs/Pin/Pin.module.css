@@ -1,0 +1,32 @@
+.pin {
+  width: 40px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--odea-border-field);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+  color: var(--odea-text-primary);
+  flex: none;
+}
+
+.pin[data-state='focused'] {
+  border-width: 2px;
+  border-color: var(--odea-text-primary);
+}
+
+.pin[data-state='filled'] {
+  border-width: 2px;
+  border-color: var(--odea-neutral-blue-oxford);
+}
+
+.pin[data-state='error'] {
+  border-width: 2px;
+  border-color: var(--odea-status-danger);
+}

@@ -1,0 +1,137 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+
+<Meta title="Getting Started/Usage" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Getting Started"
+    title="Kullanım"
+    lead="Bileşenleri, renk token’larını ve ikonları projenize nasıl dahil edeceğinizi adım adım gösterir."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Bu dokümantasyondaki tüm örnekler Storybook içinde çalışır. Kodu kopyalarken token adlarını ve bileşen yollarını projenizdeki
+        klasör yapısına göre uyarlayın.
+      </p>
+    </DocTip>
+
+      <h2 id="menu">Sol menü ve hiyerarşi</h2>
+      <p>
+        Storybook sol menüsü üç kökten oluşur; her bileşen Figma’daki grubuyla aynı yerde durur:
+      </p>
+      <ul>
+        <li>
+          <strong>Getting Started</strong> — About, Kullanım, Katkı, Kurallar ve Değişiklik günlüğü.
+        </li>
+        <li>
+          <strong>Foundations</strong> — Colors, Typography, Spacing, Size, Radius, Elevation, Icons, Logos ve Illustrations.
+          Token’lar, ikonlar, logolar ve illüstrasyonlar bu kökün altındadır.
+        </li>
+        <li>
+          <strong>Components</strong> — Buttons, Inputs, List Item, Dropdown, Cards, Modules, Navigation, Feedback, Avatars ve
+          Shared grupları; ürün bileşenleri bu grupların altında listelenir.
+        </li>
+      </ul>
+      <p>
+        Logos (Logo, Payment Method, Card Physical) ve Illustrations (Campaign, Coin, Bank Assets…) Foundations altına taşındı;
+        kartlar, modüller ve diğer ürün bileşenleri Components altında kalır. Her bileşenin açıklaması, aynı adlı story’nin
+        yanındaki <strong>Docs</strong> girdisinde açılır.
+      </p>
+
+      <h2 id="bilesenler">Bileşen kullanımı</h2>
+    <p>
+      Bileşenler <code>src/components/&lt;Bileşen&gt;/</code> altında yaşar; her biri kendi CSS module’ü ve <code>index.ts</code>{' '}
+      export’u ile gelir. Bileşenin varsayılan export’unu içe aktarıp Figma’da tanımlı prop’ları kullanın.
+    </p>
+
+    ```tsx
+    import SummaryCard from '../components/SummaryCard';
+
+    <SummaryCard
+      type="account"
+      title="Title"
+      subtitle="Sub text goes here"
+      primaryValue="1.234,56 TL"
+      secondaryValue="1.234,56 TL"
+    />;
+    ```
+
+    <p>
+      Yalnızca Figma’da var olan varyant kombinasyonlarını kullanın. Metin, tutar ve görseller örnek veridir; gerçek değerleri
+      yetkili kaynaktan besleyin.
+    </p>
+
+    <h2 id="renkler">Renk token’ları</h2>
+    <p>
+      Renkleri hex olarak yazmayın; <code>var(--odea-*)</code> değişkenlerini kullanın. Renkler sayfasında listelenen anlamsal
+      token’lar Light ve Dark modda otomatik olarak doğru değere döner.
+    </p>
+
+    ```css
+    .card {
+      background: var(--odea-surface-default);
+      color: var(--odea-text-primary);
+      border: 1px solid var(--odea-border-subtle);
+    }
+
+    .card:hover {
+      color: var(--odea-accent-primary);
+    }
+    ```
+
+    <p>
+      Koyu tema, uygulama köküne <code>data-theme="dark"</code> eklenerek açılır. Token’lar <code>[data-theme="dark"]</code>{' '}
+      altında yeniden tanımlanır; bileşende ek bir tema kontrolü gerekmez.
+    </p>
+
+    ```html
+    <html data-theme="dark">
+      <!-- Uygulama kökü -->
+    </html>
+    ```
+
+    <h2 id="ikonlar">İkonlar</h2>
+    <p>
+      İkonlar <code>Icon</code> bileşeni üzerinden kullanılır. Set ve ikon adları İkonlar sayfasındaki Figma adlarıyla aynıdır;
+      boyutlar Figma ölçülerini (16, 24, 32) izler.
+    </p>
+
+    ```tsx
+    import { Icon } from '../foundations/Icon';
+
+    <Icon set="banking" name="term-deposit" size={24} />;
+    ```
+
+    <h2 id="erisilebilirlik">Erişilebilirlik</h2>
+    <ul>
+      <li>
+        Yalnızca ikon içeren butonlara <code>aria-label</code> verin:{' '}
+        <code>&lt;button aria-label="Kart detaylarını göster"&gt;</code>.
+      </li>
+      <li>
+        Süsleme amaçlı ikon ve görselleri ekran okuyucudan gizleyin: <code>aria-hidden="true"</code>, <code>alt=""</code>.
+      </li>
+      <li>
+        Maskeli tutar ve kart numaraları (<code>***</code>) ekran okuyucuya da açık değer olarak verilmemelidir; görsel metinle
+        aynı maskeyi kullanın.
+      </li>
+      <li>Odak durumunu kaldırmayın; anlamsal <code>--odea-border-emphasis</code> ve <code>--odea-accent-primary</code> token’ları yeterli kontrast sağlar.</li>
+      <li>Renk tek başına anlam taşımamalıdır; durum bilgisini metin veya ikonla da destekleyin.</li>
+    </ul>
+
+    <h2 id="yapilmamasi-gerekenler">Yapılmaması gerekenler</h2>
+    <ul>
+      <li>Ham palet değerlerini doğrudan kullanmayın: <code>#2d353c</code> yerine <code>var(--odea-text-primary)</code>.</li>
+      <li>Tema değişiminde renkleri elle değiştirmeyin; token’lara bırakın.</li>
+      <li>İkon-only butonu etiketsiz bırakmayın.</li>
+      <li>Maskeli tutarın gerçek değerini <code>aria-label</code> veya <code>title</code> içine yazmayın.</li>
+      <li>Figma bileşenlerini detach etmeyin; yeni varyant gerekiyorsa master component’te açın.</li>
+    </ul>
+  </div>
+</div>

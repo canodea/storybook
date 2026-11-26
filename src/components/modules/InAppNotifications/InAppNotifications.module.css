@@ -1,0 +1,159 @@
+.root {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--space-8);
+  padding: var(--space-8) var(--space-8) var(--space-16) var(--space-16);
+  width: 375px;
+  flex-shrink: 0;
+  /* Figma'da kart zemini kaldırıldı; zemin üstteki yüzeyden gelir. */
+  background: transparent;
+}
+
+.illustration {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Figma: 56px daire zemin + y=37 gölge elipsi + 32px uyarı ikonu. */
+.illustrationWarning {
+  position: relative;
+  border-radius: 50%;
+  background: var(--odea-neutral-athens-grey);
+}
+
+.illustrationWarning > img {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  z-index: 1;
+}
+
+.illustrationWarning::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 37px;
+  z-index: 0;
+  width: 44px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--odea-icon-color-secondary);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  align-items: flex-start;
+  flex: 1;
+  min-width: 0;
+}
+
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--odea-status-success);
+}
+
+.statusLabel {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-status-success);
+}
+
+.root[data-status='reminder'] .dot {
+  background: var(--odea-brand-primary);
+}
+
+.root[data-status='reminder'] .statusLabel {
+  color: var(--odea-brand-primary);
+}
+
+.root[data-status='warning'] .dot {
+  background: var(--odea-status-warning);
+}
+
+.root[data-status='warning'] .statusLabel {
+  color: var(--odea-status-warning);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--heading-sm-font-size);
+  line-height: var(--heading-sm-line-height);
+  letter-spacing: var(--heading-sm-letter-spacing);
+  color: var(--odea-text-primary);
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  margin: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.textLink {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  color: var(--odea-blue-malibu);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.close {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  color: var(--odea-text-primary);
+}
+
+.close:focus-visible,
+.textLink:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}

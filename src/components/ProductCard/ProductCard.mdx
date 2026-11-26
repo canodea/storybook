@@ -1,0 +1,69 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './ProductCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="442-17772" />
+
+Yalnızca doğru ürün içeriği, geçerli açıklama ve onaylı illustration asset kullanılır. Teklif metni ve tutarı gerçek kampanya koşullarıyla eşleşmeli; görsel kart tek başına kampanya onaylandığı anlamına gelmez.
+
+## Playground
+
+Figma'daki Show Chevron ve Chevron Icon özellikleri; görsel her zaman gösterilir. Show Chevron ile Chevron Icon tek seçimde birleşir: **Yok** chevron'u gizler.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Ürün ve hizmet kartlarını başlık, alt metin ve chevron ile listelemek için kullanılır.
+
+## Varyantlar
+
+### Başka banka hesabı ekle
+
+İllüstrasyon, başlık ve açıklamayla ürün/hesap ekleme kartı.
+
+<Canvas of={Stories.BaskaBankaHesabiEkle} />
+
+## Uç durumlar
+
+### Uzun başlık
+
+Uzun başlık iki satırda kalır, fazlası "…" ile kesilir.
+
+<Canvas of={Stories.UzunBaslik} />
+
+### Uzun alt metin
+
+Uzun açıklama iki satırda kalır, fazlası "…" ile kesilir.
+
+<Canvas of={Stories.UzunAltMetin} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kart ürün/hesap ekleme gibi yönlendirmelerde, illüstrasyon ve açıklamayla kullanılır.',
+    'Sağdaki chevron tek bir yönlendirmeyi anlatır ve dekoratif olduğu için gizlidir (aria-hidden).',
+    'Başlık ve açıklama en fazla iki satırda gösterilir; fazlası "…" ile kesilir.',
+    'Chevron gerekmiyorsa Chevron Icon Yok seçilir.',
+    'Görsel zorunludur; Product Card görselsiz kullanılmaz.',
+  ]}
+  donts={[
+    'Onaylanmamış illustration asset veya marka görseli kullanılmaz.',
+    'Kampanya koşullarıyla eşleşmeyen teklif tutarı yazılmaz.',
+    'Görsel kart tek başına kampanya onayı olarak sunulmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

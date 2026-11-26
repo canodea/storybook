@@ -1,0 +1,10 @@
+.root {
+  display: inline-flex;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  display: block;
+  border-radius: 50%;
+}

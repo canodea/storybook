@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Campaign.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-13927" />
+
+Kampanya ve teklif ekranlarında kullanılan dekoratif illüstrasyon. Tek başına kampanya koşulu anlatmaz.
+
+## Playground
+
+Figma'da varyantı yoktur; yalnız Size özelliği vardır. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Kampanya başlığı ve koşullarıyla birlikte, kart veya bölüm içinde dengeli boşlukla kullanılır.
+
+## Varyantlar
+
+Görsel iki farklı ölçekte.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kampanya başlığı ve koşullarıyla birlikte kullan.',
+    'Ölçek için Size kullan; görsel oranı korunur.',
+    'Görseli kart veya bölüm içinde dengeli boşlukla yerleştir.',
+  ]}
+  donts={[
+    'Görseli kampanya onayı veya koşulu yerine kullanma.',
+    'Görselin üzerine okunaksız metin bindirme.',
+    'Figma dışında varyant üretme.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,78 @@
+.root {
+  width: 375px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: var(--space-16) var(--space-24);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* Buton hâli div hâliyle birebir aynı kutuya oturur; genişlik .root'tan gelir. */
+.button {
+  margin: 0;
+  background: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--odea-surface-muted);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: -2px;
+}
+
+.leadingIcon,
+.trailingArrow {
+  color: var(--odea-icon-color-default);
+  flex: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.labelDisplay {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.labelText {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.supportingText {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

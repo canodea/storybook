@@ -1,0 +1,73 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Spinner.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="534-27" />
+
+İşlemin sürdüğünü gösteren yüklenme halkası. İz (track) ince kenarlık renginde, gösterge yayı brand ya da neutral tondadır. small/medium/large boyutları 24/40/56 px'dir; halka 360° döner ve `prefers-reduced-motion` altında yavaşlar.
+
+## Playground
+
+Figma'daki özelliklerin aynısı; **Theme** kontrolüyle koyu temada da görüntüleyebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Bir işlem sürerken (veri çekme, gönderim, dosya yükleme) bekleme durumunu göstermek için kullanılır.
+- Satır içi ve küçük alanlarda `size="small"`, varsayılan kullanımda `medium`, geniş alanlarda `large`.
+- Marka rengi gerekiyorsa `tone="brand"`, ikon rengini izlemesi gerekiyorsa `tone="neutral"`.
+- Ekran okuyucu için `label` verilir (varsayılan "Yükleniyor").
+
+## Varyantlar
+
+### Small · brand
+
+Satır içi yüklenme göstergesi.
+
+<Canvas of={Stories.Kucuk} />
+
+### Medium · brand
+
+Varsayılan boyut.
+
+<Canvas of={Stories.Orta} />
+
+### Large · brand
+
+Geniş alan yükleme göstergesi.
+
+<Canvas of={Stories.Buyuk} />
+
+### Medium · neutral
+
+Nötr ton; ikon rengini kullanır.
+
+<Canvas of={Stories.Neutral} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yüklemenin sürdüğü bölgeye, içeriğin yerine ya da yanına koy.',
+    'Ekran okuyucular için `label` ver (varsayılan "Yükleniyor").',
+    'Boyutu içinde yer aldığı alana göre seç; geniş alanda medium/large, satır içinde small.',
+  ]}
+  donts={[
+    '300 ms altındaki yüklemelerde gösterilmez; kısa işlemler için Skeleton kullan.',
+    'Erişilebilir bir etiket olmadan tek başına bırakma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir.
+
+<ArgTypes of={Stories} />

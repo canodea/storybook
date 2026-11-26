@@ -1,0 +1,36 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-radius: var(--radius-full);
+}
+
+.root[data-type='count'] {
+  min-width: 20px;
+  min-height: 20px;
+  padding: 0 var(--space-4);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.root[data-type='dot'] {
+  width: 8px;
+  height: 8px;
+}
+
+.root[data-color='danger'] {
+  background: var(--odea-status-danger);
+  color: var(--odea-text-inverse);
+}
+
+.root[data-color='neutral'] {
+  background: var(--odea-surface-selected);
+  color: var(--odea-text-on-contrast);
+}

@@ -1,0 +1,63 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './PinInput.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="308-5712" />
+
+Doğrulama kodu girişi. Altı hücre tek bir gizli input ile yönetilir; yapıştırma ve geri silme desteklenir. PIN rakamları asla açık gösterilmez.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Doğrulama kodu girişinde altı hücreli tek input olarak kullanılır; sıradaki hücre odaklı görünür. Hatalı doğrulamada tüm hücreler kırmızı kenarlık alır ve altında hata mesajı gösterilir.
+
+## Varyantlar
+
+### Dolu
+
+<Canvas of={Stories.Dolu} />
+
+### Hatalı PIN
+
+Hatalı doğrulamada altı hücrenin kenarlığı status/danger rengine döner; hücrelerin altında 8px boşlukla uyarı ikonu ve hata mesajı gösterilir.
+
+<Canvas of={Stories.HataliPin} />
+
+## Uç durumlar
+
+### Kısmi giriş
+
+Yalnızca girilen hücreler dolar, sıradaki hücre odaklı kalır.
+
+<Canvas of={Stories.KismiGiris} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tek gizli input ile yönetilir; yapıştırma ve geri silme çalışır.',
+    'Dolu hücreler her zaman maskeleme noktası gösterir.',
+    'Sıradaki hücre odaklı görünür.',
+    'Hatalı doğrulamada tüm hücreler kırmızı kenarlık alır ve altında hata mesajı gösterilir.',
+  ]}
+  donts={[
+    'PIN rakamları asla açık gösterilmez.',
+    'Primitive Pin tek başına bu bileşenin dışında kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

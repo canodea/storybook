@@ -1,0 +1,66 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './RadioButtonField.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4852" />
+
+Etiketli seçim düğmesi. Tek seçenek ya da birbirini dışlayan seçenek grubu (dikey/yatay) olabilir. Gruplar role=radiogroup ile işaretlenir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Birbirini dışlayan seçenekleri tek seçenek, dikey ya da yatay grup olarak sunar. Seçenekler çok satırlıysa başlık ve açıklama ile bağlam verilir.
+
+## Varyantlar
+
+### Tek satır
+
+<Canvas of={Stories.TekSatir} />
+
+### Çok satır
+
+<Canvas of={Stories.CokSatir} />
+
+### Dikey seçenekler
+
+<Canvas of={Stories.DikeySecenekler} />
+
+### Dikey seçenekler · çok satır
+
+Multi Line açıkken dikey seçeneklerin her biri başlık + açıklama taşır (ör. hesap adı + IBAN).
+
+<Canvas of={Stories.DikeySeceneklerCokSatir} />
+
+### Yatay seçenekler
+
+<Canvas of={Stories.YataySecenekler} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Birbirini dışlayan seçimlerde grup olarak kullanılır.',
+    'Gruplar role=radiogroup ve aria-labelledby ile işaretlenir.',
+    'Çok satırlı kullanımda başlık ve açıklama ile bağlam verilir.',
+  ]}
+  donts={[
+    'Bağımsız çoklu seçim için kullanılmaz (bkz. Checkbox).',
+    'Primitive Radio Button tek başına bu bileşenin dışında kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,78 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './SectionDivider.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-6801" />
+
+Bölüm başlığı ayırıcısı (375x48). Etiket her zaman büyük harfle yazılır. `type` ile sağa CTA, pagination, tek/çift ikon ya da etiketin yanına info ikonu eklenir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Sayfa içindeki bölümleri ayırmak ve bölüm başlığını vermek için kullanılır; liste ve detay ekranlarında bölüm başlarında yer alır.
+- Etiket `label` ile büyük harfle yazılır; sağdaki öğe `type` ile seçilir (`cta`, `carousel-pagination`, `info`, tek/çift ikon).
+- CTA metni `ctaLabel`, carousel göstergesi `paginationStatus` ile verilir; koyu zemin içinde `tone="inverse"` kullanılır.
+- `fullWidth` yalnız web içindir; mobilde kapalı kalır.
+
+## Varyantlar
+
+### Base
+
+<Canvas of={Stories.Base} />
+
+### CTA
+
+<Canvas of={Stories.Cta} />
+
+### Carousel Pagination
+
+<Canvas of={Stories.CarouselPagination} />
+
+### Info
+
+<Canvas of={Stories.Info} />
+
+### Tek ikon
+
+<Canvas of={Stories.TekIkon} />
+
+### Çift ikon
+
+<Canvas of={Stories.CiftIkon} />
+
+### Info & CTA
+
+<Canvas of={Stories.InfoCta} />
+
+Tüm tipler bir arada:
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Etiket UI Display/SM stilinde, büyük harfle yazılır.',
+    'CTA, sağda accent renkte bir butondur ve tek eylem içerir.',
+    'info tipinde Info ikonu etiketin yanında ikincil renktedir.',
+    'carousel-pagination tipinde sağda Pagination gösterilir.',
+  ]}
+  donts={[
+    'fullWidth yalnız web içindir; mobilde her zaman kapalıdır.',
+    'Etiket taşan durumlarda uzun metin kullanılmaz; "…" ile kesilir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,87 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './MonthlyActivityItem.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="442-19814" />
+
+Aylık işlem toplamı satırı. Ay etiketi, TL tutarı ve isteğe bağlı USD karşılığını gösterir; USD açıkken iki tutar alt alta, sağa hizalı olarak çizilir. Satır bir açılır liste (dropdown) gibi çalışır: tıklanınca altında o ayın işlemleri Activity Item olarak listelenir. Satır tek başına para birimi dönüştürme işlemi yapmaz, yalnız verilen toplamları gösterir.
+
+## Playground
+
+Figma'daki özelliklerin aynısı. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+İşlem listesinde aylık toplamları gruplamak için kullanılır.
+
+## Varyantlar
+
+### Açılır liste
+
+Satır bir açılır liste gibi çalışır: tıklayınca altında o ayın işlemleri (Activity Item) açılır, chevron yukarı döner; tekrar tıklayınca kapanır. Aşağıda Ağustos açık, diğer aylar kapalı.
+
+<Canvas of={Stories.AcilirListe} />
+
+### TL toplamı
+
+Tek para biriminde aylık işlem toplamı; chevron detay sayfasına gider.
+
+<Canvas of={Stories.TlToplami} />
+
+### USD karşılığı
+
+Aynı dönemin TL ve USD toplamı alt alta gösterilir.
+
+<Canvas of={Stories.UsdKarsiligi} />
+
+## Uç durumlar
+
+### Uzun ay etiketi
+
+Ay etiketi tek satırda "…" ile kesilir, satır yüksekliği değişmez.
+
+<Canvas of={Stories.UzunAyEtiketi} />
+
+### Büyük tutar
+
+Uzun tutar sağda tek satırda kalır.
+
+<Canvas of={Stories.BuyukTutar} />
+
+### USD uzun tutar
+
+USD açıkken iki tutar da tek satırda ve sağa hizalı kalır.
+
+<Canvas of={Stories.UsdUzunTutar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Ay etiketi ve tutarlar gerçek veriden gelir; örnek metinler dummy veridir.',
+    'Satıra dokununca o ayın işlemleri altında Activity Item olarak açılır; chevron açıkken yukarı döner.',
+    'USD açıkken TL ve USD satırları aynı dönemin gerçek toplamlarını gösterir.',
+    'Mevcut 375×72px görünüm korunur; yükseklik, boşluk ve tipografi değiştirilmez.',
+    'Tutar tek satırda kalır; büyük tutarlar kısaltılmadan gösterilir.',
+  ]}
+  donts={[
+    'Bu satır tek başına para birimi dönüştürme işlemi değildir; dönüşüm ayrıca hesaplanır.',
+    'Seçili para birimi ile tutarın birimi birbirinden farklı gösterilmez.',
+    'Ay etiketi yerine serbest açıklama veya kampanya metni yazılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

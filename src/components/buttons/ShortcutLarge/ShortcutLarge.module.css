@@ -1,0 +1,71 @@
+.root {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-8);
+  padding: var(--space-8);
+  width: 327px;
+  height: 56px;
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-default);
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-label);
+}
+
+.value {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-icon-color-default);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.copied {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  padding: var(--space-4) var(--space-8);
+  background: var(--odea-surface-default);
+  color: var(--odea-text-primary);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-default);
+  font-family: var(--font-family-body);
+  font-size: var(--text-sm-font-size);
+  line-height: var(--text-sm-line-height);
+  white-space: nowrap;
+}

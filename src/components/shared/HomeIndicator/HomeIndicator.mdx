@@ -1,0 +1,51 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './HomeIndicator.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-5778" />
+
+iOS ana ekran göstergesi. Ortada 134x5 tam yuvarlak bir çubuk çizer ve ekranın en altına konur. Bileşenin kendi prop'u yoktur.
+
+## Playground
+
+Bileşenin prop'u yoktur; yalnızca **Theme** kontrolüyle açık/koyu temada görülebilir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+iOS ekranlarının en altına ana ekran göstergesini yerleştirmek için kullanılır.
+
+## Varyantlar
+
+### Ekranın altında
+
+Bir ekranın en altına yerleştirilmiş hâli.
+
+<Canvas of={Stories.EkranAlti} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Ekranın en altına, alt güvenli alanı temsil etmek üzere konur.',
+    'Renk token üzerinden gelir; koyu temada otomatik değişir.',
+  ]}
+  donts={[
+    'Yeniden ölçeklendirilmez; her zaman 375x34 kalır.',
+    'İçeriğin üzerine bindirilerek önemli bilgiyi örtmez.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

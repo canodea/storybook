@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './OpenBanking.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="479-5971" />
+
+Açık bankacılık ve hesap bağlama akışlarında kullanılan dekoratif illüstrasyon.
+
+## Playground
+
+Figma'da varyantı yoktur; yalnız Size özelliği vardır. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Hesap bağlama ve açık bankacılık akışlarında dekoratif görsel olarak kullanılır; akışın sonucu ve izinler metinle açıklanır.
+
+## Varyantlar
+
+Görsel iki farklı ölçekte.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Hesap bağlama ve açık bankacılık akışlarında kullan.',
+    'Akışın sonucunu ve izinleri metinle açıkla.',
+    'Ölçek için Size kullan; görsel oranı korunur.',
+  ]}
+  donts={[
+    'Görseli bağlantı kuruldu anlamında tek başına kullanma.',
+    'Görseli banka logosu yerine kullanma.',
+    'Figma dışında varyant üretme.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

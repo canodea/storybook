@@ -1,0 +1,5 @@
+/* Koyu tema seçiliyken önizleme sayfasının zemini de koyu olsun (backgrounds eklentisinin #f3f3f3'ü yerine). */
+html[data-theme='dark'] body,
+html[data-theme='dark'] body.sb-show-main {
+  background: var(--odea-background-canvas) !important;
+}

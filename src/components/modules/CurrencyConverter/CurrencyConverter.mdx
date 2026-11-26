@@ -1,0 +1,101 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './CurrencyConverter.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-5440" />
+
+Döviz dönüştürücü. Üstte ve altta aynı yapıda para birimi bloğu (bayrak + kod + açılır ok, para adı; sağda tutar ve bakiye başlığı), ortada kur metni ve para birimlerini değiştirme butonu bulunur. Bileşen etkileşimlidir: üst tutara yazılabilir, alt tutar kurla hesaplanır, ⇅ para birimlerini yer değiştirir, All Balance bakiyeyi doldurur. `status` yalnız başlangıç görünümünü belirler.
+
+## Playground
+
+Figma'daki özelliklerin aynısı, ilgili kontroller gruplar hâlinde. **Rate** kontrolü kuru değiştirir; tutar yazma, All Balance ve ⇅ burada da çalışır. **Theme** kontrolüyle bileşeni koyu temada da görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Hesap/ödeme ekranlarında tutarı bir para biriminden diğerine çevirmek için kullanılır.
+- Üst tutar yazılır, alt tutar `rate` ile hesaplanır; `exchangeRate` verilirse kur metni o metin olur.
+- Başlangıç görünümü `status` ile seçilir (varsayılan, tutar girişi, dolu, Al/Sat butonlu); sonrası kullanıcı etkileşimiyle değişir.
+- Al/Sat akışında tutar `onSubmit({ from, to, amount })` ile dışarı bildirilir; para birimi dokunuşu `onCurrencyClick`, ⇅ `onSwap` çağırır.
+
+## Varyantlar
+
+### Varsayılan
+
+İki blokta da bakiye tutarları görünür.
+
+<Canvas of={Stories.Varsayilan} />
+
+### Tutar girişi (tapped)
+
+Üst tutar odaklı: değer yoksa "0" + imleç + ",00"; alt tutar ikincil renkte.
+
+<Canvas of={Stories.TutarGirisi} />
+
+### Tüm bakiye
+
+"All Balance"a basılınca üst tutara bakiye yazılır ("1.234" + imleç + ",00") ve alt tutar hesaplanır.
+
+<Canvas of={Stories.TumBakiye} />
+
+### Dolu
+
+Değer girilmiş, odak dışı.
+
+<Canvas of={Stories.Dolu} />
+
+### Al/Sat butonlu
+
+Altta birincil büyük buton.
+
+<Canvas of={Stories.AlSat} />
+
+### Etkileşimli dönüştürücü
+
+Tutarı yazın, alt tutarın kurla hesaplandığını görün; ⇅ ile para birimlerini değiştirin, All Balance ile bakiyeyi doldurun.
+
+<Canvas of={Stories.EtkilesimliDonusturucu} />
+
+## Uç durumlar
+
+### Yardım metni
+
+Buton ve kartın altında, 8px boşlukla yardım metni.
+
+<Canvas of={Stories.YardimMetni} />
+
+### Uzun tutar
+
+Tam kısım 12 haneyi geçemez (999.999.999.999,99); sığmayan tutarlarda yazı boyutu kademeli küçülür, kart genişlemez.
+
+<Canvas of={Stories.UzunTutar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Üst ve alt para bloğu aynı yapıdadır: bayrak + kod + açılır ok, altında para adı; sağda tutar ve "All Balance" başlığı. Kod/açılır oka tıklanınca onCurrencyClick("top" | "bottom") çağrılır.',
+    'Tutara tıklanınca gizli sayısal input odaklanır; yazılan rakamlar binlik nokta ve kuruş virgülle (1.234,00) gösterilir, alt tutar kur ile hesaplanır. Odak çıkınca durum filled olur.',
+    '⇅ butonu para birimlerini (kod, ad, bayrak, bakiye) yer değiştirir, girilen tutarı yeni üst para birimine çevirir ve onSwap çağırır.',
+    'Kur sayısal `rate` prop’undan gelir (varsayılan 1.2345) ve "1 USD = 1,2345 TL" metni otomatik üretilir; `exchangeRate` verilirse o metin gösterilir.',
+    'Buton tıklanınca onSubmit({ from, to, amount }) çağrılır; buton ve yardım metni isteğe bağlıdır.',
+  ]}
+  donts={[
+    'Kur ve bakiye değerleri örnektir; gerçek müşteri verisi olarak sunulmaz.',
+    'Kişisel tutarlar kimlik doğrulanmamış ekranda gösterilmez.',
+    'status dışında yeni bir görünüm uydurulmaz; durumlar kullanıcı etkileşimiyle kendiliğinden değişir.',
+    'Aynı anda iki farklı kur kaynağı (rate ve exchangeRate) birlikte kullanılmaz; metin gerekiyorsa exchangeRate ile açıkça verilir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

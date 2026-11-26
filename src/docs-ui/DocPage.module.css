@@ -1,0 +1,12 @@
+/* Shared width for MDX docs pages. */
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}
+
+.wide {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}

@@ -1,0 +1,65 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './DatePicker.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-23672" />
+
+Tarih seçici. default ve range türleri gerçek takvimden hesaplanan bir gün ızgarası, months türü bağımsız kaydırılan ay/yıl sütunları gösterir.
+
+## Playground
+
+**Type** görünümü değiştirir; **Selected** başlangıç gününü, **Range End** aralık bitişini, **Today** bugünü belirler. Günlere, oklara ve ay başlığına tıklayarak deneyin.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Bottom sheet içinde tarih seçimi için kullanılır. Range modunda seçili başlangıç ile bitiş arası mavi şeritle vurgulanır; uçlar seçili çizilir.
+
+## Varyantlar
+
+### Kasım 2021
+
+Gün ızgarası; 14 Kasım seçili, 5 Kasım bugün.
+
+<Canvas of={Stories.Kasim2021} />
+
+### Aralık seçimi
+
+Range modu; 14–23 Kasım arası mavi şeritle vurgulanır, uçlar seçili.
+
+<Canvas of={Stories.AralikSecimi} />
+
+### Ay seçimi
+
+Ay ve yıl sütunları bağımsız kaydırılır; ortadaki satır seçilidir. Başlığa dokununca takvime dönülür.
+
+<Canvas of={Stories.AySecimi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Bottom sheet içinde kullanılır; tek başına ekranda durmaz.',
+    'Önceki/sonraki ay butonları erişilebilir etiket (aria-label) taşır.',
+    'Range modunda seçim aralığı mavi şeritle, uçlar dolu seçimle gösterilir.',
+    'Ay başlığına tıklanınca months görünümü açılır; seçili ay/yıl ile takvime dönmek için başlığa tekrar tıklanır.',
+  ]}
+  donts={[
+    'Ay dışı günler tıklanabilir yapılmaz; soluk (disabled) gösterilir.',
+    'Range şeridi satır sınırında kesilmez; bütün satırı boyamaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

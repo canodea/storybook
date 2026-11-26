@@ -1,0 +1,28 @@
+.root {
+  width: 375px;
+  height: 44px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  display: block;
+  width: 375px;
+  height: 44px;
+}
+
+.dark {
+  display: none;
+}
+
+/* Koyu zemin: beyaz ikonlar, çentik yok (Figma Landing Title / Sheet View). */
+.onDark .light,
+:global([data-theme='dark']) .light {
+  display: none;
+}
+
+.onDark .dark,
+:global([data-theme='dark']) .dark {
+  display: block;
+}

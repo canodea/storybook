@@ -1,0 +1,68 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './CheckboxInput.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4732" />
+
+Etiketli onay kutusu. Tek satırda yalnızca etiket, çok satırda başlık/açıklama gösterir. Tüm satır bir label'dır; satırın herhangi bir yerine tıklamak kutuyu değiştirir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Birden fazla onay seçeneğini listelemek için kullanılır. Çok satırlı kullanımda başlık ve açıklama bağlam verir; satırlar alt alta ek boşluk verilmeden dizilir.
+
+## Varyantlar
+
+### Tek satır
+
+<Canvas of={Stories.TekSatir} />
+
+### Çok satır
+
+<Canvas of={Stories.CokSatir} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+### Çoklu seçim listesi
+
+Alt alta dört seçenek ve üstte “Tümünü seç”. Hiçbiri seçili değilken Base, bir kısmı seçiliyken Indeterminate, tümü seçiliyken Active durumundadır.
+
+<Canvas of={Stories.CokluSecimListesi} />
+
+### Çok satırlı liste
+
+Multi Line (Title + Info) seçenekler alt alta, ek boşluk olmadan.
+
+<Canvas of={Stories.CokSatirliListe} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tüm satır tıklanabilir tek bir label olmalıdır.',
+    'Çok satırlı kullanımda başlık ve açıklama ile bağlam verilir.',
+    'Belirsiz (indeterminate) durumu alt seçim gruplarında kullanılır.',
+    'Birden fazla seçenek alt alta, ek boşluk verilmeden listelenir (her satır kendi 16px üst/alt boşluğunu taşır); üstte isteğe bağlı “Tümünü seç” Indeterminate durumunu kullanır.',
+  ]}
+  donts={[
+    'Primitive Checkbox tek başına bu bileşenin dışında kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

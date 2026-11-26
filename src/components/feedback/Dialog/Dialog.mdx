@@ -1,0 +1,86 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Dialog.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="535-165" />
+
+Ekranın ortasında karar isteyen modal: işlem onayı, silme/iptal, oturum uyarısı, kritik bilgi. Stacked alt alta (uzun etiketler, varsayılan), Inline yan yana (VAZGEÇ / ONAYLA) düzenindedir. Primary olumlu ana aksiyon, Secondary vazgeç (gizlenebilir → tek butonlu bilgilendirme). **Media=Icon** iken Security setinden Info / Warning / ShieldCheck ikonu (32 px), **Media=Illustration** iken 120×120 illüstrasyon gösterilir. **Show Media** medyayı tamamen gizler.
+
+## Playground
+
+Figma'daki özelliklerin aynısı; **Media** ikon ile illüstrasyon arasında geçiş yapar, **Show Media** medyayı gizler, **Icon** / **Illustration** seçimi ilgili medyayı değiştirir, **Theme** kontrolü koyu temayı gösterir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- İşlem onayı, silme/iptal, oturum uyarısı ve kritik bilgi gibi karar isteyen anlarda kullanılır.
+- `title` soru/sonuç cümlesi, `message` somut detay olur; olumlu ana aksiyon `primaryLabel`, vazgeç `secondaryLabel`.
+- Uzun etiketlerde `actions="stacked"` (varsayılan), kısa etiketlerde `actions="inline"`; tek butonlu bilgilendirmede `secondaryAction={false}`.
+- Medya için `media="icon"` + `iconAsset` ya da `media="illustration"` + `illustration` seçilir; gerekmiyorsa `showMedia={false}`. Ekranın üstünde açılacaksa `open` verilir.
+
+## Varyantlar
+
+### Onay · stacked
+
+Transfer onayı; butonlar alt alta.
+
+<Canvas of={Stories.OnayStacked} />
+
+### Onay · inline
+
+Butonlar yan yana (VAZGEÇ / ONAYLA).
+
+<Canvas of={Stories.OnayInline} />
+
+### Bilgilendirme · tek buton
+
+Secondary gizli; tek butonlu bilgilendirme.
+
+<Canvas of={Stories.Bilgilendirme} />
+
+### Uyarı · warning
+
+Oturum uyarısı; warning ikonu.
+
+<Canvas of={Stories.Uyari} />
+
+### İllüstrasyonlu
+
+İkon yerine 120×120 illüstrasyon; Content gap aynı kalır.
+
+<Canvas of={Stories.Illustrasyonlu} />
+
+### Overlay
+
+Yarı saydam arka planla ortalanmış modal.
+
+<Canvas of={Stories.Overlay} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Title soru/sonuç cümlesi, Message somut detay olur.',
+    'Olumlu ana aksiyon primary, vazgeç secondary butondur.',
+    'Etiketler kısaysa inline, uzunsa stacked kullan.',
+    'Bilgilendirme modalında secondary gizlenir (tek buton).',
+  ]}
+  donts={[
+    'Yalnızca bilgilendirme yapan bir dialogda iki aksiyon sunma.',
+    'Başlıkta aksiyon metnini tekrar etme; başlık soru/sonuç, butonlar eylem olur.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir.
+
+<ArgTypes of={Stories} />

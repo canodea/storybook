@@ -1,0 +1,67 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Progress.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="436-15232" />
+
+Doğrusal aşama göstergesi (375x8). 2–5 adım; current'tan öncekiler completed, current current, sonrakiler next. Tıklanabilir navigasyon değildir; `role="progressbar"` ile erişilebilirdir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Kayıt, başvuru gibi çok adımlı akışlarda ilerlemeyi göstermek için kullanılır.
+- Adım sayısı `steps` (2–5), bulunulan adım `current` (1 tabanlı) ile verilir.
+- Tıklanabilir değildir; adımlar arasında gezinme ayrı kontrolle yapılır.
+
+## Varyantlar
+
+### İki adım
+
+<Canvas of={Stories.IkiAdim} />
+
+### Üç adım
+
+<Canvas of={Stories.UcAdim} />
+
+### Dört adım
+
+<Canvas of={Stories.DortAdim} />
+
+### Beş adım
+
+<Canvas of={Stories.BesAdim} />
+
+## Uç durumlar
+
+### Sınır dışı
+
+current adım sayısından büyükse son adıma çekilir.
+
+<Canvas of={Stories.SinirDisi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Adım sayısı 2–5 arasındadır; current 1 tabanlıdır.',
+    'Erişilebilirlik: role="progressbar" + aria-valuenow/aria-valuemax.',
+  ]}
+  donts={[
+    'Tıklanarak adım atlamaya izin verilmez.',
+    'current sınır dışına taşırsa sınırlara çekilir; ayrı hata durumu çizilmez.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

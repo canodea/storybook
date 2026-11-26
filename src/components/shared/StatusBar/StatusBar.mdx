@@ -1,0 +1,52 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './StatusBar.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-7622" />
+
+iOS durum çubuğu. Saat, hücresel sinyal, wifi ve pil göstergelerini tek bir 375x44 görsel olarak çizer. Çentik varsayılan olarak çizilir; koyu temada görsel otomatik olarak beyaza çevrilir.
+
+## Playground
+
+**Notch** kontrolü çentiği açar/kapatır; **Theme** kontrolüyle açık/koyu tema görülebilir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Mobil ekran şablonlarının en üstüne durum çubuğunu yerleştirmek için kullanılır.
+
+## Varyantlar
+
+### Ekranın üstünde
+
+Bir ekranın en üstüne yerleştirilmiş hâli.
+
+<Canvas of={Stories.EkranUstu} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Her mobil ekran şablonunun en üstüne konur; ekranın üst güvenli alanını temsil eder.',
+    'Çentiğin zemine karıştığı ekranlarda (Figma Navigation Bar) Notch kapatılır.',
+    'Koyu temada renkler token üzerinden değil, görselin invert edilmesiyle elde edilir.',
+  ]}
+  donts={[
+    'Time, Network Signal, WiFi Signal ve Battery parçaları tek başına kullanılmaz.',
+    'Bileşen yeniden ölçeklendirilmez; her zaman 375x44 kalır.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

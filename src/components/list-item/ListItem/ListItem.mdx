@@ -1,0 +1,79 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ListItem.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="308-6473" />
+
+Hesap, kart, ayar ve işlem listeleri için satır. Tek satır 56px, iki satır 72px, yatay inset 24. `onClick` verilirse tüm satır tıklanabilir bir buton olur.
+
+## Playground
+
+Figma'daki özelliklerin aynısı. İkon seçimlerinde **Yok** ikonu gizler. List Mode ile satırları liste olarak, Divider ve zeminle birlikte deneyebilirsin.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Hesap, kart, ayar ve işlem listelerinde satır olarak kullanılır. Birden fazla satır alt alta surface/default zeminde dizilir; aralarına Divider (Half, 24px içeriden) konur, son satırın altına konmaz.
+
+## Varyantlar
+
+### Tek satır
+
+<Canvas of={Stories.TekSatir} />
+
+### İki satır
+
+<Canvas of={Stories.IkiSatir} />
+
+### İkonlu satır
+
+<Canvas of={Stories.Ikonlu} />
+
+### Tıklanabilir satır
+
+<Canvas of={Stories.ButonSatir} />
+
+### Liste
+
+<Canvas of={Stories.Liste} />
+
+## Uç durumlar
+
+### Uzun metin
+
+<Canvas of={Stories.UzunMetin} />
+
+### İkonsuz satır
+
+<Canvas of={Stories.SadeSatir} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tek satırlık listede başlık `heading` açıkken display, kapalıyken text md stiliyle çizilir.',
+    'İki satırda (multiLine) başlık her zaman display stili, destekleyici metin text sm ikincil renkte olur.',
+    'Leading ikon gerçek işlemi temsil eden anlamlı bir ikonla seçilir.',
+    'Tıklanabilir satırda `onClick` verilir; tüm satır buton olur.',
+    'Birden fazla List Item alt alta surface/default zeminde dizilir; aralarına Divider (Half, 24px içeriden) konur, son satırın altına konmaz.',
+  ]}
+  donts={[
+    'Varsayılan küp ikon gerçek işlemi temsil etmez; anlam taşımadan bırakılmaz.',
+    'Buton satırındaki metinlerde Button FULL CAPS kuralı uygulanmaz.',
+    'Satırda hem leading ikon hem destekleyici metin zorunlu değildir; gereksiz içerik eklenmez.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

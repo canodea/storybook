@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Pagination.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-5476" />
+
+Sayfalama göstergesi. Aktif sayfa 24x8 brand renkli bir kapsül, diğerleri 8x8 daire olarak çizilir. Dot Number açıkken yalnız iki öğe sağa yaslı gösterilir.
+
+## Playground
+
+**Status** aktif öğenin sırasını, **Dot Number** iki öğeli sağa yaslı görünümü belirler.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Carousel ya da çok adımlı içerikte kaçıncı sayfada olunduğunu göstermek için kullanılır.
+- Aktif öğe `status` ile seçilir (`first`, `second`, `third`).
+- Sağa yaslı iki öğeli görünüm için `dotNumber` açılır; bu durumda üçüncü durum üretilmez.
+
+## Varyantlar
+
+Üç durum ve Dot Number açık iki durum bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Third + Dot Number
+
+Figma'da bu kombinasyon yoktur; first'e düşürülür.
+
+<Canvas of={Stories.UcuncuDotNumber} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Aktif sayfa her zaman 24x8 kapsül, pasif sayfalar 8x8 daire olur.',
+    'Dot Number açıkken gösterge sağa yaslıdır ve iki öğe içerir.',
+  ]}
+  donts={[
+    'Aynı anda birden fazla aktif öğe gösterilmez.',
+    'Dot Number açıkken üçüncü durum (third) üretilmez; Figma\'da yoktur ve first\'e düşürülür.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

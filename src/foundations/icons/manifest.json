@@ -1,0 +1,9892 @@
+[
+{
+"set": "Arrows / Simple",
+"name": "Up",
+"file": "arrows-simple/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Down",
+"file": "arrows-simple/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Left",
+"file": "arrows-simple/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Right",
+"file": "arrows-simple/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Up Left",
+"file": "arrows-simple/up-left.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Up Right",
+"file": "arrows-simple/up-right.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Down Left",
+"file": "arrows-simple/down-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Simple",
+"name": "Down Right",
+"file": "arrows-simple/down-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Up",
+"file": "arrows-circle/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Down",
+"file": "arrows-circle/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Left",
+"file": "arrows-circle/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Right",
+"file": "arrows-circle/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Up Left",
+"file": "arrows-circle/up-left.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Up Right",
+"file": "arrows-circle/up-right.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Down Left",
+"file": "arrows-circle/down-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Circle",
+"name": "Down Right",
+"file": "arrows-circle/down-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Up",
+"file": "arrows-square/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Down",
+"file": "arrows-square/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Left",
+"file": "arrows-square/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Right",
+"file": "arrows-square/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Up Left",
+"file": "arrows-square/up-left.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Up Right",
+"file": "arrows-square/up-right.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Down Left",
+"file": "arrows-square/down-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Down Right",
+"file": "arrows-square/down-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "In",
+"file": "arrows-square/in.svg",
+"size": 24,
+"vb": [
+408,
+24
+]
+},
+{
+"set": "Arrows / Square",
+"name": "Out",
+"file": "arrows-square/out.svg",
+"size": 24,
+"vb": [
+456,
+24
+]
+},
+{
+"set": "Arrows / Arc",
+"name": "Left",
+"file": "arrows-arc/left.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Arc",
+"name": "Right",
+"file": "arrows-arc/right.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Arc",
+"name": "Clockwise",
+"file": "arrows-arc/clockwise.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Arc",
+"name": "Counter Clockwise",
+"file": "arrows-arc/counter-clockwise.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Arcs",
+"name": "Clockwise",
+"file": "arrows-arcs/clockwise.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Arcs",
+"name": "Counter Clockwise",
+"file": "arrows-arcs/counter-clockwise.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Up Left",
+"file": "arrows-bend/up-left.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Up Right",
+"file": "arrows-bend/up-right.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Down Left",
+"file": "arrows-bend/down-left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Down Right",
+"file": "arrows-bend/down-right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Left Up",
+"file": "arrows-bend/left-up.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Left Down",
+"file": "arrows-bend/left-down.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Right Up",
+"file": "arrows-bend/right-up.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Right Down",
+"file": "arrows-bend/right-down.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Double Left Up",
+"file": "arrows-bend/double-left-up.svg",
+"size": 24,
+"vb": [
+408,
+24
+]
+},
+{
+"set": "Arrows / Bend",
+"name": "Double Right Up",
+"file": "arrows-bend/double-right-up.svg",
+"size": 24,
+"vb": [
+456,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Left",
+"file": "arrows-elbow/left.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Right",
+"file": "arrows-elbow/right.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Up Left",
+"file": "arrows-elbow/up-left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Up Right",
+"file": "arrows-elbow/up-right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Down Left",
+"file": "arrows-elbow/down-left.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Down Right",
+"file": "arrows-elbow/down-right.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Left Up",
+"file": "arrows-elbow/left-up.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Left Down",
+"file": "arrows-elbow/left-down.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Right Up",
+"file": "arrows-elbow/right-up.svg",
+"size": 24,
+"vb": [
+408,
+24
+]
+},
+{
+"set": "Arrows / Elbow",
+"name": "Right Down",
+"file": "arrows-elbow/right-down.svg",
+"size": 24,
+"vb": [
+456,
+24
+]
+},
+{
+"set": "Arrows / Fat / Simple",
+"name": "Up",
+"file": "arrows-fat-simple/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Fat / Simple",
+"name": "Down",
+"file": "arrows-fat-simple/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Fat / Simple",
+"name": "Left",
+"file": "arrows-fat-simple/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Fat / Simple",
+"name": "Right",
+"file": "arrows-fat-simple/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Fat / 1 Line",
+"name": "Up",
+"file": "arrows-fat-1-line/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Fat / 1 Line",
+"name": "Down",
+"file": "arrows-fat-1-line/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Fat / 1 Line",
+"name": "Left",
+"file": "arrows-fat-1-line/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Fat / 1 Line",
+"name": "Right",
+"file": "arrows-fat-1-line/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Fat / 2 Lines",
+"name": "Up",
+"file": "arrows-fat-2-lines/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Fat / 2 Lines",
+"name": "Down",
+"file": "arrows-fat-2-lines/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Fat / 2 Lines",
+"name": "Left",
+"file": "arrows-fat-2-lines/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Fat / 2 Lines",
+"name": "Right",
+"file": "arrows-fat-2-lines/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Up",
+"file": "arrows-line/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Down",
+"file": "arrows-line/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Left",
+"file": "arrows-line/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Right",
+"file": "arrows-line/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Up Left",
+"file": "arrows-line/up-left.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Up Right",
+"file": "arrows-line/up-right.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Down Left",
+"file": "arrows-line/down-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Line",
+"name": "Down Right",
+"file": "arrows-line/down-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Up Left",
+"file": "arrows-u-turn/up-left.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Up Right",
+"file": "arrows-u-turn/up-right.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Down Left",
+"file": "arrows-u-turn/down-left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Down Right",
+"file": "arrows-u-turn/down-right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Left Up",
+"file": "arrows-u-turn/left-up.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Left Down",
+"file": "arrows-u-turn/left-down.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Right Up",
+"file": "arrows-u-turn/right-up.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / U Turn",
+"name": "Right Down",
+"file": "arrows-u-turn/right-down.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Down Up",
+"file": "arrows-double/down-up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Left Right",
+"file": "arrows-double/left-right.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "In",
+"file": "arrows-double/in.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "In Cardinal",
+"file": "arrows-double/in-cardinal.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "In Simple",
+"file": "arrows-double/in-simple.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "In Line Horizontal",
+"file": "arrows-double/in-line-horizontal.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "In Line Vertical",
+"file": "arrows-double/in-line-vertical.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Out",
+"file": "arrows-double/out.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Out Cardinal",
+"file": "arrows-double/out-cardinal.svg",
+"size": 24,
+"vb": [
+408,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Out Simple",
+"file": "arrows-double/out-simple.svg",
+"size": 24,
+"vb": [
+456,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Out Line Horizontal",
+"file": "arrows-double/out-line-horizontal.svg",
+"size": 24,
+"vb": [
+504,
+24
+]
+},
+{
+"set": "Arrows / Double",
+"name": "Out Line Vertical",
+"file": "arrows-double/out-line-vertical.svg",
+"size": 24,
+"vb": [
+552,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Up",
+"file": "arrows-caret/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Down",
+"file": "arrows-caret/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Left",
+"file": "arrows-caret/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Right",
+"file": "arrows-caret/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Double Up",
+"file": "arrows-caret/double-up.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Double Down",
+"file": "arrows-caret/double-down.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Double Left",
+"file": "arrows-caret/double-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Caret",
+"name": "Double Right",
+"file": "arrows-caret/double-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Up",
+"file": "arrows-caret-circle/up.svg",
+"size": 24,
+"vb": [
+24,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Down",
+"file": "arrows-caret-circle/down.svg",
+"size": 24,
+"vb": [
+72,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Left",
+"file": "arrows-caret-circle/left.svg",
+"size": 24,
+"vb": [
+120,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Right",
+"file": "arrows-caret-circle/right.svg",
+"size": 24,
+"vb": [
+168,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Double Up",
+"file": "arrows-caret-circle/double-up.svg",
+"size": 24,
+"vb": [
+216,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Double Down",
+"file": "arrows-caret-circle/double-down.svg",
+"size": 24,
+"vb": [
+264,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Double Left",
+"file": "arrows-caret-circle/double-left.svg",
+"size": 24,
+"vb": [
+312,
+24
+]
+},
+{
+"set": "Arrows / Caret Circle",
+"name": "Double Right",
+"file": "arrows-caret-circle/double-right.svg",
+"size": 24,
+"vb": [
+360,
+24
+]
+},
+{
+"set": "Banking",
+"name": "TermDeposit",
+"file": "banking/termdeposit.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Banking",
+"name": "TimeDeposit",
+"file": "banking/timedeposit.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Banking",
+"name": "Oxygen",
+"file": "banking/oxygen.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Banking",
+"name": "Virman",
+"file": "banking/virman.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Banking",
+"name": "Eft",
+"file": "banking/eft.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Banking",
+"name": "FunsBuying",
+"file": "banking/funsbuying.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Banking",
+"name": "FundsSelling",
+"file": "banking/fundsselling.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Banking",
+"name": "CreditCard",
+"file": "banking/creditcard.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Banking",
+"name": "Debt payment",
+"file": "banking/debt-payment.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Banking",
+"name": "DebtPayment",
+"file": "banking/debtpayment.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Banking",
+"name": "Payment",
+"file": "banking/payment.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Banking",
+"name": "QrCodeCreate",
+"file": "banking/qrcodecreate.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Banking",
+"name": "CloseAccount",
+"file": "banking/closeaccount.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Banking",
+"name": "Installment",
+"file": "banking/installment.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Banking",
+"name": "LimitIncrease",
+"file": "banking/limitincrease.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Banking",
+"name": "CreditCard Add",
+"file": "banking/creditcard-add.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Banking",
+"name": "VirtualCard",
+"file": "banking/virtualcard.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Banking",
+"name": "CardCancelation",
+"file": "banking/cardcancelation.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Banking",
+"name": "QrCode",
+"file": "banking/qrcode.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Banking",
+"name": "Ekstre",
+"file": "banking/ekstre.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Banking",
+"name": "Secure payment",
+"file": "banking/secure-payment.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Coin",
+"file": "banking/coin.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Money",
+"file": "banking/money.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Money Plus",
+"file": "banking/money-plus.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Money Transfer",
+"file": "banking/money-transfer.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Money Income",
+"file": "banking/money-income.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Money Withdraw",
+"file": "banking/money-withdraw.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Deposit Money",
+"file": "banking/deposit-money.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Fast Money Transfer",
+"file": "banking/fast-money-transfer.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Cash Money",
+"file": "banking/cash-money.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Banking",
+"name": "Payment (2)",
+"file": "banking/payment-2.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Banking",
+"name": "Deposit&Withdraw",
+"file": "banking/deposit-withdraw.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Banking",
+"name": "HalfDeposit",
+"file": "banking/halfdeposit.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Banking",
+"name": "TransactionBlocked",
+"file": "banking/transactionblocked.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Banking",
+"name": "AccountChange",
+"file": "banking/accountchange.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Banking",
+"name": "AccountPlusMinus",
+"file": "banking/accountplusminus.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Banking",
+"name": "Check",
+"file": "banking/check.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Banking",
+"name": "CreditCard Froze",
+"file": "banking/creditcard-froze.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Banking",
+"name": "CreditCard Object",
+"file": "banking/creditcard-object.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Banking",
+"name": "CreditCard Lost",
+"file": "banking/creditcard-lost.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Banking",
+"name": "Eurobond",
+"file": "banking/eurobond.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Design",
+"name": "Align - Top",
+"file": "design/align-top.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Design",
+"name": "Align - Bottom",
+"file": "design/align-bottom.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Design",
+"name": "Align - Left",
+"file": "design/align-left.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Design",
+"name": "Align - Right",
+"file": "design/align-right.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Design",
+"name": "Align - Center Horizontal",
+"file": "design/align-center-horizontal.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Design",
+"name": "Align - Center Vertical",
+"file": "design/align-center-vertical.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Design",
+"name": "BoundingBox",
+"file": "design/boundingbox.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Design",
+"name": "Circle - Circle",
+"file": "design/circle-circle.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Design",
+"name": "Circle - Dashed",
+"file": "design/circle-dashed.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Design",
+"name": "Circle - Half",
+"file": "design/circle-half.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Design",
+"name": "Circle - Half Tilt",
+"file": "design/circle-half-tilt.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Design",
+"name": "Circle - Three",
+"file": "design/circle-three.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Design",
+"name": "Circle - Three Plus",
+"file": "design/circle-three-plus.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Design",
+"name": "Circle - Four",
+"file": "design/circle-four.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Design",
+"name": "Columns",
+"file": "design/columns.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Design",
+"name": "Crop",
+"file": "design/crop.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Design",
+"name": "Cube",
+"file": "design/cube.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Design",
+"name": "Drop Half",
+"file": "design/drop-half.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Design",
+"name": "Eraser",
+"file": "design/eraser.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Design",
+"name": "Eye",
+"file": "design/eye.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Design",
+"name": "Eye Slash",
+"file": "design/eye-slash.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Design",
+"name": "Eye Closed",
+"file": "design/eye-closed.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Design",
+"name": "Eyedropper",
+"file": "design/eyedropper.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Design",
+"name": "Flow Arrow",
+"file": "design/flow-arrow.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Design",
+"name": "Grid Four",
+"file": "design/grid-four.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Design",
+"name": "Hexagon",
+"file": "design/hexagon.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Design",
+"name": "Highlighter Circle",
+"file": "design/highlighter-circle.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Design",
+"name": "Intersect",
+"file": "design/intersect.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Design",
+"name": "Layout",
+"file": "design/layout.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Design",
+"name": "Line Segment",
+"file": "design/line-segment.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Design",
+"name": "Line Segments",
+"file": "design/line-segments.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Design",
+"name": "Magic Wand",
+"file": "design/magic-wand.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Design",
+"name": "Marker Circle",
+"file": "design/marker-circle.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Design",
+"name": "Octagon",
+"file": "design/octagon.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Design",
+"name": "Paint Brush",
+"file": "design/paint-brush.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Design",
+"name": "Paint Brush Household",
+"file": "design/paint-brush-household.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Design",
+"name": "Paint Brush Broad",
+"file": "design/paint-brush-broad.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Design",
+"name": "Paint Bucket",
+"file": "design/paint-bucket.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Design",
+"name": "Paint Roller",
+"file": "design/paint-roller.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Design",
+"name": "Palette",
+"file": "design/palette.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Design",
+"name": "Pen",
+"file": "design/pen.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pen Nib",
+"file": "design/pen-nib.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pen Nib Straight",
+"file": "design/pen-nib-straight.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pencil",
+"file": "design/pencil.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pencil Circle",
+"file": "design/pencil-circle.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pencil Line",
+"file": "design/pencil-line.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "Design",
+"name": "Pencil Simple",
+"file": "design/pencil-simple.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "Design",
+"name": "Placeholder",
+"file": "design/placeholder.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "Design",
+"name": "Polygon",
+"file": "design/polygon.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "Design",
+"name": "Rectangle",
+"file": "design/rectangle.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "Design",
+"name": "Rows",
+"file": "design/rows.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "Design",
+"name": "Ruler",
+"file": "design/ruler.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "Design",
+"name": "Scissors",
+"file": "design/scissors.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "Design",
+"name": "Scribble Loop",
+"file": "design/scribble-loop.svg",
+"size": 24,
+"vb": [
+196,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Selection",
+"file": "design/selection-selection.svg",
+"size": 24,
+"vb": [
+252,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - All",
+"file": "design/selection-all.svg",
+"size": 24,
+"vb": [
+308,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Inverse",
+"file": "design/selection-inverse.svg",
+"size": 24,
+"vb": [
+364,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Plus",
+"file": "design/selection-plus.svg",
+"size": 24,
+"vb": [
+420,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Slash",
+"file": "design/selection-slash.svg",
+"size": 24,
+"vb": [
+476,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Foreground",
+"file": "design/selection-foreground.svg",
+"size": 24,
+"vb": [
+532,
+308
+]
+},
+{
+"set": "Design",
+"name": "Selection - Background",
+"file": "design/selection-background.svg",
+"size": 24,
+"vb": [
+28,
+364
+]
+},
+{
+"set": "Design",
+"name": "Square",
+"file": "design/square.svg",
+"size": 24,
+"vb": [
+84,
+364
+]
+},
+{
+"set": "Design",
+"name": "Square Half",
+"file": "design/square-half.svg",
+"size": 24,
+"vb": [
+140,
+364
+]
+},
+{
+"set": "Design",
+"name": "Squares Four",
+"file": "design/squares-four.svg",
+"size": 24,
+"vb": [
+196,
+364
+]
+},
+{
+"set": "Design",
+"name": "Stack",
+"file": "design/stack.svg",
+"size": 24,
+"vb": [
+252,
+364
+]
+},
+{
+"set": "Design",
+"name": "Stack Simple",
+"file": "design/stack-simple.svg",
+"size": 24,
+"vb": [
+308,
+364
+]
+},
+{
+"set": "Design",
+"name": "Swatches",
+"file": "design/swatches.svg",
+"size": 24,
+"vb": [
+364,
+364
+]
+},
+{
+"set": "Design",
+"name": "Triangle",
+"file": "design/triangle.svg",
+"size": 24,
+"vb": [
+420,
+364
+]
+},
+{
+"set": "Design",
+"name": "TriangleFull",
+"file": "design/trianglefull.svg",
+"size": 24,
+"vb": [
+476,
+364
+]
+},
+{
+"set": "Brands",
+"name": "Android",
+"file": "brands/android.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Apple",
+"file": "brands/apple.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Discord",
+"file": "brands/discord.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Dribbble",
+"file": "brands/dribbble.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Facebook",
+"file": "brands/facebook.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Figma",
+"file": "brands/figma.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Framer",
+"file": "brands/framer.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Github",
+"file": "brands/github.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Gitlab",
+"file": "brands/gitlab.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Gitlab Simple",
+"file": "brands/gitlab-simple.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Brands",
+"name": "Google",
+"file": "brands/google.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Google Play",
+"file": "brands/google-play.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Instagram",
+"file": "brands/instagram.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Linkedin",
+"file": "brands/linkedin.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Medium",
+"file": "brands/medium.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Messenger",
+"file": "brands/messenger.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Brands",
+"name": "NY Times",
+"file": "brands/ny-times.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Outlook",
+"file": "brands/outlook.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Phosphor",
+"file": "brands/phosphor.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Pinterest",
+"file": "brands/pinterest.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Brands",
+"name": "Reddit",
+"file": "brands/reddit.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Sketch",
+"file": "brands/sketch.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Slack",
+"file": "brands/slack.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Snapchat",
+"file": "brands/snapchat.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Spotify",
+"file": "brands/spotify.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Square",
+"file": "brands/square.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Stripe",
+"file": "brands/stripe.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Telegram",
+"file": "brands/telegram.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Tiktok",
+"file": "brands/tiktok.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Twitch",
+"file": "brands/twitch.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Brands",
+"name": "Twitter",
+"file": "brands/twitter.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Brands",
+"name": "Whatsapp",
+"file": "brands/whatsapp.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Brands",
+"name": "Windows",
+"file": "brands/windows.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Brands",
+"name": "Youtube",
+"file": "brands/youtube.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Brands",
+"name": "X",
+"file": "brands/x.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Brands",
+"name": "OdeaRadio",
+"file": "brands/odearadio.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Development",
+"name": "BracketsAngle",
+"file": "development/bracketsangle.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Development",
+"name": "BracketsCurly",
+"file": "development/bracketscurly.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Development",
+"name": "BracketsRound",
+"file": "development/bracketsround.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Development",
+"name": "BracketsSquare",
+"file": "development/bracketssquare.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Development",
+"name": "Bug",
+"file": "development/bug.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Development",
+"name": "BugBeetle",
+"file": "development/bugbeetle.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Development",
+"name": "BugDroid",
+"file": "development/bugdroid.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Development",
+"name": "Code",
+"file": "development/code.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Development",
+"name": "CodeSimple",
+"file": "development/codesimple.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Development",
+"name": "Cpu",
+"file": "development/cpu.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Development",
+"name": "Database",
+"file": "development/database.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitBranch",
+"file": "development/gitbranch.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitCommit",
+"file": "development/gitcommit.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitDiff",
+"file": "development/gitdiff.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitFork",
+"file": "development/gitfork.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitMerge",
+"file": "development/gitmerge.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Development",
+"name": "GitPullRequest",
+"file": "development/gitpullrequest.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Development",
+"name": "Magnet",
+"file": "development/magnet.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Development",
+"name": "MagnetStraight",
+"file": "development/magnetstraight.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Development",
+"name": "Robot",
+"file": "development/robot.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Development",
+"name": "Terminal",
+"file": "development/terminal.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Development",
+"name": "TerminalWindow",
+"file": "development/terminalwindow.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Development",
+"name": "TreeStructure",
+"file": "development/treestructure.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Armchair",
+"file": "commerce/armchair.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Bag",
+"file": "commerce/bag.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Bag Simple",
+"file": "commerce/bag-simple.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Barcode",
+"file": "commerce/barcode.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Brandy",
+"file": "commerce/brandy.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Buildings",
+"file": "commerce/buildings.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Consulate",
+"file": "commerce/consulate.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Cake",
+"file": "commerce/cake.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Cardholder",
+"file": "commerce/cardholder.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Coffee",
+"file": "commerce/coffee.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Commerce",
+"name": "Coin",
+"file": "commerce/coin.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Cookie",
+"file": "commerce/cookie.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "CookingPot",
+"file": "commerce/cookingpot.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Giving Heart",
+"file": "commerce/giving-heart.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Factory",
+"file": "commerce/factory.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Fork Knife",
+"file": "commerce/fork-knife.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Gift",
+"file": "commerce/gift.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Handbag",
+"file": "commerce/handbag.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Handbag Simple",
+"file": "commerce/handbag-simple.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Knife",
+"file": "commerce/knife.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Commerce",
+"name": "Lamp",
+"file": "commerce/lamp.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Martini",
+"file": "commerce/martini.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Package",
+"file": "commerce/package.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Pizza",
+"file": "commerce/pizza.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Giving Hand",
+"file": "commerce/giving-hand.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Receipt",
+"file": "commerce/receipt.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Recycle",
+"file": "commerce/recycle.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Scales",
+"file": "commerce/scales.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Shopping - Bag",
+"file": "commerce/shopping-bag.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Shopping - Bag Open",
+"file": "commerce/shopping-bag-open.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Commerce",
+"name": "Shopping - Cart",
+"file": "commerce/shopping-cart.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Shopping - Cart Simple",
+"file": "commerce/shopping-cart-simple.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Shower",
+"file": "commerce/shower.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Storefront",
+"file": "commerce/storefront.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "TShirt",
+"file": "commerce/tshirt.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Tag",
+"file": "commerce/tag.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Tag Simple",
+"file": "commerce/tag-simple.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Tag Chevron",
+"file": "commerce/tag-chevron.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Ticket",
+"file": "commerce/ticket.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Tote",
+"file": "commerce/tote.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Commerce",
+"name": "Tote Simple",
+"file": "commerce/tote-simple.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Commerce",
+"name": "Wallet",
+"file": "commerce/wallet.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Commerce",
+"name": "Wine",
+"file": "commerce/wine.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Education",
+"name": "Book",
+"file": "education/book.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Education",
+"name": "BookBookmark",
+"file": "education/bookbookmark.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Education",
+"name": "BookOpen",
+"file": "education/bookopen.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Education",
+"name": "Bookmark",
+"file": "education/bookmark.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Education",
+"name": "Books",
+"file": "education/books.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Education",
+"name": "BookmarkSimple",
+"file": "education/bookmarksimple.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Education",
+"name": "Bookmarks",
+"file": "education/bookmarks.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Education",
+"name": "BookmarksSimple",
+"file": "education/bookmarkssimple.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Education",
+"name": "Chalkboard",
+"file": "education/chalkboard.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Education",
+"name": "ChalkboardSimple",
+"file": "education/chalkboardsimple.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Education",
+"name": "ChalkboardTeacher",
+"file": "education/chalkboardteacher.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Education",
+"name": "GraduationCap",
+"file": "education/graduationcap.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Education",
+"name": "Look",
+"file": "education/look.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Education",
+"name": "Student",
+"file": "education/student.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Games",
+"name": "Baseball",
+"file": "games/baseball.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Games",
+"name": "Basketball",
+"file": "games/basketball.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Games",
+"name": "Club",
+"file": "games/club.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Games",
+"name": "Crown",
+"file": "games/crown.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Games",
+"name": "CrownSimple",
+"file": "games/crownsimple.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Games",
+"name": "Diamond",
+"file": "games/diamond.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Games",
+"name": "DiceOne",
+"file": "games/diceone.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Games",
+"name": "DiceTwo",
+"file": "games/dicetwo.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Games",
+"name": "DiceThree",
+"file": "games/dicethree.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Games",
+"name": "DiceFour",
+"file": "games/dicefour.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Games",
+"name": "DiceFive",
+"file": "games/dicefive.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Games",
+"name": "DiceSix",
+"file": "games/dicesix.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Games",
+"name": "FinnTheHuman",
+"file": "games/finnthehuman.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Games",
+"name": "Football",
+"file": "games/football.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Games",
+"name": "GameController",
+"file": "games/gamecontroller.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Games",
+"name": "Ghost",
+"file": "games/ghost.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Games",
+"name": "Heart",
+"file": "games/heart.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Games",
+"name": "HeartStraight",
+"file": "games/heartstraight.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Games",
+"name": "HeartFull",
+"file": "games/heartfull.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Games",
+"name": "Horse",
+"file": "games/horse.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Games",
+"name": "Medal",
+"file": "games/medal.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Games",
+"name": "PokerChip",
+"file": "games/pokerchip.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Games",
+"name": "PuzzlePiece",
+"file": "games/puzzlepiece.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Games",
+"name": "SoccerBall",
+"file": "games/soccerball.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Games",
+"name": "Spade",
+"file": "games/spade.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Games",
+"name": "StarHalf",
+"file": "games/starhalf.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Games",
+"name": "Sword",
+"file": "games/sword.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Games",
+"name": "Target",
+"file": "games/target.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Games",
+"name": "TennisBall",
+"file": "games/tennisball.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Games",
+"name": "Trophy",
+"file": "games/trophy.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Games",
+"name": "Volleyball",
+"file": "games/volleyball.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Games",
+"name": "Badge",
+"file": "games/badge.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Communications",
+"name": "AddressBook",
+"file": "communications/addressbook.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Asterisk",
+"file": "communications/asterisk.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Communications",
+"name": "At",
+"file": "communications/at.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Broadcast",
+"file": "communications/broadcast.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Chat",
+"file": "communications/chat-chat.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Dots",
+"file": "communications/chat-dots.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Text",
+"file": "communications/chat-text.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Chats",
+"file": "communications/chat-chats.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Centered",
+"file": "communications/chat-centered.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Centered Dots",
+"file": "communications/chat-centered-dots.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Centered Text",
+"file": "communications/chat-centered-text.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Circle",
+"file": "communications/chat-circle.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Circle Dots",
+"file": "communications/chat-circle-dots.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Circle Text",
+"file": "communications/chat-circle-text.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Chats Circle",
+"file": "communications/chat-chats-circle.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Teardrop",
+"file": "communications/chat-teardrop.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Teardrop Dots",
+"file": "communications/chat-teardrop-dots.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Teardrop Text",
+"file": "communications/chat-teardrop-text.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Chat - Chats Teardrop",
+"file": "communications/chat-chats-teardrop.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Envelope",
+"file": "communications/envelope.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Communications",
+"name": "Envelope Open",
+"file": "communications/envelope-open.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Envelope Simple",
+"file": "communications/envelope-simple.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Envelope Simple Open",
+"file": "communications/envelope-simple-open.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Export",
+"file": "communications/export.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Hash",
+"file": "communications/hash.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Hash Straight",
+"file": "communications/hash-straight.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Megaphone",
+"file": "communications/megaphone.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Communications",
+"name": "Megaphone Simple",
+"file": "communications/megaphone-simple.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Communications",
+"name": "PaperPlane",
+"file": "communications/paperplane.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Communications",
+"name": "PaperPlane Right",
+"file": "communications/paperplane-right.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Communications",
+"name": "PaperPlane Tilt",
+"file": "communications/paperplane-tilt.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Peace",
+"file": "communications/peace.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Phone",
+"file": "communications/phone-phone.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Call",
+"file": "communications/phone-call.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Disconnect",
+"file": "communications/phone-disconnect.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Incoming",
+"file": "communications/phone-incoming.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Outgoing",
+"file": "communications/phone-outgoing.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - Slash",
+"file": "communications/phone-slash.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Phone - X",
+"file": "communications/phone-x.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Quotes",
+"file": "communications/quotes.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Communications",
+"name": "Radio",
+"file": "communications/radio.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Rss",
+"file": "communications/rss.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Rss Simple",
+"file": "communications/rss-simple.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Share",
+"file": "communications/share.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Share Network",
+"file": "communications/share-network.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Sticker",
+"file": "communications/sticker.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Thumbs Up",
+"file": "communications/thumbs-up.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Thumbs Down",
+"file": "communications/thumbs-down.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Translate",
+"file": "communications/translate.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "Communications",
+"name": "Voicemail",
+"file": "communications/voicemail.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "Maps",
+"name": "Airplane",
+"file": "maps/airplane.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Maps",
+"name": "AirplaneInFlight",
+"file": "maps/airplaneinflight.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Maps",
+"name": "AirplaneLanding",
+"file": "maps/airplanelanding.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Maps",
+"name": "AirplaneTakeoff",
+"file": "maps/airplanetakeoff.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Maps",
+"name": "AirplaneTilt",
+"file": "maps/airplanetilt.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Maps",
+"name": "Anchor",
+"file": "maps/anchor.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Maps",
+"name": "AnchorSimple",
+"file": "maps/anchorsimple.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Maps",
+"name": "Bicycle",
+"file": "maps/bicycle.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Maps",
+"name": "Boat",
+"file": "maps/boat.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Maps",
+"name": "Bus",
+"file": "maps/bus.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Maps",
+"name": "Car",
+"file": "maps/car.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Maps",
+"name": "CarSimple",
+"file": "maps/carsimple.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Maps",
+"name": "Compass",
+"file": "maps/compass.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Maps",
+"name": "Crosshair",
+"file": "maps/crosshair.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Maps",
+"name": "CrosshairSimple",
+"file": "maps/crosshairsimple.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Maps",
+"name": "Door",
+"file": "maps/door.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Maps",
+"name": "Flag",
+"file": "maps/flag.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Maps",
+"name": "FlagBanner",
+"file": "maps/flagbanner.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Maps",
+"name": "GasPump",
+"file": "maps/gaspump.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Maps",
+"name": "Globe",
+"file": "maps/globe.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Maps",
+"name": "GlobeSimple",
+"file": "maps/globesimple.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Maps",
+"name": "GlobeHemisphereEast",
+"file": "maps/globehemisphereeast.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Maps",
+"name": "GlobeHemisphereWest",
+"file": "maps/globehemispherewest.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Maps",
+"name": "GlobeStand",
+"file": "maps/globestand.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Maps",
+"name": "Headlights",
+"file": "maps/headlights.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Maps",
+"name": "House",
+"file": "maps/house.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Maps",
+"name": "HouseLine",
+"file": "maps/houseline.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Maps",
+"name": "HouseSimple",
+"file": "maps/housesimple.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Maps",
+"name": "Jeep",
+"file": "maps/jeep.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Maps",
+"name": "MapPin",
+"file": "maps/mappin.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Maps",
+"name": "MapPinLine",
+"file": "maps/mappinline.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Maps",
+"name": "MapTrifold",
+"file": "maps/maptrifold.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Maps",
+"name": "NavigationArrow",
+"file": "maps/navigationarrow.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Maps",
+"name": "Path",
+"file": "maps/path.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Maps",
+"name": "Rocket",
+"file": "maps/rocket.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Maps",
+"name": "RocketLaunch",
+"file": "maps/rocketlaunch.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Maps",
+"name": "Suitcase",
+"file": "maps/suitcase.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Maps",
+"name": "SuitcaseSimple",
+"file": "maps/suitcasesimple.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Maps",
+"name": "TrafficSign",
+"file": "maps/trafficsign.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Maps",
+"name": "Train",
+"file": "maps/train.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Maps",
+"name": "TrainRegional",
+"file": "maps/trainregional.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Maps",
+"name": "TrainSimple",
+"file": "maps/trainsimple.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Maps",
+"name": "Truck",
+"file": "maps/truck.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Currency",
+"name": "Dollar",
+"file": "currency/dollar.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Dollar Simple",
+"file": "currency/dollar-simple.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Btc",
+"file": "currency/btc.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Cny",
+"file": "currency/cny.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Eur",
+"file": "currency/eur.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Gbp",
+"file": "currency/gbp.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Inr",
+"file": "currency/inr.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Jpy",
+"file": "currency/jpy.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Krw",
+"file": "currency/krw.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Rub",
+"file": "currency/rub.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Currency",
+"name": "Circle Dollar",
+"file": "currency/circle-dollar.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Try",
+"file": "currency/try.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Australian Dollar",
+"file": "currency/australian-dollar.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Canadian Dollar",
+"file": "currency/canadian-dollar.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Swiss Franc",
+"file": "currency/swiss-franc.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Norway Krone",
+"file": "currency/norway-krone.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Sweden Krone",
+"file": "currency/sweden-krone.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Denmark Krone",
+"file": "currency/denmark-krone.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Dirham",
+"file": "currency/dirham.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Currency",
+"name": "Emtia",
+"file": "currency/emtia.svg",
+"size": 32,
+"vb": [
+528,
+80
+]
+},
+{
+"set": "Currency",
+"name": "Au",
+"file": "currency/au.svg",
+"size": 32,
+"vb": [
+24,
+136
+]
+},
+{
+"set": "Currency",
+"name": "Ag",
+"file": "currency/ag.svg",
+"size": 32,
+"vb": [
+80,
+136
+]
+},
+{
+"set": "Currency",
+"name": "Pal",
+"file": "currency/pal.svg",
+"size": 32,
+"vb": [
+136,
+136
+]
+},
+{
+"set": "Currency",
+"name": "Plt",
+"file": "currency/plt.svg",
+"size": 32,
+"vb": [
+192,
+136
+]
+},
+{
+"set": "Security",
+"name": "CircleWavy",
+"file": "security/circlewavy.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Security",
+"name": "CircleWavyCheck",
+"file": "security/circlewavycheck.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Security",
+"name": "CircleWavyQuestion",
+"file": "security/circlewavyquestion.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Security",
+"name": "CircleWavyWarning",
+"file": "security/circlewavywarning.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Security",
+"name": "Fingerprint",
+"file": "security/fingerprint.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Security",
+"name": "FingerprintSimple",
+"file": "security/fingerprintsimple.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Security",
+"name": "Info",
+"file": "security/info.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Security",
+"name": "Key",
+"file": "security/key.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Security",
+"name": "Lock",
+"file": "security/lock.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Security",
+"name": "LockOpen",
+"file": "security/lockopen.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Security",
+"name": "LockKey",
+"file": "security/lockkey.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Security",
+"name": "LockKeyOpen",
+"file": "security/lockkeyopen.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Security",
+"name": "LockLaminated",
+"file": "security/locklaminated.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Security",
+"name": "LockLaminatedOpen",
+"file": "security/locklaminatedopen.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Security",
+"name": "LockSimple",
+"file": "security/locksimple.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Security",
+"name": "LockSimpleOpen",
+"file": "security/locksimpleopen.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Security",
+"name": "Prohibit",
+"file": "security/prohibit.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Security",
+"name": "ProhibitInset",
+"file": "security/prohibitinset.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Security",
+"name": "Question",
+"file": "security/question.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Security",
+"name": "Shield",
+"file": "security/shield.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Security",
+"name": "ShieldCheck",
+"file": "security/shieldcheck.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldCheckered",
+"file": "security/shieldcheckered.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldChevron",
+"file": "security/shieldchevron.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldPlus",
+"file": "security/shieldplus.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldSlash",
+"file": "security/shieldslash.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldWarning",
+"file": "security/shieldwarning.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Security",
+"name": "Wall",
+"file": "security/wall.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Security",
+"name": "Warning",
+"file": "security/warning.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Security",
+"name": "WarningCircle",
+"file": "security/warningcircle.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Security",
+"name": "WarningOctagon",
+"file": "security/warningoctagon.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Security",
+"name": "ShieldSettings",
+"file": "security/shieldsettings.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Media",
+"name": "Airplay",
+"file": "media/airplay.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Media",
+"name": "Aperture",
+"file": "media/aperture.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Media",
+"name": "Article",
+"file": "media/article.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Media",
+"name": "ArticleMedium",
+"file": "media/articlemedium.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Media",
+"name": "ArticleNyTimes",
+"file": "media/articlenytimes.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Media",
+"name": "Camera",
+"file": "media/camera.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Media",
+"name": "CameraSlash",
+"file": "media/cameraslash.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Media",
+"name": "CameraTurn",
+"file": "media/cameraturn.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Media",
+"name": "ClosedCaptioning",
+"file": "media/closedcaptioning.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Media",
+"name": "Copyright",
+"file": "media/copyright.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Media",
+"name": "CornersIn",
+"file": "media/cornersin.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Media",
+"name": "CornersOut",
+"file": "media/cornersout.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Media",
+"name": "Disc",
+"file": "media/disc.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Media",
+"name": "Ear",
+"file": "media/ear.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Media",
+"name": "EarSlash",
+"file": "media/earslash.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Media",
+"name": "Eject",
+"file": "media/eject.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Media",
+"name": "EjectSimple",
+"file": "media/ejectsimple.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Media",
+"name": "Faders",
+"file": "media/faders.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Media",
+"name": "FadersHorizontal",
+"file": "media/fadershorizontal.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Media",
+"name": "FastForward",
+"file": "media/fastforward.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Media",
+"name": "FastForwardCircle",
+"file": "media/fastforwardcircle.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Media",
+"name": "FilmStrip",
+"file": "media/filmstrip.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Media",
+"name": "Gif",
+"file": "media/gif.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Media",
+"name": "Headphones",
+"file": "media/headphones.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Media",
+"name": "Headset",
+"file": "media/headset.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Media",
+"name": "Image",
+"file": "media/image.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Media",
+"name": "ImageSquare",
+"file": "media/imagesquare.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Media",
+"name": "Microphone",
+"file": "media/microphone.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Media",
+"name": "MicrophoneSlash",
+"file": "media/microphoneslash.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Media",
+"name": "MusicNote",
+"file": "media/musicnote.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Media",
+"name": "MusicNotes",
+"file": "media/musicnotes.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Media",
+"name": "MusicNoteSimple",
+"file": "media/musicnotesimple.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Media",
+"name": "MusicNotesSimple",
+"file": "media/musicnotessimple.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Media",
+"name": "Newspaper",
+"file": "media/newspaper.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Media",
+"name": "NewspaperClipping",
+"file": "media/newspaperclipping.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Media",
+"name": "Pause",
+"file": "media/pause.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Media",
+"name": "PauseCircle",
+"file": "media/pausecircle.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Media",
+"name": "PictureInPicture",
+"file": "media/pictureinpicture.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Media",
+"name": "Play",
+"file": "media/play.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Media",
+"name": "PlayCircle",
+"file": "media/playcircle.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Media",
+"name": "Playlist",
+"file": "media/playlist.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Media",
+"name": "Queue",
+"file": "media/queue.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Media",
+"name": "Record",
+"file": "media/record.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Media",
+"name": "Repeat",
+"file": "media/repeat.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Media",
+"name": "RepeatOnce",
+"file": "media/repeatonce.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Media",
+"name": "Rewind",
+"file": "media/rewind.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "Media",
+"name": "RewindCircle",
+"file": "media/rewindcircle.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "Media",
+"name": "Screencast",
+"file": "media/screencast.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "Media",
+"name": "Shuffle",
+"file": "media/shuffle.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "Media",
+"name": "ShuffleAngular",
+"file": "media/shuffleangular.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "Media",
+"name": "ShuffleSimple",
+"file": "media/shufflesimple.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "Media",
+"name": "SkipBack",
+"file": "media/skipback.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "Media",
+"name": "SkipBackCircle",
+"file": "media/skipbackcircle.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "Media",
+"name": "SkipForward",
+"file": "media/skipforward.svg",
+"size": 24,
+"vb": [
+196,
+308
+]
+},
+{
+"set": "Media",
+"name": "SkipForwardCircle",
+"file": "media/skipforwardcircle.svg",
+"size": 24,
+"vb": [
+252,
+308
+]
+},
+{
+"set": "Media",
+"name": "Sliders",
+"file": "media/sliders.svg",
+"size": 24,
+"vb": [
+308,
+308
+]
+},
+{
+"set": "Media",
+"name": "SlidersHorizontal",
+"file": "media/slidershorizontal.svg",
+"size": 24,
+"vb": [
+364,
+308
+]
+},
+{
+"set": "Media",
+"name": "SpeakerHigh",
+"file": "media/speakerhigh.svg",
+"size": 24,
+"vb": [
+420,
+308
+]
+},
+{
+"set": "Media",
+"name": "SpeakerLow",
+"file": "media/speakerlow.svg",
+"size": 24,
+"vb": [
+476,
+308
+]
+},
+{
+"set": "Media",
+"name": "SpeakerNone",
+"file": "media/speakernone.svg",
+"size": 24,
+"vb": [
+532,
+308
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSlash",
+"file": "media/speakerslash.svg",
+"size": 24,
+"vb": [
+28,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerX",
+"file": "media/speakerx.svg",
+"size": 24,
+"vb": [
+84,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSimpleHigh",
+"file": "media/speakersimplehigh.svg",
+"size": 24,
+"vb": [
+140,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSimpleLow",
+"file": "media/speakersimplelow.svg",
+"size": 24,
+"vb": [
+196,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSimpleNone",
+"file": "media/speakersimplenone.svg",
+"size": 24,
+"vb": [
+252,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSimpleSlash",
+"file": "media/speakersimpleslash.svg",
+"size": 24,
+"vb": [
+308,
+364
+]
+},
+{
+"set": "Media",
+"name": "SpeakerSimpleX",
+"file": "media/speakersimplex.svg",
+"size": 24,
+"vb": [
+364,
+364
+]
+},
+{
+"set": "Media",
+"name": "Stop",
+"file": "media/stop.svg",
+"size": 24,
+"vb": [
+420,
+364
+]
+},
+{
+"set": "Media",
+"name": "StopCircle",
+"file": "media/stopcircle.svg",
+"size": 24,
+"vb": [
+476,
+364
+]
+},
+{
+"set": "Media",
+"name": "VideoCamera",
+"file": "media/videocamera.svg",
+"size": 24,
+"vb": [
+532,
+364
+]
+},
+{
+"set": "Media",
+"name": "VideoCameraSlash",
+"file": "media/videocameraslash.svg",
+"size": 24,
+"vb": [
+28,
+420
+]
+},
+{
+"set": "System",
+"name": "AppWindow",
+"file": "system/appwindow.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "System",
+"name": "Backspace",
+"file": "system/backspace.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryCharging",
+"file": "system/batterycharging.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryChargingVertical",
+"file": "system/batterychargingvertical.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryFull",
+"file": "system/batteryfull.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryHigh",
+"file": "system/batteryhigh.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryMedium",
+"file": "system/batterymedium.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryLow",
+"file": "system/batterylow.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryEmpty",
+"file": "system/batteryempty.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryWarning",
+"file": "system/batterywarning.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "System",
+"name": "BatteryWarningVertical",
+"file": "system/batterywarningvertical.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "System",
+"name": "Bell",
+"file": "system/bell.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "System",
+"name": "BellRinging",
+"file": "system/bellringing.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSlash",
+"file": "system/bellslash.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "System",
+"name": "BellZ",
+"file": "system/bellz.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSimple",
+"file": "system/bellsimple.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSimpleNotification",
+"file": "system/bellsimplenotification.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSimpleRinging",
+"file": "system/bellsimpleringing.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSimpleSlash",
+"file": "system/bellsimpleslash.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "System",
+"name": "BellSimpleZ",
+"file": "system/bellsimplez.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "System",
+"name": "Bluetooth",
+"file": "system/bluetooth.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "System",
+"name": "BluetoothConnected",
+"file": "system/bluetoothconnected.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "System",
+"name": "BluetoothSlash",
+"file": "system/bluetoothslash.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "System",
+"name": "BluetoothX",
+"file": "system/bluetoothx.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "System",
+"name": "Browser",
+"file": "system/browser.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "System",
+"name": "Browsers",
+"file": "system/browsers.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "System",
+"name": "CellSignalFull",
+"file": "system/cellsignalfull.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "System",
+"name": "CellSignalHigh",
+"file": "system/cellsignalhigh.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "System",
+"name": "CellSignalMedium",
+"file": "system/cellsignalmedium.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "System",
+"name": "CellSignalLow",
+"file": "system/cellsignallow.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "System",
+"name": "CellSignalNone",
+"file": "system/cellsignalnone.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "System",
+"name": "CellSignalSlash",
+"file": "system/cellsignalslash.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "System",
+"name": "CellSignalX",
+"file": "system/cellsignalx.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "System",
+"name": "Check",
+"file": "system/check.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "System",
+"name": "CheckCircle",
+"file": "system/checkcircle.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "System",
+"name": "CheckSquare",
+"file": "system/checksquare.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "System",
+"name": "CheckSquareOffset",
+"file": "system/checksquareoffset.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "System",
+"name": "Checks",
+"file": "system/checks.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "System",
+"name": "CloudArrowDown",
+"file": "system/cloudarrowdown.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "System",
+"name": "CloudArrowUp",
+"file": "system/cloudarrowup.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "System",
+"name": "CloudCheck",
+"file": "system/cloudcheck.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "System",
+"name": "CloudSlash",
+"file": "system/cloudslash.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "System",
+"name": "Command",
+"file": "system/command.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "System",
+"name": "ComputerTower",
+"file": "system/computertower.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "System",
+"name": "Cursor",
+"file": "system/cursor.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "System",
+"name": "Desktop",
+"file": "system/desktop.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "System",
+"name": "DesktopTower",
+"file": "system/desktoptower.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "System",
+"name": "DeviceMobile",
+"file": "system/devicemobile.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "System",
+"name": "DeviceMobileCamera",
+"file": "system/devicemobilecamera.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "System",
+"name": "DeviceMobileSpeaker",
+"file": "system/devicemobilespeaker.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "System",
+"name": "DeviceTablet",
+"file": "system/devicetablet.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "System",
+"name": "DeviceTabletCamera",
+"file": "system/devicetabletcamera.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "System",
+"name": "DeviceTabletSpeaker",
+"file": "system/devicetabletspeaker.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "System",
+"name": "DeviceWatch",
+"file": "system/devicewatch.svg",
+"size": 24,
+"vb": [
+196,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsNine",
+"file": "system/dotsnine.svg",
+"size": 24,
+"vb": [
+252,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsSix",
+"file": "system/dotssix.svg",
+"size": 24,
+"vb": [
+308,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsSixVertical",
+"file": "system/dotssixvertical.svg",
+"size": 24,
+"vb": [
+364,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsThree",
+"file": "system/dotsthree.svg",
+"size": 24,
+"vb": [
+420,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsThreeVertical",
+"file": "system/dotsthreevertical.svg",
+"size": 24,
+"vb": [
+476,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsThreeOutline",
+"file": "system/dotsthreeoutline.svg",
+"size": 24,
+"vb": [
+532,
+308
+]
+},
+{
+"set": "System",
+"name": "DotsThreeOutlineVertical",
+"file": "system/dotsthreeoutlinevertical.svg",
+"size": 24,
+"vb": [
+28,
+364
+]
+},
+{
+"set": "System",
+"name": "DotsThreeCircle",
+"file": "system/dotsthreecircle.svg",
+"size": 24,
+"vb": [
+84,
+364
+]
+},
+{
+"set": "System",
+"name": "DotsThreeCircleVertical",
+"file": "system/dotsthreecirclevertical.svg",
+"size": 24,
+"vb": [
+140,
+364
+]
+},
+{
+"set": "System",
+"name": "Download",
+"file": "system/download.svg",
+"size": 24,
+"vb": [
+196,
+364
+]
+},
+{
+"set": "System",
+"name": "DownloadSimple",
+"file": "system/downloadsimple.svg",
+"size": 24,
+"vb": [
+252,
+364
+]
+},
+{
+"set": "System",
+"name": "Flashlight",
+"file": "system/flashlight.svg",
+"size": 24,
+"vb": [
+308,
+364
+]
+},
+{
+"set": "System",
+"name": "FrameCorners",
+"file": "system/framecorners.svg",
+"size": 24,
+"vb": [
+364,
+364
+]
+},
+{
+"set": "System",
+"name": "Gauge",
+"file": "system/gauge.svg",
+"size": 24,
+"vb": [
+420,
+364
+]
+},
+{
+"set": "System",
+"name": "Gear",
+"file": "system/gear.svg",
+"size": 24,
+"vb": [
+476,
+364
+]
+},
+{
+"set": "System",
+"name": "GearSix",
+"file": "system/gearsix.svg",
+"size": 24,
+"vb": [
+532,
+364
+]
+},
+{
+"set": "System",
+"name": "HardDrive",
+"file": "system/harddrive.svg",
+"size": 24,
+"vb": [
+28,
+420
+]
+},
+{
+"set": "System",
+"name": "HardDrives",
+"file": "system/harddrives.svg",
+"size": 24,
+"vb": [
+84,
+420
+]
+},
+{
+"set": "System",
+"name": "KeyReturn",
+"file": "system/keyreturn.svg",
+"size": 24,
+"vb": [
+140,
+420
+]
+},
+{
+"set": "System",
+"name": "Keyboard",
+"file": "system/keyboard.svg",
+"size": 24,
+"vb": [
+196,
+420
+]
+},
+{
+"set": "System",
+"name": "Laptop",
+"file": "system/laptop.svg",
+"size": 24,
+"vb": [
+252,
+420
+]
+},
+{
+"set": "System",
+"name": "Lightbulb",
+"file": "system/lightbulb.svg",
+"size": 24,
+"vb": [
+308,
+420
+]
+},
+{
+"set": "System",
+"name": "LightbulbFilament",
+"file": "system/lightbulbfilament.svg",
+"size": 24,
+"vb": [
+364,
+420
+]
+},
+{
+"set": "System",
+"name": "Lightning",
+"file": "system/lightning.svg",
+"size": 24,
+"vb": [
+420,
+420
+]
+},
+{
+"set": "System",
+"name": "LightningSlash",
+"file": "system/lightningslash.svg",
+"size": 24,
+"vb": [
+476,
+420
+]
+},
+{
+"set": "System",
+"name": "Link",
+"file": "system/link.svg",
+"size": 24,
+"vb": [
+532,
+420
+]
+},
+{
+"set": "System",
+"name": "LinkBreak",
+"file": "system/linkbreak.svg",
+"size": 24,
+"vb": [
+28,
+476
+]
+},
+{
+"set": "System",
+"name": "LinkSimple",
+"file": "system/linksimple.svg",
+"size": 24,
+"vb": [
+84,
+476
+]
+},
+{
+"set": "System",
+"name": "LinkSimpleBreak",
+"file": "system/linksimplebreak.svg",
+"size": 24,
+"vb": [
+140,
+476
+]
+},
+{
+"set": "System",
+"name": "LinkSimpleHorizontal",
+"file": "system/linksimplehorizontal.svg",
+"size": 24,
+"vb": [
+196,
+476
+]
+},
+{
+"set": "System",
+"name": "LinkSimpleHorizontalBreak",
+"file": "system/linksimplehorizontalbreak.svg",
+"size": 24,
+"vb": [
+252,
+476
+]
+},
+{
+"set": "System",
+"name": "MagnifyingGlass",
+"file": "system/magnifyingglass.svg",
+"size": 24,
+"vb": [
+308,
+476
+]
+},
+{
+"set": "System",
+"name": "MagnifyingGlassPlus",
+"file": "system/magnifyingglassplus.svg",
+"size": 24,
+"vb": [
+364,
+476
+]
+},
+{
+"set": "System",
+"name": "MagnifyingGlassMinus",
+"file": "system/magnifyingglassminus.svg",
+"size": 24,
+"vb": [
+420,
+476
+]
+},
+{
+"set": "System",
+"name": "MagnifyingGlassStars",
+"file": "system/magnifyingglassstars.svg",
+"size": 24,
+"vb": [
+476,
+476
+]
+},
+{
+"set": "System",
+"name": "MinusCircle",
+"file": "system/minuscircle.svg",
+"size": 24,
+"vb": [
+532,
+476
+]
+},
+{
+"set": "System",
+"name": "Monitor",
+"file": "system/monitor.svg",
+"size": 24,
+"vb": [
+28,
+532
+]
+},
+{
+"set": "System",
+"name": "MonitorPlay",
+"file": "system/monitorplay.svg",
+"size": 24,
+"vb": [
+84,
+532
+]
+},
+{
+"set": "System",
+"name": "Mouse",
+"file": "system/mouse.svg",
+"size": 24,
+"vb": [
+140,
+532
+]
+},
+{
+"set": "System",
+"name": "MouseSimple",
+"file": "system/mousesimple.svg",
+"size": 24,
+"vb": [
+196,
+532
+]
+},
+{
+"set": "System",
+"name": "Notification",
+"file": "system/notification.svg",
+"size": 24,
+"vb": [
+252,
+532
+]
+},
+{
+"set": "System",
+"name": "Nut",
+"file": "system/nut.svg",
+"size": 24,
+"vb": [
+308,
+532
+]
+},
+{
+"set": "System",
+"name": "PlusCircle",
+"file": "system/pluscircle.svg",
+"size": 24,
+"vb": [
+364,
+532
+]
+},
+{
+"set": "System",
+"name": "Power",
+"file": "system/power.svg",
+"size": 24,
+"vb": [
+420,
+532
+]
+},
+{
+"set": "System",
+"name": "QrCode",
+"file": "system/qrcode.svg",
+"size": 24,
+"vb": [
+476,
+532
+]
+},
+{
+"set": "System",
+"name": "SignIn",
+"file": "system/signin.svg",
+"size": 24,
+"vb": [
+532,
+532
+]
+},
+{
+"set": "System",
+"name": "SignOut",
+"file": "system/signout.svg",
+"size": 24,
+"vb": [
+28,
+588
+]
+},
+{
+"set": "System",
+"name": "SimCard",
+"file": "system/simcard.svg",
+"size": 24,
+"vb": [
+84,
+588
+]
+},
+{
+"set": "System",
+"name": "Spinner",
+"file": "system/spinner.svg",
+"size": 24,
+"vb": [
+140,
+588
+]
+},
+{
+"set": "System",
+"name": "SpinnerGap",
+"file": "system/spinnergap.svg",
+"size": 24,
+"vb": [
+196,
+588
+]
+},
+{
+"set": "System",
+"name": "Swap",
+"file": "system/swap.svg",
+"size": 24,
+"vb": [
+252,
+588
+]
+},
+{
+"set": "System",
+"name": "Television",
+"file": "system/television.svg",
+"size": 24,
+"vb": [
+308,
+588
+]
+},
+{
+"set": "System",
+"name": "TelevisionSimple",
+"file": "system/televisionsimple.svg",
+"size": 24,
+"vb": [
+364,
+588
+]
+},
+{
+"set": "System",
+"name": "ToggleLeft",
+"file": "system/toggleleft.svg",
+"size": 24,
+"vb": [
+420,
+588
+]
+},
+{
+"set": "System",
+"name": "ToggleRight",
+"file": "system/toggleright.svg",
+"size": 24,
+"vb": [
+476,
+588
+]
+},
+{
+"set": "System",
+"name": "Upload",
+"file": "system/upload.svg",
+"size": 24,
+"vb": [
+532,
+588
+]
+},
+{
+"set": "System",
+"name": "UploadSimple",
+"file": "system/uploadsimple.svg",
+"size": 24,
+"vb": [
+28,
+644
+]
+},
+{
+"set": "System",
+"name": "Vibrate",
+"file": "system/vibrate.svg",
+"size": 24,
+"vb": [
+84,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiHigh",
+"file": "system/wifihigh.svg",
+"size": 24,
+"vb": [
+140,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiMedium",
+"file": "system/wifimedium.svg",
+"size": 24,
+"vb": [
+196,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiLow",
+"file": "system/wifilow.svg",
+"size": 24,
+"vb": [
+252,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiNone",
+"file": "system/wifinone.svg",
+"size": 24,
+"vb": [
+308,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiSlash",
+"file": "system/wifislash.svg",
+"size": 24,
+"vb": [
+364,
+644
+]
+},
+{
+"set": "System",
+"name": "WifiX",
+"file": "system/wifix.svg",
+"size": 24,
+"vb": [
+420,
+644
+]
+},
+{
+"set": "System",
+"name": "Wrench",
+"file": "system/wrench.svg",
+"size": 24,
+"vb": [
+476,
+644
+]
+},
+{
+"set": "System",
+"name": "XCircle",
+"file": "system/xcircle.svg",
+"size": 24,
+"vb": [
+532,
+644
+]
+},
+{
+"set": "System",
+"name": "XSquare",
+"file": "system/xsquare.svg",
+"size": 24,
+"vb": [
+28,
+700
+]
+},
+{
+"set": "System",
+"name": "MagnifyingReport",
+"file": "system/magnifyingreport.svg",
+"size": 24,
+"vb": [
+84,
+700
+]
+},
+{
+"set": "System",
+"name": "Language&Thema",
+"file": "system/language-thema.svg",
+"size": 24,
+"vb": [
+140,
+700
+]
+},
+{
+"set": "System",
+"name": "Thema",
+"file": "system/thema.svg",
+"size": 24,
+"vb": [
+196,
+700
+]
+},
+{
+"set": "Office",
+"name": "Archive",
+"file": "office/archive.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Office",
+"name": "ArchiveBox",
+"file": "office/archivebox.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Office",
+"name": "ArchiveTray",
+"file": "office/archivetray.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Office",
+"name": "Briefcase",
+"file": "office/briefcase.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Office",
+"name": "BriefcaseMetal",
+"file": "office/briefcasemetal.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Office",
+"name": "Cards",
+"file": "office/cards.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Office",
+"name": "Clipboard",
+"file": "office/clipboard.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Office",
+"name": "ClipboardText",
+"file": "office/clipboardtext.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Office",
+"name": "Copy",
+"file": "office/copy.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Office",
+"name": "CopySimple",
+"file": "office/copysimple.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Office",
+"name": "File",
+"file": "office/file.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileArrowUp",
+"file": "office/filearrowup.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileArrowDown",
+"file": "office/filearrowdown.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Office",
+"name": "FilePlus",
+"file": "office/fileplus.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileMinus",
+"file": "office/fileminus.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileDotted",
+"file": "office/filedotted.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Office",
+"name": "FilePDF",
+"file": "office/filepdf.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileSearch",
+"file": "office/filesearch.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileText",
+"file": "office/filetext.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Office",
+"name": "FileX",
+"file": "office/filex.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Office",
+"name": "Files",
+"file": "office/files.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Office",
+"name": "FloppyDisk",
+"file": "office/floppydisk.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Office",
+"name": "FloppyDiskBack",
+"file": "office/floppydiskback.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Office",
+"name": "Folder",
+"file": "office/folder.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderPlus",
+"file": "office/folderplus.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderMinus",
+"file": "office/folderminus.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderOpen",
+"file": "office/folderopen.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderNotch",
+"file": "office/foldernotch.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderNotchPlus",
+"file": "office/foldernotchplus.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderNotchMinus",
+"file": "office/foldernotchminus.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Office",
+"name": "FolderNotchOpen",
+"file": "office/foldernotchopen.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Office",
+"name": "FolderSimple",
+"file": "office/foldersimple.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Office",
+"name": "FolderSimplePlus",
+"file": "office/foldersimpleplus.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Office",
+"name": "FolderSimpleMinus",
+"file": "office/foldersimpleminus.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Office",
+"name": "Folders",
+"file": "office/folders.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Office",
+"name": "Filter",
+"file": "office/filter.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Office",
+"name": "FunnelSimple",
+"file": "office/funnelsimple.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Office",
+"name": "List",
+"file": "office/list.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Office",
+"name": "ListBullets",
+"file": "office/listbullets.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Office",
+"name": "ListDashes",
+"file": "office/listdashes.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Office",
+"name": "ListNumbers",
+"file": "office/listnumbers.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Office",
+"name": "ListPlus",
+"file": "office/listplus.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Office",
+"name": "Note",
+"file": "office/note.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Office",
+"name": "NoteBlank",
+"file": "office/noteblank.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Office",
+"name": "NotePencil",
+"file": "office/notepencil.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Office",
+"name": "Notebook",
+"file": "office/notebook.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "Office",
+"name": "Notepad",
+"file": "office/notepad.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "Office",
+"name": "Paperclip",
+"file": "office/paperclip.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "Office",
+"name": "PaperclipHorizontal",
+"file": "office/papercliphorizontal.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "Office",
+"name": "Presentation",
+"file": "office/presentation.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "Office",
+"name": "PresentationChart",
+"file": "office/presentationchart.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "Office",
+"name": "Printer",
+"file": "office/printer.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "Office",
+"name": "ProjectorScreen",
+"file": "office/projectorscreen.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "Office",
+"name": "ProjectorScreenChart",
+"file": "office/projectorscreenchart.svg",
+"size": 24,
+"vb": [
+196,
+308
+]
+},
+{
+"set": "Office",
+"name": "PushPin",
+"file": "office/pushpin.svg",
+"size": 24,
+"vb": [
+252,
+308
+]
+},
+{
+"set": "Office",
+"name": "PushPinSlash",
+"file": "office/pushpinslash.svg",
+"size": 24,
+"vb": [
+308,
+308
+]
+},
+{
+"set": "Office",
+"name": "PushPinSimple",
+"file": "office/pushpinsimple.svg",
+"size": 24,
+"vb": [
+364,
+308
+]
+},
+{
+"set": "Office",
+"name": "PushPinSimpleSlash",
+"file": "office/pushpinsimpleslash.svg",
+"size": 24,
+"vb": [
+420,
+308
+]
+},
+{
+"set": "Office",
+"name": "SortAscending",
+"file": "office/sortascending.svg",
+"size": 24,
+"vb": [
+476,
+308
+]
+},
+{
+"set": "Office",
+"name": "SortDescending",
+"file": "office/sortdescending.svg",
+"size": 24,
+"vb": [
+532,
+308
+]
+},
+{
+"set": "Office",
+"name": "TextAlignCenter",
+"file": "office/textaligncenter.svg",
+"size": 24,
+"vb": [
+28,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextAlignJustify",
+"file": "office/textalignjustify.svg",
+"size": 24,
+"vb": [
+84,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextAlignLeft",
+"file": "office/textalignleft.svg",
+"size": 24,
+"vb": [
+140,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextAlignRight",
+"file": "office/textalignright.svg",
+"size": 24,
+"vb": [
+196,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextT",
+"file": "office/textt.svg",
+"size": 24,
+"vb": [
+252,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextBolder",
+"file": "office/textbolder.svg",
+"size": 24,
+"vb": [
+308,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextItalic",
+"file": "office/textitalic.svg",
+"size": 24,
+"vb": [
+364,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextUnderline",
+"file": "office/textunderline.svg",
+"size": 24,
+"vb": [
+420,
+364
+]
+},
+{
+"set": "Office",
+"name": "TextStrikethrough",
+"file": "office/textstrikethrough.svg",
+"size": 24,
+"vb": [
+476,
+364
+]
+},
+{
+"set": "Office",
+"name": "Trash",
+"file": "office/trash.svg",
+"size": 24,
+"vb": [
+532,
+364
+]
+},
+{
+"set": "Office",
+"name": "TrashSimple",
+"file": "office/trashsimple.svg",
+"size": 24,
+"vb": [
+28,
+420
+]
+},
+{
+"set": "Office",
+"name": "Tray",
+"file": "office/tray.svg",
+"size": 24,
+"vb": [
+84,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextAa",
+"file": "office/textaa.svg",
+"size": 24,
+"vb": [
+140,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextH",
+"file": "office/texth.svg",
+"size": 24,
+"vb": [
+196,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHOne",
+"file": "office/texthone.svg",
+"size": 24,
+"vb": [
+252,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHTwo",
+"file": "office/texthtwo.svg",
+"size": 24,
+"vb": [
+308,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHThree",
+"file": "office/texththree.svg",
+"size": 24,
+"vb": [
+364,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHFour",
+"file": "office/texthfour.svg",
+"size": 24,
+"vb": [
+420,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHFive",
+"file": "office/texthfive.svg",
+"size": 24,
+"vb": [
+476,
+420
+]
+},
+{
+"set": "Office",
+"name": "TextHSix",
+"file": "office/texthsix.svg",
+"size": 24,
+"vb": [
+532,
+420
+]
+},
+{
+"set": "Office",
+"name": "FileXLS",
+"file": "office/filexls.svg",
+"size": 24,
+"vb": [
+28,
+476
+]
+},
+{
+"set": "Office",
+"name": "FileDOC",
+"file": "office/filedoc.svg",
+"size": 24,
+"vb": [
+84,
+476
+]
+},
+{
+"set": "Office",
+"name": "FileJPG",
+"file": "office/filejpg.svg",
+"size": 24,
+"vb": [
+140,
+476
+]
+},
+{
+"set": "Office",
+"name": "FileJPEG",
+"file": "office/filejpeg.svg",
+"size": 24,
+"vb": [
+196,
+476
+]
+},
+{
+"set": "Office",
+"name": "FilePNG",
+"file": "office/filepng.svg",
+"size": 24,
+"vb": [
+252,
+476
+]
+},
+{
+"set": "Office",
+"name": "FileHEIC",
+"file": "office/fileheic.svg",
+"size": 24,
+"vb": [
+308,
+476
+]
+},
+{
+"set": "Office",
+"name": "Information",
+"file": "office/information.svg",
+"size": 24,
+"vb": [
+364,
+476
+]
+},
+{
+"set": "Office",
+"name": "Document Report",
+"file": "office/document-report.svg",
+"size": 24,
+"vb": [
+420,
+476
+]
+},
+{
+"set": "Office",
+"name": "Report Check",
+"file": "office/report-check.svg",
+"size": 24,
+"vb": [
+476,
+476
+]
+},
+{
+"set": "Office",
+"name": "Report Analysis",
+"file": "office/report-analysis.svg",
+"size": 24,
+"vb": [
+532,
+476
+]
+},
+{
+"set": "Time",
+"name": "Alarm",
+"file": "time/alarm.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Time",
+"name": "Calendar",
+"file": "time/calendar.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Time",
+"name": "CalendarBlank",
+"file": "time/calendarblank.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Time",
+"name": "CalendarCheck",
+"file": "time/calendarcheck.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Time",
+"name": "CalendarPlus",
+"file": "time/calendarplus.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Time",
+"name": "CalendarX",
+"file": "time/calendarx.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Time",
+"name": "Clock",
+"file": "time/clock.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Time",
+"name": "ClockAfternoon",
+"file": "time/clockafternoon.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Time",
+"name": "ClockClockwise",
+"file": "time/clockclockwise.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Time",
+"name": "ClockCounterClockwise",
+"file": "time/clockcounterclockwise.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Time",
+"name": "Hourglass",
+"file": "time/hourglass.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassHigh",
+"file": "time/hourglasshigh.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassMedium",
+"file": "time/hourglassmedium.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassLow",
+"file": "time/hourglasslow.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassSimple",
+"file": "time/hourglasssimple.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassSimpleHigh",
+"file": "time/hourglasssimplehigh.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassSimpleMedium",
+"file": "time/hourglasssimplemedium.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Time",
+"name": "HourglassSimpleLow",
+"file": "time/hourglasssimplelow.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Time",
+"name": "Timer",
+"file": "time/timer.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Time",
+"name": "Watch",
+"file": "time/watch.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Health",
+"name": "Activity",
+"file": "health/activity.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Health",
+"name": "Bandaids",
+"file": "health/bandaids.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Health",
+"name": "Barbell",
+"file": "health/barbell.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Health",
+"name": "Bed",
+"file": "health/bed.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Health",
+"name": "Brain",
+"file": "health/brain.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Health",
+"name": "FaceMask",
+"file": "health/facemask.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Health",
+"name": "FirstAid",
+"file": "health/firstaid.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Health",
+"name": "FirstAidKit",
+"file": "health/firstaidkit.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Health",
+"name": "Flask",
+"file": "health/flask.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Health",
+"name": "HandSoap",
+"file": "health/handsoap.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Health",
+"name": "Heartbeat",
+"file": "health/heartbeat.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Health",
+"name": "Lifebuoy",
+"file": "health/lifebuoy.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Health",
+"name": "Pill",
+"file": "health/pill.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Health",
+"name": "Prescription",
+"file": "health/prescription.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Health",
+"name": "Skill",
+"file": "health/skill.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Health",
+"name": "TestTube",
+"file": "health/testtube.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Health",
+"name": "ToiletPaper",
+"file": "health/toiletpaper.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "People",
+"name": "Baby",
+"file": "people/baby.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderFemale",
+"file": "people/genderfemale.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderMale",
+"file": "people/gendermale.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderIntersex",
+"file": "people/genderintersex.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderTransgender",
+"file": "people/gendertransgender.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderNonbinary",
+"file": "people/gendernonbinary.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "People",
+"name": "GenderNeuter",
+"file": "people/genderneuter.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "People",
+"name": "Hand",
+"file": "people/hand.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "People",
+"name": "HandFist",
+"file": "people/handfist.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "People",
+"name": "HandGrabbing",
+"file": "people/handgrabbing.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "People",
+"name": "HandPalm",
+"file": "people/handpalm.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "People",
+"name": "HandPointing",
+"file": "people/handpointing.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "People",
+"name": "HandWaving",
+"file": "people/handwaving.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "People",
+"name": "HandsClapping",
+"file": "people/handsclapping.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "People",
+"name": "Handshake",
+"file": "people/handshake.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "People",
+"name": "IdentificationBadge",
+"file": "people/identificationbadge.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "People",
+"name": "IdentificationCard",
+"file": "people/identificationcard.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "People",
+"name": "Person",
+"file": "people/person.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "People",
+"name": "PersonSimple",
+"file": "people/personsimple.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "People",
+"name": "PersonSimpleWalk",
+"file": "people/personsimplewalk.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "People",
+"name": "PersonSimpleRun",
+"file": "people/personsimplerun.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "People",
+"name": "Smiley",
+"file": "people/smiley.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyBlank",
+"file": "people/smileyblank.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyMeh",
+"file": "people/smileymeh.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyNervous",
+"file": "people/smileynervous.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileySad",
+"file": "people/smileysad.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileySticker",
+"file": "people/smileysticker.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyWink",
+"file": "people/smileywink.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyWinkAlt",
+"file": "people/smileywinkalt.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "People",
+"name": "SmileyXEyes",
+"file": "people/smileyxeyes.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "People",
+"name": "User",
+"file": "people/user.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "People",
+"name": "UserFocus",
+"file": "people/userfocus.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "People",
+"name": "UserGear",
+"file": "people/usergear.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "People",
+"name": "UserList",
+"file": "people/userlist.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "People",
+"name": "UserPlus",
+"file": "people/userplus.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "People",
+"name": "UserMinus",
+"file": "people/userminus.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "People",
+"name": "UserCircle",
+"file": "people/usercircle.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "People",
+"name": "UserCircleGear",
+"file": "people/usercirclegear.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "People",
+"name": "UserCirclePlus",
+"file": "people/usercircleplus.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "People",
+"name": "UserCircleMinus",
+"file": "people/usercircleminus.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "People",
+"name": "UserRectangle",
+"file": "people/userrectangle.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "People",
+"name": "UserSquare",
+"file": "people/usersquare.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "People",
+"name": "Users",
+"file": "people/users.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "People",
+"name": "UsersThree",
+"file": "people/usersthree.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "People",
+"name": "UsersFour",
+"file": "people/usersfour.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "People",
+"name": "Wheelchair",
+"file": "people/wheelchair.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "People",
+"name": "UserCirclenoti",
+"file": "people/usercirclenoti.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "People",
+"name": "UserSearch",
+"file": "people/usersearch.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "People",
+"name": "UserCheck",
+"file": "people/usercheck.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "People",
+"name": "UserAscending",
+"file": "people/userascending.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "People",
+"name": "UserChange",
+"file": "people/userchange.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "People",
+"name": "UserPlusMinus",
+"file": "people/userplusminus.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "People",
+"name": "BuildingsChange",
+"file": "people/buildingschange.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "Weather",
+"name": "Atom",
+"file": "weather/atom.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Weather",
+"name": "Bird",
+"file": "weather/bird.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Weather",
+"name": "Cat",
+"file": "weather/cat.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Weather",
+"name": "Cloud",
+"file": "weather/cloud.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudFog",
+"file": "weather/cloudfog.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudMoon",
+"file": "weather/cloudmoon.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudSun",
+"file": "weather/cloudsun.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudLightning",
+"file": "weather/cloudlightning.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudRain",
+"file": "weather/cloudrain.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Weather",
+"name": "CloudSnow",
+"file": "weather/cloudsnow.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Weather",
+"name": "Dog",
+"file": "weather/dog.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Drop",
+"file": "weather/drop.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Fire",
+"file": "weather/fire.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Weather",
+"name": "FireSimple",
+"file": "weather/firesimple.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Fish",
+"file": "weather/fish.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Weather",
+"name": "FishSimple",
+"file": "weather/fishsimple.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Flame",
+"file": "weather/flame.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Flower",
+"file": "weather/flower.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Weather",
+"name": "FlowerLotus",
+"file": "weather/flowerlotus.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Leaf",
+"file": "weather/leaf.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Weather",
+"name": "Moon",
+"file": "weather/moon.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Weather",
+"name": "MoonStars",
+"file": "weather/moonstars.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Weather",
+"name": "PawPrint",
+"file": "weather/pawprint.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Weather",
+"name": "Planet",
+"file": "weather/planet.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Weather",
+"name": "Rainbow",
+"file": "weather/rainbow.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Weather",
+"name": "RainbowCloud",
+"file": "weather/rainbowcloud.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Weather",
+"name": "Snowflake",
+"file": "weather/snowflake.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Weather",
+"name": "Sparkle",
+"file": "weather/sparkle.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Weather",
+"name": "Star",
+"file": "weather/star.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Weather",
+"name": "StarFilled",
+"file": "weather/starfilled.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Weather",
+"name": "StarFour",
+"file": "weather/starfour.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Weather",
+"name": "Sun",
+"file": "weather/sun.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Weather",
+"name": "SunDim",
+"file": "weather/sundim.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Weather",
+"name": "SunHorizon",
+"file": "weather/sunhorizon.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Weather",
+"name": "Thermometer",
+"file": "weather/thermometer.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Weather",
+"name": "ThermometerSimple",
+"file": "weather/thermometersimple.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Weather",
+"name": "ThermometerCold",
+"file": "weather/thermometercold.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Weather",
+"name": "ThermometerHot",
+"file": "weather/thermometerhot.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Weather",
+"name": "Tree",
+"file": "weather/tree.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Weather",
+"name": "TreeEvergreen",
+"file": "weather/treeevergreen.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Weather",
+"name": "Umbrella",
+"file": "weather/umbrella.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Weather",
+"name": "UmbrellaSimple",
+"file": "weather/umbrellasimple.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Weather",
+"name": "Waves",
+"file": "weather/waves.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Weather",
+"name": "Wind",
+"file": "weather/wind.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Weather",
+"name": "LeafMultible",
+"file": "weather/leafmultible.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Math",
+"name": "Bank",
+"file": "math/bank.svg",
+"size": 24,
+"vb": [
+28,
+28
+]
+},
+{
+"set": "Math",
+"name": "Calculator",
+"file": "math/calculator.svg",
+"size": 24,
+"vb": [
+84,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartBar",
+"file": "math/chartbar.svg",
+"size": 24,
+"vb": [
+140,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartBarHorizontal",
+"file": "math/chartbarhorizontal.svg",
+"size": 24,
+"vb": [
+196,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartLine",
+"file": "math/chartline.svg",
+"size": 24,
+"vb": [
+252,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartLineUp",
+"file": "math/chartlineup.svg",
+"size": 24,
+"vb": [
+308,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartPie",
+"file": "math/chartpie.svg",
+"size": 24,
+"vb": [
+364,
+28
+]
+},
+{
+"set": "Math",
+"name": "ChartPieSlice",
+"file": "math/chartpieslice.svg",
+"size": 24,
+"vb": [
+420,
+28
+]
+},
+{
+"set": "Math",
+"name": "Divide",
+"file": "math/divide.svg",
+"size": 24,
+"vb": [
+476,
+28
+]
+},
+{
+"set": "Math",
+"name": "Equals",
+"file": "math/equals.svg",
+"size": 24,
+"vb": [
+532,
+28
+]
+},
+{
+"set": "Math",
+"name": "Infinity",
+"file": "math/infinity.svg",
+"size": 24,
+"vb": [
+28,
+84
+]
+},
+{
+"set": "Math",
+"name": "MathOperations",
+"file": "math/mathoperations.svg",
+"size": 24,
+"vb": [
+84,
+84
+]
+},
+{
+"set": "Math",
+"name": "Minus",
+"file": "math/minus.svg",
+"size": 24,
+"vb": [
+140,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberZero",
+"file": "math/numberzero.svg",
+"size": 24,
+"vb": [
+196,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberOne",
+"file": "math/numberone.svg",
+"size": 24,
+"vb": [
+252,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberTwo",
+"file": "math/numbertwo.svg",
+"size": 24,
+"vb": [
+308,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberThree",
+"file": "math/numberthree.svg",
+"size": 24,
+"vb": [
+364,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberFour",
+"file": "math/numberfour.svg",
+"size": 24,
+"vb": [
+420,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberFive",
+"file": "math/numberfive.svg",
+"size": 24,
+"vb": [
+476,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberSix",
+"file": "math/numbersix.svg",
+"size": 24,
+"vb": [
+532,
+84
+]
+},
+{
+"set": "Math",
+"name": "NumberSeven",
+"file": "math/numberseven.svg",
+"size": 24,
+"vb": [
+28,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberEight",
+"file": "math/numbereight.svg",
+"size": 24,
+"vb": [
+84,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberNine",
+"file": "math/numbernine.svg",
+"size": 24,
+"vb": [
+140,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleZero",
+"file": "math/numbercirclezero.svg",
+"size": 24,
+"vb": [
+196,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleOne",
+"file": "math/numbercircleone.svg",
+"size": 24,
+"vb": [
+252,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleTwo",
+"file": "math/numbercircletwo.svg",
+"size": 24,
+"vb": [
+308,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleThree",
+"file": "math/numbercirclethree.svg",
+"size": 24,
+"vb": [
+364,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleFour",
+"file": "math/numbercirclefour.svg",
+"size": 24,
+"vb": [
+420,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleFive",
+"file": "math/numbercirclefive.svg",
+"size": 24,
+"vb": [
+476,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleSix",
+"file": "math/numbercirclesix.svg",
+"size": 24,
+"vb": [
+532,
+140
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleSeven",
+"file": "math/numbercircleseven.svg",
+"size": 24,
+"vb": [
+28,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleEight",
+"file": "math/numbercircleeight.svg",
+"size": 24,
+"vb": [
+84,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberCircleNine",
+"file": "math/numbercirclenine.svg",
+"size": 24,
+"vb": [
+140,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareZero",
+"file": "math/numbersquarezero.svg",
+"size": 24,
+"vb": [
+196,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareOne",
+"file": "math/numbersquareone.svg",
+"size": 24,
+"vb": [
+252,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareTwo",
+"file": "math/numbersquaretwo.svg",
+"size": 24,
+"vb": [
+308,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareThree",
+"file": "math/numbersquarethree.svg",
+"size": 24,
+"vb": [
+364,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareFour",
+"file": "math/numbersquarefour.svg",
+"size": 24,
+"vb": [
+420,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareFive",
+"file": "math/numbersquarefive.svg",
+"size": 24,
+"vb": [
+476,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareSix",
+"file": "math/numbersquaresix.svg",
+"size": 24,
+"vb": [
+532,
+196
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareSeven",
+"file": "math/numbersquareseven.svg",
+"size": 24,
+"vb": [
+28,
+252
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareEight",
+"file": "math/numbersquareeight.svg",
+"size": 24,
+"vb": [
+84,
+252
+]
+},
+{
+"set": "Math",
+"name": "NumberSquareNine",
+"file": "math/numbersquarenine.svg",
+"size": 24,
+"vb": [
+140,
+252
+]
+},
+{
+"set": "Math",
+"name": "Percent",
+"file": "math/percent.svg",
+"size": 24,
+"vb": [
+196,
+252
+]
+},
+{
+"set": "Math",
+"name": "Plus",
+"file": "math/plus.svg",
+"size": 24,
+"vb": [
+252,
+252
+]
+},
+{
+"set": "Math",
+"name": "PlusMinus",
+"file": "math/plusminus.svg",
+"size": 24,
+"vb": [
+308,
+252
+]
+},
+{
+"set": "Math",
+"name": "Radical",
+"file": "math/radical.svg",
+"size": 24,
+"vb": [
+364,
+252
+]
+},
+{
+"set": "Math",
+"name": "Table",
+"file": "math/table.svg",
+"size": 24,
+"vb": [
+420,
+252
+]
+},
+{
+"set": "Math",
+"name": "TrendUp",
+"file": "math/trendup.svg",
+"size": 24,
+"vb": [
+476,
+252
+]
+},
+{
+"set": "Math",
+"name": "TrendDown",
+"file": "math/trenddown.svg",
+"size": 24,
+"vb": [
+532,
+252
+]
+},
+{
+"set": "Math",
+"name": "X",
+"file": "math/x.svg",
+"size": 24,
+"vb": [
+28,
+308
+]
+},
+{
+"set": "Math",
+"name": "ChartBarSimple",
+"file": "math/chartbarsimple.svg",
+"size": 24,
+"vb": [
+84,
+308
+]
+},
+{
+"set": "Math",
+"name": "Money",
+"file": "math/money.svg",
+"size": 24,
+"vb": [
+140,
+308
+]
+},
+{
+"set": "Math",
+"name": "ATM",
+"file": "math/atm.svg",
+"size": 24,
+"vb": [
+196,
+308
+]
+},
+{
+"set": "Math",
+"name": "Plus Plus",
+"file": "math/plus-plus.svg",
+"size": 24,
+"vb": [
+252,
+308
+]
+}
+]

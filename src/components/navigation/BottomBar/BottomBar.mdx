@@ -1,0 +1,61 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './BottomBar.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-7035" />
+
+3–5 sekmeli alt menü (375x90); üstte TabLink'ler, altta Home Indicator. Home Indicator zorunludur. Sekme sayısı, etiketler ve ikonlar değiştirilebilir; varsayılan beş sekme Home, Banking, Investments, Goals, More'dur.
+
+## Playground
+
+**Tab Count** sekme sayısını (3–5), **Active Tab** seçili sekmeyi belirler. Her sekmenin **Label** ve **Icon** değeri ayrı ayrı değiştirilebilir; Tab Count'tan büyük indeksler yok sayılır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Uygulamanın ana bölümleri arasında geçiş için ekranın altında kullanılır.
+- Sekmeler `items` dizisiyle (en az 3, en fazla 5) verilir; varsayılan Home, Banking, Investments, Goals, More.
+- Seçili sekme `activeIndex` (0 tabanlı), değişiklik `onChange` ile bildirilir.
+- Bu 5 sekmeli menü önceki navigasyona aittir; güncel Odea Mobil alt menüsü olarak yeni tasarımlarda kullanılmaz.
+
+## Varyantlar
+
+### Üç sekme
+
+<Canvas of={Stories.UcSekme} />
+
+### Dört sekme
+
+<Canvas of={Stories.DortSekme} />
+
+### Alt menü
+
+<Canvas of={Stories.AltMenu} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Home Indicator her zaman altta bulunur.',
+    'Aktif sekmede indicator açık, diğerlerinde kapalıdır.',
+    'En az 3, en fazla 5 sekme gösterilir.',
+    'Sekmeler bar genişliğine 24px kenar boşluğuyla eşit aralıkla dağılır.',
+  ]}
+  donts={[
+    'Bu 5 sekmeli Banking/InvestBook menüsü ÖNCEKİ navigasyona aittir; güncel Odea Mobil alt menüsü olarak yeni tasarımlara uygulanmaz.',
+    'Aynı anda birden fazla sekme aktif gösterilmez.',
+    '5\'ten fazla sekme eklenmez; fazlası yok sayılır.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,99 @@
+.root {
+  width: 375px;
+  height: 48px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--space-24) var(--space-8);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.fullWidth {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.labelGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.label {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  text-transform: uppercase;
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inverse .label {
+  color: var(--odea-text-inverse);
+}
+
+.infoIcon {
+  color: var(--odea-icon-color-secondary);
+  flex: none;
+}
+
+.inverse .infoIcon {
+  color: var(--odea-icon-color-inverse);
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  text-transform: uppercase;
+  color: var(--odea-accent-primary);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cta:focus-visible,
+.iconButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-icon-color-secondary);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  flex-shrink: 0;
+}
+
+.pagination {
+  flex-shrink: 0;
+}

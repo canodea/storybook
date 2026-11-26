@@ -1,0 +1,85 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './NewAssetCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="740-13496" />
+
+Varlık kartı: varlık adı, tutar, isteğe bağlı para birimi seçici ve metin CTA'sı. Tutarın tam kısmı büyük, ondalık ve para birimi küçük yazılır; ikisi alt çizgiye hizalıdır.
+
+## Playground
+
+Tüm prop’lar: içerik, gizli durum, göz butonu, para birimi seçici ve CTA ikonu.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- **Ana Sayfa · Varlıklar:** Tutarın yanında Currency Switcher ile para birimi değiştirilir.
+- **Varlık listesi:** Göz butonu tutarı gizler; gizliyken tam kısım `***`, ondalık `,**` olur.
+- CTA metni FULL CAPS yazılır ve tek bir eyleme yönlendirir (ör. DETAYLAR).
+- CTA ikonu opsiyoneldir; kullanıldığında 16 px ikon metnin solunda yer alır.
+- **Bilgi ikonu:** Title'ın hemen sağında 16 px ikon gösterir (varsayılan Security/Info). `onInfoClick` verilirse ikon “Bilgi” etiketli buton olur.
+- **CTA Toggles:** Açıkken CTA göster/gizle düğmesi olur; tıklanınca tutar maskelenir. Etiket gizliyken GÖSTER, görünürken GİZLE; ikon göz olarak değişir. Bu modda göz butonu varsayılan olarak gizlenir.
+- Tutar her zaman tam kısım + ondalık + para birimi sırasıyla yazılır.
+
+## Varyantlar
+
+### Gizli
+
+Tutar maskelenir; para birimi görünür kalır.
+
+<Canvas of={Stories.Gizli} />
+
+### Para birimi seçicili
+
+Tutarın yanında Currency Switcher ve CTA ikonu.
+
+<Canvas of={Stories.ParaBirimiSecicili} />
+
+### Bilgi ikonlu
+
+Title'ın sağında 16 px bilgi ikonu.
+
+<Canvas of={Stories.BilgiIkonlu} />
+
+### CTA ile göster/gizle
+
+CTA tıklanınca tutar `***` olur; etiket ve ikon duruma göre değişir.
+
+<Canvas of={Stories.CtaIleGosterGizle} />
+
+### Tüm kombinasyonlar
+
+Göz butonu, Currency Switcher ve CTA ikonunun açık/kapalı sekiz kombinasyonu ile bilgi ikonlu ve CTA Toggles örnekleri.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tutarı girilen değerle birebir göster; tam ve ondalık kısmı ayrı prop olarak ver.',
+    'Gizli durumda para birimini görünür bırak; yalnız tutarı maskele.',
+    'Göz butonu için duruma göre “Bakiyeyi gizle” / “Bakiyeyi göster” etiketi kullan.',
+    'Para birimi değişiyorsa Currency Switcher’ı tutarın yanında göster.',
+    'Bilgi ikonunu yalnız açıklama gereken kartlarda kullan.',
+    'CTA Toggles ile göz butonunu aynı kartta birlikte gösterme.',
+  ]}
+  donts={[
+    'Tutarı tek parça metin olarak yazma; tam ve ondalık ayrı ölçülerde olmalı.',
+    'Göz butonu yokken gizli tutar gösterme; kullanıcı geri açamaz.',
+    'CTA metnini cümle olarak yazma; kısa ve FULL CAPS olmalı.',
+    'Ham renk veya sabit gölge kullanma; token ve kart gölgesi kullanılır.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

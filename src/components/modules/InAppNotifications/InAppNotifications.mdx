@@ -1,0 +1,76 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './InAppNotifications.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="687-7232" />
+
+Ana sayfa kartı olarak gösterilen uygulama içi bildirim. `status` (Offer, Reminder, Warning) illüstrasyonu ve durum rengini belirler. Durum satırındaki nokta ve etiket aynı renktedir (offer: success, reminder: brand/primary, warning: warning).
+
+## Playground
+
+Figma'daki özelliklerin aynısı; **Theme** kontrolüyle bileşeni koyu temada da görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Ana sayfa kartı olarak kampanya, hatırlatma ya da uyarı bildirimi göstermek için kullanılır.
+- `status` illüstrasyonu ve durum rengini seçer: `offer`, `reminder`, `warning`.
+- Durum etiketi `statusLabel` ile verilir; boş bırakılırsa status'tan türetilir.
+- Metin linki `textLink`, kapatma `onClose` ile bağlanır; ikisi birlikte kaldırılmaz.
+
+## Varyantlar
+
+### Teklif
+
+Kampanya bildirimi; Campaign illüstrasyonu ve success durum rengi.
+
+<Canvas of={Stories.Teklif} />
+
+### Hatırlatma
+
+Hatırlatma bildirimi; Otps push bildirim illüstrasyonu ve brand/primary durum rengi.
+
+<Canvas of={Stories.Hatirlatma} />
+
+### Uyarı
+
+Uyarı bildirimi; WarningSigns warning illüstrasyonu ve warning durum rengi.
+
+<Canvas of={Stories.Uyari} />
+
+### Senaryolar
+
+Üç durum alt alta.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kartta illüstrasyon, durum noktası ve etiketi, başlık, açıklama, metin linki ve sağ üstte kapatma ikonu bulunur.',
+    'Kartın zemini şeffaftır; 8 8 16 16 padding, 8px gap ve güçlü gölgeyle (--shadow-strong) 375px genişlikte çizilir.',
+    'Durum etiketi status rengini alır: offer status/success, reminder brand/primary, warning status/warning.',
+    'Status Label verilmezse Offer / Reminder / Warning olarak status’tan türetilir.',
+    'İllüstrasyon 56px: offer Campaign, reminder Otps push-ntf, warning WarningSigns warning.',
+  ]}
+  donts={[
+    'Bu bileşen, Cards\'taki In-App Notification ile karıştırılmaz; o farklı bir bileşendir.',
+    'Nokta ile durum etiketi farklı renklerde kullanılmaz.',
+    'Kapatma ikonu ve metin linki birlikte kaldırılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Default** sütunundaki “-”, prop'un varsayılanı olmadığını gösterir.
+
+<ArgTypes of={Stories} />

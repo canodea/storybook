@@ -1,0 +1,66 @@
+.root {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  display: inline-block;
+}
+
+.input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: var(--odea-surface-selected);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.circle::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-full);
+  background: var(--odea-surface-muted);
+}
+
+.input:checked + .circle::before {
+  width: 6px;
+  height: 6px;
+  background: var(--odea-neutral-alabaster);
+}
+
+.input:disabled + .circle {
+  background: var(--odea-neutral-athens-grey);
+  box-shadow: inset 0 0 0 2px var(--odea-neutral-athens-grey);
+}
+
+.input:disabled + .circle::before {
+  background: transparent;
+}
+
+.input:checked:disabled + .circle::before {
+  width: 6px;
+  height: 6px;
+  background: var(--odea-border-field);
+}
+
+.input:focus-visible + .circle {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+}

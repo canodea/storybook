@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Notifications.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-13789" />
+
+Bildirim izni ve boş bildirim ekranlarında kullanılan zil illüstrasyonu. Altın ve gri renk, etkin ve devre dışı durumla birleşir.
+
+## Playground
+
+Figma'daki Color ve State özellikleri ve Size. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Bildirim izni isteyen ya da boş bildirim ekranlarında kullanılır; etkin/devre dışı durum yanındaki başlık ve metinle açıklanır.
+
+## Varyantlar
+
+Tüm varyantlar bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Bildirim izni istemeyen ya da boş bildirim ekranlarında kullan.',
+    'Durumu (etkin/devre dışı) yanındaki başlık ve metinle açıkla.',
+    'Ölçek için Size kullan; görsel kutuyu taşmaz.',
+  ]}
+  donts={[
+    'Bildirim listesindeki tek bir bildirimin yerine kullanma.',
+    'Görseli durum bilgisinin tek taşıyıcısı yapma.',
+    'Figma dışında renk veya durum kombinasyonu üretme.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

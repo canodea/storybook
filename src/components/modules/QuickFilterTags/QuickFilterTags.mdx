@@ -1,0 +1,52 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './QuickFilterTags.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-5395" />
+
+Quick Filter'ın alt modülü; tek başına kullanılmaz. Hızlı filtre etiketi (pill). Metin büyük harfle ve tek satırda yazılır; seçili durumda ters zeminde gösterilir. Quick Filter bileşeninin yapı taşıdır.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Quick Filter içindeki tek etiketi temsil eder; sayfada tek başına filtre olarak kullanılmaz.
+- Seçim durumu `selected` ile verilir; seçili etiket ters zeminde çizilir.
+- Metin `filterLabel` ile gelir, büyük harfle tek satırda gösterilir; tıklama `onClick` ile bildirilir.
+
+## Varyantlar
+
+### Seçilmemiş
+
+<Canvas of={Stories.Secilmemis} />
+
+### Seçili
+
+<Canvas of={Stories.Secili} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Metin 12px Red Hat Display Bold ve UPPERCASE yazılır; tek satırda kalır.',
+    'Seçim durumu aria-pressed ile ekran okuyuculara bildirilir.',
+    'Seçili etiket ters zeminde (inverse), metni on-contrast renginde çizilir.',
+  ]}
+  donts={[
+    "Quick Filter'ın alt modülüdür; tek başına sayfada filtre olarak kullanılmaz, Quick Filter içinde kullanılır.",
+    'Metin küçük harfe çevrilmez; nowrap bozulmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,44 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ActionCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="261-2881" />
+
+İşlem, ayar veya destek sayfalarına yönlendiren kart. İkon (dairesel avatar içinde), başlık ve açıklama daima birlikte gösterilir.
+
+## Playground
+
+Figma'daki özelliklerin aynısı; varyantı yoktur. **Theme** ile koyu temayı görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Sayfa yönlendiren liste girişlerinde kullanılır; kartın tamamı tıklanabilir bir butondur. Açıklama en fazla iki satıra sığar.
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'İkon, başlık ve açıklama daima birlikte gösterilir.',
+    'Açıklama en fazla iki satıra sığar.',
+    'Hedef sayfayı (işlem, ayar, destek) açıkça temsil eder.',
+  ]}
+  donts={[
+    'Başlık veya açıklama olmadan tek başına ikon gösterilmez.',
+    'Kart, yönlendirdiği sayfayla ilgisiz bir ikonla kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,58 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './CurrencySwitcher.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-7216" />
+
+Para birimi kodunu ve aşağı oku tek bir kompakt butonda gösterir. Dokunulunca para birimi seçimi açılır. Erişilebilirlik için buton, seçili para birimini bildirir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Ekranın üst barında ya da tutar alanı yanında, seçili para birimini göstermek ve değiştirmek için kullanılır.
+- Kod `currencyCode` ile verilir (TL, EUR, USD); buton kodu ve aşağı oku birlikte gösterir.
+- Dokununca para birimi seçimi açılır; `onClick` ile dışarı bildirilir.
+
+## Varyantlar
+
+### Türk Lirası
+
+<Canvas of={Stories.TL} />
+
+### Euro
+
+<Canvas of={Stories.EUR} />
+
+### Dolar
+
+<Canvas of={Stories.USD} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Para birimi kodu büyük harfle ve kısa yazılır (TL, EUR, USD).',
+    'Buton erişilebilir etiket taşır: "Para birimi: {kod}".',
+    'Kod, UI Display/Base stilinde ve birincil renkte çizilir.',
+  ]}
+  donts={[
+    'Kod metni uzatılmaz; tek satırda kalır.',
+    'Aynı satırda birden fazla para birimi değiştirici yan yana kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir.
+
+<ArgTypes of={Stories} />

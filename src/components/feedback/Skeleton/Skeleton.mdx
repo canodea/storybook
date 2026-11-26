@@ -1,0 +1,78 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Skeleton.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="534-31" />
+
+Yüklenen içeriğin yerini tutan şekil. `line` 160×12, `circle` 40×40, `block` 327×96 varsayılan ölçülerdedir; `width`/`height` ile ezilebilir. `list-item` 327×72 satırı (`count` kadar tekrarlar), `card` ise 327 genişlikte iki satır ve blok içerir. Zemin `--odea-surface-chip` (card: `--odea-surface-default`), nabız animasyonu `prefers-reduced-motion` altında kapanır.
+
+## Playground
+
+Figma'daki özelliklerin aynısı; **Shape** beş şekli seçer, **Count** yalnız List Item'ı tekrarlar, **Theme** kontrolüyle koyu temada da görüntüleyebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Liste, kart ya da detay yüklenirken boş ekran yerine içeriğin yerini tutmak için kullanılır.
+- Metin satırı için `shape="line"`, avatar/ikon için `circle`, görsel ya da geniş alan için `block`.
+- Liste satırlarında `shape="list-item"` + `count`, kart iskeletinde `shape="card"` kullanılır.
+- Gerçek içerikten farklı ölçü gerekiyorsa `width`/`height` ile ezilir; varsayılan ölçüler içeriği taklit eder.
+
+## Varyantlar
+
+### Line
+
+Tek satır metin yeri.
+
+<Canvas of={Stories.Satir} />
+
+### Circle
+
+Avatar / ikon yeri.
+
+<Canvas of={Stories.Daire} />
+
+### Block
+
+Görsel ya da kart yeri.
+
+<Canvas of={Stories.Blok} />
+
+### List item
+
+Liste satırı iskeleti; Count ile tekrarlanır.
+
+<Canvas of={Stories.Liste} />
+
+### Card
+
+Kart iskeleti.
+
+<Canvas of={Stories.Kart} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Gerçek içerikle aynı boyutta kullan; yüklenen metnin satır sayısını ve hizasını taklit et.',
+    'Liste satırı için Shape=List Item, kart için Shape=Card kullan.',
+  ]}
+  donts={[
+    '300 ms altındaki yüklemelerde gösterilmez.',
+    'Ekran okuyucuya anlamlı içerik gibi sunma; aria-hidden bırak.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir.
+
+<ArgTypes of={Stories} />

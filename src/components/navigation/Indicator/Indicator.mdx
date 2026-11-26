@@ -1,0 +1,47 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Indicator.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="436-15228" />
+
+Progress içindeki tek parça; 4px yüksekliğinde yatay çubuk. current marka renginde ve tam yuvarlak, completed ters zemin renginde, next açık gri. Tek başına etkileşimli değildir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Yalnız Progress içinde, tek adımı temsil eden 4 px çubuk olarak kullanılır.
+- Durum `status` ile verilir: `current` marka renginde, `completed` ters zemin, `next` açık gri.
+- Genişliği kapsayıcıya göre esner; tek başına etkileşimli kontrol olarak kullanılmaz.
+
+## Varyantlar
+
+Üç durum (Current, Completed, Next) etiketleriyle alt alta.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız Progress içinde kullanılır; her adım bir Indicator parçasıdır.',
+    'Genişlik esnektir (flex 1); bulunduğu satırı doldurur.',
+  ]}
+  donts={[
+    'Tek başına etkileşimli bir kontrol gibi kullanılmaz.',
+    'Durum renkleri değiştirilmez; anlamı token ile sabittir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

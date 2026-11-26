@@ -1,0 +1,69 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './CampaignCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="746-3621" />
+
+Kampanya kartı: solda medya paneli, sağda başlık, açıklama ve metin linki. Ana Sayfa'daki Fırsatlar şeridinde ve Fırsatlar listesinde kullanılır.
+
+## Playground
+
+Figma'daki Show Link, Link Label ve Illustration özellikleri. **Show Link** kapalıyken link çizilmez.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- **Ana Sayfa · Fırsatlar şeridi:** Kart 327 px genişlikte, şerit içinde yatay kaydırılır.
+- **Fırsatlar listesi:** Kartlar alt alta 16 px aralıkla dizilir; genişlik bulunduğu alana göre %100'dür.
+- Başlık kısa ve kampanyanın adını anlatır; açıklama tek cümlede değeri söyler.
+- Link metni FULL CAPS yazılır ve tek bir eyleme yönlendirir (ör. HEMEN BAŞVUR).
+- İllüstrasyon 88×88, zeminsiz; soldan 16px boşlukla yerleşir ve dikeyde ortalanır (medya alanı 104px = 16 + 88).
+- Kart yüksekliği sabittir (120 px). Başlık tek satır, açıklama en çok iki satır, link tek satır gösterilir; taşan metin üç nokta ile kesilir.
+
+## Varyantlar
+
+### Liste
+
+Üç kart alt alta, 16 px aralıkla.
+
+<Canvas of={Stories.Liste} />
+
+### Uzun metin
+
+Kart yüksekliği değişmez: başlık ve link tek satırda, açıklama iki satırda üç nokta ile kesilir.
+
+<Canvas of={Stories.UzunMetin} />
+
+### Tüm senaryolar
+
+Farklı illüstrasyonlar, linksiz kullanım ve uzun metin.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kartı listelerde tam genişlikte kullan; genişliği üst kapsayıcı belirler.',
+    'Başlık, açıklama ve link metnini gerçek kampanya içeriğiyle eşleştir.',
+    'Link yoksa Show Link ile gizle; boş link metni bırakma.',
+    'İllüstrasyonu Figma instance swap ile seç; 88 px ölçüsünü koru.',
+  ]}
+  donts={[
+    'Kart içine ikinci bir buton veya farklı bir eylem öğesi ekleme.',
+    'Başlık veya açıklamayı uzun paragraflara dönüştürme; kart yüksekliği sabittir ve metin kesilir.',
+    'Ham renk veya sabit zemin kullanma; renkler token üzerinden gelir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

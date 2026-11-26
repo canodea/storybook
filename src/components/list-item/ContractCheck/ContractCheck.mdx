@@ -1,0 +1,57 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ContractCheck.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="676-399" />
+
+Başlık, açıklama ve işaretli onay kutusunu tek bir bütün olarak sunar. Onay kutusu tıklanınca durumu değişir; `checked` prop'u başlangıç değerini verir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Sözleşme onayı alınan alanlarda başlık, açıklama ve onay kutusunu birlikte sunar. Onay kutusu tıklanınca durum değişir ve `onChange` ile dışarı bildirilir.
+
+## Varyantlar
+
+### İşaretli
+
+<Canvas of={Stories.Isaretli} />
+
+### İşaretsiz
+
+<Canvas of={Stories.Isaretsiz} />
+
+## Uç durumlar
+
+### Uzun başlık
+
+<Canvas of={Stories.UzunBaslik} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Başlık (disclosureTitle) ve açıklama (consentDescription) birlikte kullanılır.',
+    'Onay kutusu tıklanınca durumu değişir ve `onChange` ile dışarı bildirilir.',
+  ]}
+  donts={[
+    'Kutunun işaretli görünmesi hukuki onay sayılmaz; gerçek seçim uygulamada ayrıca doğrulanır.',
+    'İç Checkbox, bu bileşen dışında tek başına kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

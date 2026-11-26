@@ -1,0 +1,81 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Badge.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="534-8" />
+
+Sayaç rozeti ve yeni içerik işareti. Count okunmamış bildirim ya da bekleyen işlem sayısını gösterir; sayı 99 üzerine çıktığında "99+" olarak kısaltılır. Dot yalnızca yeni içerik işaretidir ve metin taşımaz. Danger dikkat çeker, Neutral bilgi verir; durum etiketi için Badge değil Status Tag kullanılır.
+
+## Playground
+
+Figma'daki özelliklerin aynısı; **Theme** kontrolüyle koyu temada da görüntüleyebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- **Bildirim zili, sekme ya da avatar:** rozeti taşıdığı ikonun sağ üst köşesine bindir; okunmamış sayıyı `type="count"` ve `count` ile ver.
+- Yeni içerik işareti yeterliyse `type="dot"` kullan; nokta metin ve sayı taşımaz.
+- Rengi `color` seçer: dikkat çeken sayaçta `danger`, bilgi veren durumda `neutral`.
+- Durum etiketi ("Beklemede" gibi) için bu bileşen değil Status Tag kullanılır.
+
+## Varyantlar
+
+### Sayaç rozeti · danger
+
+Okunmamış bildirim ya da bekleyen işlem sayısı; dikkat çeken durum.
+
+<Canvas of={Stories.SayacDanger} />
+
+### Sayaç rozeti · neutral
+
+Bilgi veren durum.
+
+<Canvas of={Stories.SayacNeutral} />
+
+### Nokta · danger
+
+Yalnızca yeni içerik işareti; sayı göstermez.
+
+<Canvas of={Stories.Nokta} />
+
+### İkon üzerinde
+
+Zil ikonunun sağ üst köşesine bindirilmiş sayaç rozeti.
+
+<Canvas of={Stories.IkonUzerinde} />
+
+## Uç durumlar
+
+### 99 üzeri
+
+Sayı 99 üzerine çıktığında "99+" gösterilir.
+
+<Canvas of={Stories.YuzUzeri} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Rozeti, taşıdığı ikon ya da avatarın sağ üst köşesine bindirerek kullan; sarıcı eleman position: relative olur.',
+    'Sayı 99 üzerine çıktığında "99+" göster.',
+    'Dikkat çeken durumlar için danger, bilgi veren durumlar için neutral rengi kullan.',
+  ]}
+  donts={[
+    'Durum etiketi (ör. "Beklemede") için Badge kullanma; Status Tag kullan.',
+    'Dot rozete metin ya da sayı koyma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir.
+
+<ArgTypes of={Stories} />

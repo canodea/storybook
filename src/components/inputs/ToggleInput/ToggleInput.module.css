@@ -1,0 +1,63 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 16px 24px;
+  width: 375px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.avatar {
+  display: flex;
+  flex: none;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.label {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.root:has(input:disabled) {
+  cursor: default;
+}

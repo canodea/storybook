@@ -1,0 +1,271 @@
+.root {
+  background: var(--odea-surface-default);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: var(--inset-md) var(--inset-lg) var(--inset-sm);
+  position: relative;
+  width: 375px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  display: flex;
+  gap: var(--gap-md);
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.dateColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.dateCard {
+  background: var(--odea-background-canvas);
+  width: 40px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.dateDay,
+.dateMonth,
+.dateYear {
+  position: absolute;
+  left: 4px;
+  width: 32px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+}
+
+.dateDay {
+  top: 2px;
+  font-family: var(--font-family-display);
+  font-weight: 700;
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+}
+
+.dateMonth {
+  top: 16px;
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: normal;
+}
+
+.dateYear {
+  top: 28px;
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: normal;
+}
+
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 1;
+  min-width: 0;
+  width: 156px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 1;
+  min-width: 0;
+  width: 156px;
+}
+
+.title {
+  font-family: var(--font-family-display);
+  font-weight: 700;
+  line-height: var(--ui-display-base-line-height);
+  color: var(--odea-text-primary);
+  font-size: var(--ui-display-base-font-size);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  max-width: 100%;
+  width: 156px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-style: var(--font-style-regular);
+  line-height: var(--ui-text-sm-line-height);
+  color: var(--odea-text-secondary);
+  font-size: var(--ui-text-sm-font-size);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xs);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-shrink: 0;
+}
+
+.metaIcon {
+  color: var(--odea-yellow-400);
+}
+
+.metaText {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-style: var(--font-style-regular);
+  line-height: var(--ui-text-sm-line-height);
+  color: var(--odea-text-secondary);
+  font-size: var(--ui-text-sm-font-size);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.action {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  min-height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.action:focus-visible,
+.iconButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.actionIcon {
+  color: var(--odea-accent-primary);
+}
+
+.actionLabel {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family-display);
+  font-weight: 700;
+  line-height: var(--ui-display-sm-line-height);
+  color: var(--odea-accent-primary);
+  font-size: var(--ui-display-sm-font-size);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  word-break: break-word;
+  text-transform: uppercase;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.amountBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.amount {
+  font-family: var(--font-family-body);
+  font-weight: 400;
+  font-style: var(--font-style-regular);
+  line-height: var(--ui-text-base-line-height);
+  font-size: var(--ui-text-base-font-size);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  min-width: 107px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  color: var(--odea-text-primary);
+}
+
+/* Gelen para: tutar yeşil. */
+.amountIncoming {
+  color: var(--odea-status-success);
+}
+
+
+.status {
+  line-height: var(--ui-numbers-sm-line-height);
+  color: var(--odea-text-secondary);
+  font-size: var(--ui-numbers-sm-font-size);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  width: 107px;
+  flex-shrink: 0;
+}
+
+.iconActions {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-4);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-accent-primary);
+  cursor: pointer;
+  flex-shrink: 0;
+}

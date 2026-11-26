@@ -1,0 +1,58 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Overview.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="308-6262" />
+
+Piyasa değeri / toplam varlık özeti. `detail`, `percentage`, `view` ve `pendingAmount` eksenlerinin yalnız geçerli kombinasyonlarını gösterir; gizli bakiyede "**,**" ve kapalı göz ikonu çizilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Piyasa değeri ve toplam varlık özetini göstermek için kullanılır. Gizli bakiyede tutar maskelenir; değişim yoksa "0,00 TL" ikincil renkte yazılır.
+
+## Varyantlar
+
+### Fon yatırımları
+
+<Canvas of={Stories.FonYatirimlari} />
+
+### Gizli bakiye
+
+<Canvas of={Stories.GizliBakiye} />
+
+### Sıfır bakiye
+
+<Canvas of={Stories.SifirBakiye} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Detail açıkken bölüm etiketi info tipli Section Divider ile gösterilir.',
+    'Gizli bakiyede tutar "**,**" olur ve kapalı göz ikonu görünür.',
+    'Percentage açıkken değişim satırı success renginde çizilir; değişim yoksa Trend Indicator fixed (0%) ile ikincil renkte çizilir.',
+    'pendingAmount yalnız detail ile birlikte anlamlıdır.',
+  ]}
+  donts={[
+    'Kimlik doğrulamasız alanda müşteri varlığı gösterilmez.',
+    'Değişim yoksa "0,00 TL" ikincil renkte yazılır; success kullanılmaz.',
+    'pendingAmount, detail kapalıyken gösterilmez.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

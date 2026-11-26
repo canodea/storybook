@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './WarningSigns.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-13688" />
+
+Uyarı, başarı, bilgi, bekleme ve hata durumlarını gösteren illüstrasyon. Görsel dekoratiftir; durum her zaman yanındaki metinle de açıklanır.
+
+## Playground
+
+Figma'daki Type özelliği ve Size. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Uyarı, başarı, bilgi, bekleme ve hata durumlarında kullanılır; durum yanındaki başlık ve metinle açıklanır.
+
+## Varyantlar
+
+Tüm varyantlar bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Durumu (uyarı, başarı, bilgi, bekleme, hata) doğru görselle eşleştir.',
+    'Görselin yanına durumu açıklayan başlık ve metin koy.',
+    'Farklı ölçek gerektiğinde Size kullan; en-boy oranı korunur.',
+  ]}
+  donts={[
+    'Görseli tek başına bilgi kaynağı yapma.',
+    'Durum metnini yalnız renge ve görsele bırakma.',
+    'Figma setinde olmayan renk veya varyant uydurma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

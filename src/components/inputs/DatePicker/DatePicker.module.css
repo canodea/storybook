@@ -1,0 +1,227 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: 0 var(--space-16);
+  border-radius: var(--radius-md);
+  width: 375px;
+  max-width: 100%;
+  min-height: 296px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+}
+
+.monthGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.monthLabel {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  color: var(--odea-text-primary);
+}
+
+.monthCaret {
+  color: var(--odea-text-primary);
+}
+
+.navGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: var(--odea-text-primary);
+}
+
+.weekRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekDay {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.dayRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
+
+.rangeCell {
+  background: var(--odea-blue-100);
+}
+
+.rangeStart {
+  background: linear-gradient(to right, transparent 50%, var(--odea-blue-100) 50%);
+}
+
+.rangeEnd {
+  background: linear-gradient(to left, transparent 50%, var(--odea-blue-100) 50%);
+}
+
+/* Months görünümü */
+.rootMonths {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-16) var(--space-24);
+  width: 375px;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.monthsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.monthsCaret {
+  color: var(--odea-text-primary);
+}
+
+.wheel {
+  position: relative;
+  width: 100%;
+  height: 198px;
+}
+
+.wheelLines {
+  position: absolute;
+  top: calc(50% - 23px);
+  left: 0;
+  right: 0;
+  height: 46px;
+  box-sizing: border-box;
+  border-top: 2px solid var(--odea-border-subtle);
+  border-bottom: 2px solid var(--odea-border-subtle);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.wheelColumns {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
+  /* komşu satır dilimini kenarlarda söndür (mask .wheelLines'ı etkilemesin diye sütunlarda) */
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 14px, black calc(100% - 14px), transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, black 14px, black calc(100% - 14px), transparent 100%);
+}
+
+.wheelColumn {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 87px 0;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  text-align: left;
+}
+
+.wheelColumn::-webkit-scrollbar {
+  display: none;
+}
+
+.wheelColumnYears {
+  text-align: right;
+}
+
+.wheelOption {
+  display: block;
+  width: 100%;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: inherit;
+  scroll-snap-align: center;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-md-font-size);
+  line-height: var(--ui-text-md-line-height);
+  letter-spacing: var(--ui-text-md-letter-spacing);
+  color: var(--odea-text-secondary);
+  transition: transform 120ms ease;
+}
+
+.wheelOptionSelected {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--ui-text-lg-font-size);
+  line-height: var(--ui-text-lg-line-height);
+  letter-spacing: var(--ui-text-lg-letter-spacing);
+  color: var(--odea-text-primary);
+}
+
+.wheelOptionAbove {
+  transform: translateY(-11px);
+}
+
+.wheelOptionBelow {
+  transform: translateY(11px);
+}
+
+/* Koyu tema: açık mavi aralık şeridindeki günler beyaz kalınca okunmuyor; şerit sabit açık renk olduğu için yazı sabit koyu. */
+:global([data-theme='dark']) .rangeCell > button {
+  color: var(--odea-neutral-oxford-black);
+}

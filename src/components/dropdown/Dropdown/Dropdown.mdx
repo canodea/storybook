@@ -1,0 +1,97 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Dropdown.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="308-7197" />
+
+Seçim listesi. `style` önizleme amaçlıdır; gerçek kullanımda alan tıklanınca açılır ve seçenek seçilince kapanır. `fullWidth` yalnız web içindir.
+
+## Playground
+
+Figma'daki tüm Style seçenekleri, arama, onay kutusu ve tarih seçici özellikleriyle. **Value** dolu/açık görünümlerde seçili değeri gösterir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Form alanlarında seçenek listesi açmak için kullanılır; mobilde inset (Full Width=False), web'de tam genişlik tercih edilir. Açık liste Escape ile ve dışarı tıklanınca kapanır.
+
+## Varyantlar
+
+### Varsayılan
+
+<Canvas of={Stories.Varsayilan} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+### Odaklı
+
+<Canvas of={Stories.Odakli} />
+
+### Hata
+
+<Canvas of={Stories.Hata} />
+
+### Dolu
+
+<Canvas of={Stories.Dolu} />
+
+### Açık
+
+<Canvas of={Stories.Acik} />
+
+### Açık · arama
+
+<Canvas of={Stories.AcikArama} />
+
+### Radyo butonlu açık
+
+<Canvas of={Stories.RadyoButonlu} />
+
+### Onay kutulu açık
+
+<Canvas of={Stories.OnayKutulu} />
+
+### Tarih seçici
+
+<Canvas of={Stories.TarihSecici} />
+
+### Tarih aralığı
+
+<Canvas of={Stories.TarihAraligi} />
+
+## Uç durumlar
+
+### Uzun seçenek
+
+<Canvas of={Stories.UzunSecenek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Full Width yalnız web için kullanılır; mobilde inset (Full Width=False) kullanılır.',
+    'Açıkken Escape ile ve dışarı tıklanınca kapanır.',
+    'Liste listbox/option rollerini taşır; alan aria-haspopup="listbox" taşır.',
+    'Hata durumunda yardımcı metin kırmızı (status/danger) gösterilir.',
+  ]}
+  donts={[
+    'Checkbox/Radio iç kontrolleri Dropdown dışında kullanılmaz.',
+    'Mobilde Full Width=True kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

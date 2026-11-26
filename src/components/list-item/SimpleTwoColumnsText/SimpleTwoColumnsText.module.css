@@ -1,0 +1,133 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  width: 327px;
+  padding: var(--space-16);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.owner {
+  padding: var(--space-16) var(--space-24);
+}
+
+.fullWidth {
+  width: 375px;
+  padding: var(--space-16) 0;
+}
+
+.column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnRight {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.tickerRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.changeRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.displayBase {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textSm {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  white-space: nowrap;
+}
+
+.changePositive {
+  color: var(--odea-status-success);
+}
+
+.changeNegative {
+  color: var(--odea-status-danger);
+}
+
+.changeNeutral {
+  color: var(--odea-text-secondary);
+}
+
+.textSmSecondary {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textBasePrimary {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textBaseSecondary {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.numbersBasePrimary {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-base-font-size);
+  line-height: var(--ui-numbers-base-line-height);
+  letter-spacing: var(--ui-numbers-base-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+}
+
+.numbersSmSecondary {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+}

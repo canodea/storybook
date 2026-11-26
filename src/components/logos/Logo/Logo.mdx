@@ -1,0 +1,64 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Logo.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="479-17421" />
+
+Odea ve Odeabank marka logoları tek bileşende toplanır. `brand` prop'u logo dosyasını, `height` ise yüksekliği seçer; genişlik oranla hesaplanır ve renk değiştirilmez.
+
+## Playground
+
+Figma'daki Brand ve Height özellikleri.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Marka logosu başlık, giriş ve kurumsal alanlarda tek başına kullanılır. Varsayılan yükseklik Figma değeridir: Odea 24 px, Odeabank 22 px. Açık zeminde kullanılır.
+
+> Koyu zeminde kullanım için marka onaylı **açık renk** sürüm gerekir (Figma'da yok). Bileşen rengi değiştirmez; koyu temada da aynı koyu gri logoyu gösterir.
+
+## Varyantlar
+
+### Odea ve Odeabank
+
+İki marka logosu, varsayılan Figma yükseklikleriyle yan yana.
+
+<Canvas of={Stories.IkiLogo} />
+
+## Uç durumlar
+
+### Büyük boyut
+
+Büyütme oranı korur; renk aynı kalır.
+
+<Canvas of={Stories.BuyukBoyut} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Varsayılan yükseklik Figma değeridir: Odea 24 px, Odeabank 22 px.',
+    'Farklı boyut gerekiyorsa yalnızca `height` verilir; genişlik oranla hesaplanır.',
+    'Logo tek başınayken marka adı erişilebilir ad olarak kalır.',
+    'Açık zeminde kullanılır.',
+  ]}
+  donts={[
+    'Oranı bozmak için genişlik ve yüksekliği birlikte zorlamak.',
+    'Logonun rengini veya zeminini değiştirmek.',
+    'Koyu zeminde mevcut koyu gri logoyu kullanmak.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,461 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="44" viewBox="40 40 375 44" fill="none"><g id="Variant=Default">
+<g id="Notch">
+<path id="Subtract" d="M143.061 70H161V40H121C123.812 40 126.091 42.5072 126.091 45.6V51.3333C126.091 61.6426 133.689 70 143.061 70Z" fill="black" />
+<rect id="Shape" x="161" y="40" width="133" height="30" fill="black" />
+<path id="Subtract_2" d="M311.939 70H294V40H334C331.188 40 328.909 42.5072 328.909 45.6V51.3333C328.909 61.6426 321.311 70 311.939 70Z" fill="black" />
+<g id="notch-hardware">
+<rect id="spacer" x="183" y="49" width="13" height="13" fill="black" fill-opacity="0.01" />
+<g id="speaker">
+<g id="Mask Group">
+<mask id="mask0_475_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="204" y="52" width="48" height="7">
+<path id="Background" d="M204 55.5C204 53.567 205.567 52 207.5 52H248.5C250.433 52 252 53.567 252 55.5C252 57.433 250.433 59 248.5 59H207.5C205.567 59 204 57.433 204 55.5Z" fill="#C4C4C4" />
+</mask>
+<g mask="url(#mask0_475_2)">
+<g id="Divider Group Group">
+<g id="Divider Group">
+<rect id="Divider" x="204" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_2" x="205" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_3" x="206" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_4" x="204" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_5" x="205" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_6" x="206" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_7" x="204" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_8" x="205" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_9" x="206" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_10" x="204" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_11" x="205" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_12" x="206" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_13" x="204" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_14" x="205" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_15" x="206" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_16" x="204" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_17" x="205" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_18" x="206" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_19" x="204" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_20" x="205" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_21" x="206" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_2">
+<rect id="Divider_22" x="207" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_23" x="208" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_24" x="209" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_25" x="207" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_26" x="208" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_27" x="209" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_28" x="207" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_29" x="208" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_30" x="209" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_31" x="207" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_32" x="208" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_33" x="209" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_34" x="207" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_35" x="208" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_36" x="209" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_37" x="207" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_38" x="208" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_39" x="209" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_40" x="207" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_41" x="208" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_42" x="209" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_3">
+<rect id="Divider_43" x="210" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_44" x="211" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_45" x="212" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_46" x="210" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_47" x="211" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_48" x="212" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_49" x="210" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_50" x="211" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_51" x="212" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_52" x="210" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_53" x="211" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_54" x="212" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_55" x="210" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_56" x="211" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_57" x="212" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_58" x="210" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_59" x="211" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_60" x="212" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_61" x="210" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_62" x="211" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_63" x="212" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_4">
+<rect id="Divider_64" x="213" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_65" x="214" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_66" x="215" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_67" x="213" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_68" x="214" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_69" x="215" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_70" x="213" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_71" x="214" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_72" x="215" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_73" x="213" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_74" x="214" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_75" x="215" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_76" x="213" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_77" x="214" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_78" x="215" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_79" x="213" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_80" x="214" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_81" x="215" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_82" x="213" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_83" x="214" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_84" x="215" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_5">
+<rect id="Divider_85" x="216" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_86" x="217" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_87" x="218" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_88" x="216" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_89" x="217" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_90" x="218" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_91" x="216" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_92" x="217" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_93" x="218" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_94" x="216" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_95" x="217" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_96" x="218" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_97" x="216" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_98" x="217" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_99" x="218" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_100" x="216" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_101" x="217" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_102" x="218" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_103" x="216" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_104" x="217" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_105" x="218" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_6">
+<rect id="Divider_106" x="219" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_107" x="220" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_108" x="221" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_109" x="219" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_110" x="220" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_111" x="221" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_112" x="219" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_113" x="220" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_114" x="221" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_115" x="219" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_116" x="220" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_117" x="221" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_118" x="219" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_119" x="220" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_120" x="221" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_121" x="219" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_122" x="220" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_123" x="221" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_124" x="219" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_125" x="220" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_126" x="221" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_7">
+<rect id="Divider_127" x="222" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_128" x="223" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_129" x="224" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_130" x="222" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_131" x="223" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_132" x="224" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_133" x="222" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_134" x="223" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_135" x="224" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_136" x="222" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_137" x="223" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_138" x="224" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_139" x="222" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_140" x="223" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_141" x="224" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_142" x="222" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_143" x="223" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_144" x="224" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_145" x="222" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_146" x="223" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_147" x="224" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_8">
+<rect id="Divider_148" x="225" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_149" x="226" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_150" x="227" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_151" x="225" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_152" x="226" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_153" x="227" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_154" x="225" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_155" x="226" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_156" x="227" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_157" x="225" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_158" x="226" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_159" x="227" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_160" x="225" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_161" x="226" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_162" x="227" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_163" x="225" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_164" x="226" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_165" x="227" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_166" x="225" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_167" x="226" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_168" x="227" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_9">
+<rect id="Divider_169" x="228" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_170" x="229" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_171" x="230" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_172" x="228" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_173" x="229" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_174" x="230" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_175" x="228" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_176" x="229" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_177" x="230" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_178" x="228" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_179" x="229" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_180" x="230" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_181" x="228" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_182" x="229" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_183" x="230" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_184" x="228" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_185" x="229" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_186" x="230" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_187" x="228" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_188" x="229" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_189" x="230" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_10">
+<rect id="Divider_190" x="231" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_191" x="232" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_192" x="233" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_193" x="231" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_194" x="232" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_195" x="233" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_196" x="231" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_197" x="232" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_198" x="233" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_199" x="231" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_200" x="232" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_201" x="233" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_202" x="231" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_203" x="232" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_204" x="233" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_205" x="231" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_206" x="232" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_207" x="233" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_208" x="231" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_209" x="232" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_210" x="233" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_11">
+<rect id="Divider_211" x="234" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_212" x="235" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_213" x="236" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_214" x="234" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_215" x="235" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_216" x="236" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_217" x="234" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_218" x="235" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_219" x="236" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_220" x="234" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_221" x="235" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_222" x="236" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_223" x="234" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_224" x="235" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_225" x="236" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_226" x="234" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_227" x="235" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_228" x="236" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_229" x="234" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_230" x="235" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_231" x="236" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_12">
+<rect id="Divider_232" x="237" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_233" x="238" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_234" x="239" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_235" x="237" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_236" x="238" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_237" x="239" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_238" x="237" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_239" x="238" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_240" x="239" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_241" x="237" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_242" x="238" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_243" x="239" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_244" x="237" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_245" x="238" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_246" x="239" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_247" x="237" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_248" x="238" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_249" x="239" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_250" x="237" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_251" x="238" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_252" x="239" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_13">
+<rect id="Divider_253" x="240" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_254" x="241" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_255" x="242" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_256" x="240" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_257" x="241" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_258" x="242" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_259" x="240" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_260" x="241" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_261" x="242" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_262" x="240" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_263" x="241" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_264" x="242" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_265" x="240" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_266" x="241" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_267" x="242" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_268" x="240" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_269" x="241" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_270" x="242" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_271" x="240" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_272" x="241" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_273" x="242" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_14">
+<rect id="Divider_274" x="243" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_275" x="244" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_276" x="245" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_277" x="243" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_278" x="244" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_279" x="245" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_280" x="243" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_281" x="244" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_282" x="245" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_283" x="243" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_284" x="244" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_285" x="245" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_286" x="243" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_287" x="244" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_288" x="245" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_289" x="243" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_290" x="244" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_291" x="245" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_292" x="243" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_293" x="244" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_294" x="245" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_15">
+<rect id="Divider_295" x="246" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_296" x="247" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_297" x="248" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_298" x="246" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_299" x="247" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_300" x="248" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_301" x="246" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_302" x="247" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_303" x="248" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_304" x="246" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_305" x="247" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_306" x="248" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_307" x="246" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_308" x="247" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_309" x="248" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_310" x="246" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_311" x="247" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_312" x="248" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_313" x="246" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_314" x="247" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_315" x="248" y="58" width="1" height="1" fill="#151515" />
+</g>
+<g id="Divider Group_16">
+<rect id="Divider_316" x="249" y="52" width="1" height="1" fill="#2A2A2A" />
+<rect id="Divider_317" x="250" y="52" width="1" height="1" fill="#0C0C0C" />
+<rect id="Divider_318" x="251" y="52" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_319" x="249" y="53" width="1" height="1" fill="#050505" />
+<rect id="Divider_320" x="250" y="53" width="1" height="1" fill="#232323" />
+<rect id="Divider_321" x="251" y="53" width="1" height="1" fill="#151515" />
+<rect id="Divider_322" x="249" y="54" width="1" height="1" fill="#0F0F0F" />
+<rect id="Divider_323" x="250" y="54" width="1" height="1" fill="#1C1C1C" />
+<rect id="Divider_324" x="251" y="54" width="1" height="1" fill="#141414" />
+<rect id="Divider_325" x="249" y="55" width="1" height="1" fill="#2B2B2B" />
+<rect id="Divider_326" x="250" y="55" width="1" height="1" fill="#080808" />
+<rect id="Divider_327" x="251" y="55" width="1" height="1" fill="#131313" />
+<rect id="Divider_328" x="249" y="56" width="1" height="1" fill="#0B0B0B" />
+<rect id="Divider_329" x="250" y="56" width="1" height="1" fill="#1F1F1F" />
+<rect id="Divider_330" x="251" y="56" width="1" height="1" fill="#1A1A1A" />
+<rect id="Divider_331" x="249" y="57" width="1" height="1" fill="#0A0A0A" />
+<rect id="Divider_332" x="250" y="57" width="1" height="1" fill="#202020" />
+<rect id="Divider_333" x="251" y="57" width="1" height="1" fill="#1D1D1D" />
+<rect id="Divider_334" x="249" y="58" width="1" height="1" fill="#2C2C2C" />
+<rect id="Divider_335" x="250" y="58" width="1" height="1" fill="#070707" />
+<rect id="Divider_336" x="251" y="58" width="1" height="1" fill="#151515" />
+</g>
+</g>
+</g>
+</g>
+<g id="Background_2">
+<mask id="path-345-inside-1_475_2" fill="white">
+<path d="M204 55.5C204 53.567 205.567 52 207.5 52H248.5C250.433 52 252 53.567 252 55.5C252 57.433 250.433 59 248.5 59H207.5C205.567 59 204 57.433 204 55.5Z" />
+</mask>
+<path d="M204 55.5M252 55.5M252 55.5M204 55.5M207.5 52V52.5H248.5V52V51.5H207.5V52ZM252 55.5M248.5 59V58.5H207.5V59V59.5H248.5V59ZM204 55.5M207.5 59V58.5C205.843 58.5 204.5 57.1569 204.5 55.5H204H203.5C203.5 57.7091 205.291 59.5 207.5 59.5V59ZM252 55.5H251.5C251.5 57.1569 250.157 58.5 248.5 58.5V59V59.5C250.709 59.5 252.5 57.7091 252.5 55.5H252ZM248.5 52V52.5C250.157 52.5 251.5 53.8431 251.5 55.5H252H252.5C252.5 53.2909 250.709 51.5 248.5 51.5V52ZM207.5 52V51.5C205.291 51.5 203.5 53.2909 203.5 55.5H204H204.5C204.5 53.8431 205.843 52.5 207.5 52.5V52Z" fill="black" mask="url(#path-345-inside-1_475_2)" />
+</g>
+</g>
+<g id="lens">
+<circle id="Background_3" cx="266.5" cy="55.5" r="6.5" fill="url(#paint0_radial_475_2)" />
+<circle id="Dot" cx="266.5" cy="55.5" r="4" fill="black" />
+<g id="Vector 1" filter="url(#filter0_f_475_2)">
+<path d="M268.02 55.8634C267.5 55.5 267.25 54.5 267.25 52.5C267.5 51.5 269.75 53 270 55C270.158 56.2649 269.066 56.5932 268.02 55.8634Z" fill="#3E89CC" />
+</g>
+<g id="Vector 2" filter="url(#filter1_f_475_2)">
+<path d="M264.5 53.75C264.286 54.1902 264.142 56.5 263.25 56.5C262.392 56.5 262.634 54.6123 263.724 53.2666C265.262 51.3676 264.988 52.7468 264.5 53.75Z" fill="#3E89CC" fill-opacity="0.79" />
+</g>
+<g id="Vector 3" filter="url(#filter2_f_475_2)">
+<path d="M265.715 56.7901C266.302 56.9037 270.019 55.7679 269.439 57.3452C268.88 58.8625 265.923 59.5708 264.412 58.4534C262.28 56.8766 264.377 56.5312 265.715 56.7901Z" fill="#003C72" fill-opacity="0.79" />
+</g>
+</g>
+</g>
+</g>
+<g id="Status Icons">
+<g id="Network Signal / Light">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M344 60H345C345.552 60 346 60.4477 346 61V67C346 67.5523 345.552 68 345 68H344C343.448 68 343 67.5523 343 67V61C343 60.4477 343.448 60 344 60Z" fill="#D1D1D6" />
+<path id="Path_2" fill-rule="evenodd" clip-rule="evenodd" d="M339.5 62H340.5C341.052 62 341.5 62.4477 341.5 63V67C341.5 67.5523 341.052 68 340.5 68H339.5C338.948 68 338.5 67.5523 338.5 67V63C338.5 62.4477 338.948 62 339.5 62Z" fill="#D1D1D6" />
+<path id="Path_3" fill-rule="evenodd" clip-rule="evenodd" d="M335 63.5H336C336.552 63.5 337 63.9477 337 64.5V67C337 67.5523 336.552 68 336 68H335C334.448 68 334 67.5523 334 67V64.5C334 63.9477 334.448 63.5 335 63.5Z" fill="#D1D1D6" />
+<path id="Empty Bar" fill-rule="evenodd" clip-rule="evenodd" d="M348.5 58H349.5C350.052 58 350.5 58.4477 350.5 59V67C350.5 67.5523 350.052 68 349.5 68H348.5C347.948 68 347.5 67.5523 347.5 67V59C347.5 58.4477 347.948 58 348.5 58Z" fill="#3C3C43" fill-opacity="0.18" />
+<path id="Path_4" fill-rule="evenodd" clip-rule="evenodd" d="M344 60H345C345.552 60 346 60.4477 346 61V67C346 67.5523 345.552 68 345 68H344C343.448 68 343 67.5523 343 67V61C343 60.4477 343.448 60 344 60Z" fill="black" />
+<path id="Path_5" fill-rule="evenodd" clip-rule="evenodd" d="M339.5 62H340.5C341.052 62 341.5 62.4477 341.5 63V67C341.5 67.5523 341.052 68 340.5 68H339.5C338.948 68 338.5 67.5523 338.5 67V63C338.5 62.4477 338.948 62 339.5 62Z" fill="black" />
+<path id="Path_6" fill-rule="evenodd" clip-rule="evenodd" d="M335 63.5H336C336.552 63.5 337 63.9477 337 64.5V67C337 67.5523 336.552 68 336 68H335C334.448 68 334 67.5523 334 67V64.5C334 63.9477 334.448 63.5 335 63.5Z" fill="black" />
+</g>
+<g id="WiFi Signal / Light">
+<path id="Path_7" d="M364.133 64.9396C364.772 64.9396 365.394 65.1076 365.941 65.428L366.163 65.5579C366.331 65.6563 366.361 65.8866 366.223 66.0242L364.329 67.913C364.212 68.029 364.024 68.029 363.907 67.913L362.026 66.0363C361.888 65.8994 361.917 65.6702 362.084 65.5711L362.303 65.4406C362.855 65.1121 363.485 64.9396 364.133 64.9396Z" fill="black" />
+<path id="Path_8" d="M364.133 61.4698C365.724 61.4698 367.251 61.9976 368.495 62.9749L368.671 63.113C368.811 63.2232 368.824 63.4306 368.697 63.5565L367.567 64.6841C367.462 64.7884 367.297 64.8004 367.178 64.7123L367.04 64.6098C366.2 63.9852 365.186 63.6502 364.133 63.6502C363.073 63.6502 362.053 63.9894 361.21 64.6211L361.072 64.7245C360.953 64.8134 360.787 64.8017 360.682 64.6971L359.552 63.5699C359.426 63.4443 359.438 63.2373 359.578 63.127L359.753 62.9888C361 62.0027 362.534 61.4698 364.133 61.4698Z" fill="black" />
+<path id="Path_9" d="M364.133 58C366.657 58 369.072 58.8906 370.983 60.5229L371.146 60.6623C371.278 60.7749 371.285 60.9756 371.163 61.098L370.036 62.2219C369.926 62.3308 369.752 62.3385 369.634 62.2395L369.494 62.1228C367.989 60.8647 366.104 60.1804 364.133 60.1804C362.155 60.1804 360.263 60.8694 358.756 62.1354L358.617 62.2527C358.498 62.3521 358.324 62.3447 358.214 62.2356L357.087 61.1118C356.965 60.9895 356.972 60.7892 357.104 60.6765L357.266 60.5371C359.18 58.8959 361.601 58 364.133 58Z" fill="black" />
+</g>
+<g id="Battery / Light">
+<path id="Rectangle 23" d="M400 61C400.552 61 401 61.4477 401 62V64C401 64.5523 400.552 65 400 65V61Z" fill="#3C3C43" fill-opacity="0.6" />
+<path id="Rectangle 21 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M379 57H396C397.657 57 399 58.3431 399 60V66C399 67.6569 397.657 69 396 69H379C377.343 69 376 67.6569 376 66V60C376 58.3431 377.343 57 379 57ZM379 58C377.895 58 377 58.8954 377 60V66C377 67.1046 377.895 68 379 68H396C397.105 68 398 67.1046 398 66V60C398 58.8954 397.105 58 396 58H379Z" fill="#3C3C43" fill-opacity="0.6" />
+<path id="Shape_2" d="M378 61C378 59.8954 378.895 59 380 59H395C396.105 59 397 59.8954 397 61V65C397 66.1046 396.105 67 395 67H380C378.895 67 378 66.1046 378 65V61Z" fill="black" />
+</g>
+</g>
+<g id="Time / Light">
+<g id="9:41">
+<g id="9:41_2">
+<path d="M77.8672 68.0889C80.5552 68.0889 82.1519 65.9868 82.1519 62.4272C82.1519 61.0869 81.8955 59.959 81.4048 59.0874C80.6943 57.7324 79.4712 57 77.9258 57C75.626 57 74 58.5454 74 60.7134C74 62.7495 75.4648 64.229 77.479 64.229C78.7168 64.229 79.7202 63.6504 80.2183 62.647H80.2402C80.2402 62.647 80.2695 62.647 80.2769 62.647C80.2915 62.647 80.3428 62.647 80.3428 62.647C80.3428 65.064 79.4272 66.5068 77.8818 66.5068C76.9736 66.5068 76.2705 66.0088 76.0288 65.2104H74.1465C74.4614 66.9463 75.9336 68.0889 77.8672 68.0889ZM77.9331 62.7275C76.7173 62.7275 75.853 61.8633 75.853 60.6548C75.853 59.4756 76.7612 58.5747 77.9404 58.5747C79.1196 58.5747 80.0278 59.4902 80.0278 60.6841C80.0278 61.8633 79.1416 62.7275 77.9331 62.7275Z" fill="black" />
+<path d="M85.243 67.9863C85.9388 67.9863 86.4148 67.4883 86.4148 66.8291C86.4148 66.1626 85.9388 65.6719 85.243 65.6719C84.5545 65.6719 84.0711 66.1626 84.0711 66.8291C84.0711 67.4883 84.5545 67.9863 85.243 67.9863ZM85.243 62.4932C85.9388 62.4932 86.4148 62.0024 86.4148 61.3433C86.4148 60.6768 85.9388 60.186 85.243 60.186C84.5545 60.186 84.0711 60.6768 84.0711 61.3433C84.0711 62.0024 84.5545 62.4932 85.243 62.4932Z" fill="black" />
+<path d="M93.2706 67.8325H95.0797V65.8623H96.5079V64.2656H95.0797V57.2637H92.4137C90.546 60.0762 89.0592 62.4272 88.107 64.1777V65.8623H93.2706V67.8325ZM89.8575 64.1997C91.088 62.0317 92.1866 60.2959 93.1974 58.8018H93.2999V64.3096H89.8575V64.1997Z" fill="black" />
+<path d="M100.537 67.8325H102.426V57.2637H100.544L97.7826 59.1973V61.0137L100.412 59.168H100.537V67.8325Z" fill="black" />
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_475_2" x="265.25" y="50.1817" width="6.76535" height="8.06436" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur_475_2" />
+</filter>
+<filter id="filter1_f_475_2" x="261.732" y="51.3197" width="4.15182" height="6.18028" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feGaussianBlur stdDeviation="0.5" result="effect1_foregroundBlur_475_2" />
+</filter>
+<filter id="filter2_f_475_2" x="262" y="55" width="9" height="5.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feGaussianBlur stdDeviation="0.75" result="effect1_foregroundBlur_475_2" />
+</filter>
+<radialGradient id="paint0_radial_475_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(266.5 55.5) rotate(90) scale(6.5)">
+<stop offset="0.684883" stop-color="#0D0E10" />
+<stop offset="1" stop-color="#1A1B1D" />
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,71 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './PaymentMethod.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-2028" />
+
+Ödeme yöntemi logoları. Tek bileşen, 39 marka için `method` prop'uyla kullanılır; her logo 35:24 oranındadır ve oran hiçbir boyutta bozulmaz.
+
+> **Önemli:** Bu 39 logo, ilgili ödeme yönteminin Odea tarafından desteklendiği, sunulduğu veya etkin olduğu anlamına **gelmez**. Yalnızca ürün ve hukuk/marka onayı verilmiş kanallarda, marka kullanım koşulları doğrulanarak kullanılır.
+
+## Playground
+
+Figma'daki Method özelliği ile boyut ve erişilebilir ad kontrol edilir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Ödeme adımlarında, kart ve banka listelerinde, ödeme yöntemi seçiminde kullanılır. Liste veya grid içinde görünen ad ayrıca yazılıyorsa logoya `alt=""` verilir.
+
+## Varyantlar
+
+### Tüm logolar
+
+Desteklenen ödeme yöntemlerinin değil, kütüphanedeki 39 ödeme yöntemi logosunun tamamı, adlarıyla birlikte.
+
+<Canvas of={Stories.TumLogolar} />
+
+### Ödeme yöntemi satırı
+
+Ödeme adımlarında kullanılan yatay logo dizilimi.
+
+<Canvas of={Stories.OdemeYontemiSatiri} />
+
+## Uç durumlar
+
+### Büyük boyut
+
+Logo büyütüldüğünde de 35:24 oranı korunur; pikselleşme olmaz (SVG).
+
+<Canvas of={Stories.BuyukBoyut} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Logo yalnızca marka kullanım koşulları ve hukuk onayı alınmış ödeme yöntemleri için gösterilir.',
+    'Yüksekliği Size ile ayarla; genişlik 35:24 oranından otomatik hesaplanır.',
+    'Anlam taşıyan logolarda `alt` verilmezse Figma adı erişilebilir ad olarak kullanılır.',
+    'Liste/grid içinde görünen ad ayrıca yazılıyorsa logoya `alt=""` verilir.',
+  ]}
+  donts={[
+    'Logoyu genişlik ve yüksekliği bağımsız ayarlayarak esnetme; oran bozulmaz.',
+    'Logonun rengini, dolgusunu veya zeminini değiştirme.',
+    'Logoyu desteklenen/sunulan ödeme yöntemi kanıtı olarak kullanma.',
+    'Marka onayı olmayan ödeme yöntemi logosunu yerleştirme.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

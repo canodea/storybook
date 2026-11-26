@@ -1,0 +1,17 @@
+.root {
+  width: 375px;
+  height: 34px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.bar {
+  position: absolute;
+  left: 120px;
+  top: 21px;
+  width: 134px;
+  height: 5px;
+  border-radius: var(--radius-full);
+  background: var(--odea-system-label-primary);
+}

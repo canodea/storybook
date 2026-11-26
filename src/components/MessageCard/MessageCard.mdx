@@ -1,0 +1,61 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './MessageCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="442-17641" />
+
+Mesaj kartı: illüstrasyon, başlık, açıklama ve metin butonu. Figma'da tek varyantı vardır (Type=Promo + Description); illüstrasyon ve kapatma ikonu aç/kapa özellikleridir.
+
+## Playground
+
+Figma'daki Show Media, Show Close ve Close Icon özellikleri; Show Close ile Close Icon tek seçimde birleşir (**Yok** = kapatma yok).
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Kampanya ve bilgilendirme mesajlarını illüstrasyonlu kart biçiminde göstermek için kullanılır.
+
+## Varyantlar
+
+### Kampanya mesajı
+
+İllüstrasyon, başlık, açıklama, metin butonu ve kapatma ile Promo + Description kartı.
+
+<Canvas of={Stories.KampanyaMesaji} />
+
+## Uç durumlar
+
+### Uzun başlık
+
+Uzun başlık tek satırda "…" ile kesilir, açıklama ve buton yerinde kalır.
+
+<Canvas of={Stories.UzunBaslik} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kart illüstrasyonla kullanılır; illüstrasyon Show Media ile gizlenebilir.',
+    'Buton metni FULL CAPS yazılır ve tek bir eylem anlatır (ör. HEMEN BAŞVUR).',
+    'Açıklama kısa tutulur (tercihen iki satır); kart metne göre uzar. Başlık tek satırda "…" ile kesilir.',
+    'Kapatma butonu yalnızca kapatılabilir kartlarda gösterilir ve aria-label taşır.',
+  ]}
+  donts={[
+    'Kartta metin butonu yerine başka bir eylem öğesi kullanılmaz.',
+    'Kapatma butonu olmayan kartta boş ikon alanı bırakılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

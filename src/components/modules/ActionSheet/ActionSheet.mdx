@@ -1,0 +1,66 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ActionSheet.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-5415" />
+
+Alttan açılan eylem levhası (bottom sheet). Üstte tutamaç, ardından başlık (SectionDivider), içerik ve en altta HomeIndicator bulunur. Başlık metin linkine, tek ikona ya da düz başlığa dönüşebilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Bir ekranın altından işlem listesi açmak gerektiğinde (paylaş, düzenle, sil gibi seçenekler) kullanılır.
+- Başlık `label` ile verilir; sağda metin linki için `textLink`, tek ikon için `icon` açılır.
+- İşlem satırları `children` ile başlık ve Home Indicator arasına konur; satırlar arasında Divider kullanılır.
+- İçerik yoksa yalnız başlıklı sheet gösterilir; tutamaç ve Home Indicator korunur.
+
+## Varyantlar
+
+### İşlemler
+
+"Label" başlıklı sheet ve içinde üç List Item satırı.
+
+<Canvas of={Stories.Islemler} />
+
+### İkonlu başlık
+
+<Canvas of={Stories.IconBaslik} />
+
+### Metin linkli başlık
+
+<Canvas of={Stories.LinkBaslik} />
+
+## Uç durumlar
+
+### İçeriksiz
+
+<Canvas of={Stories.Bos} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Üstte ortalanmış 60x4 tutamaç ve en altta HomeIndicator her zaman bulunur.',
+    'textLink true ise başlık cta, icon true ise tek ikon; ikisi de false ise base başlık kullanılır.',
+    'İçerik (ör. List Item satırları) children ile başlık ile HomeIndicator arasına konur.',
+    'Action Sheet içindeki işlem listesinde satırlar arasında Divider kullanılır.',
+  ]}
+  donts={[
+    'Sheet başlıksız (label boş) bırakılmaz.',
+    'Tutamaç ve HomeIndicator kaldırılmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

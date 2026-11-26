@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import IconGallery, { IconsUsage } from './IconGallery';
+
+<Meta title="Foundations/Icons" />
+
+<div className={page.page}>
+  <DocHero
+    eyebrow="Foundations"
+    title="İkonlar"
+    lead="989 ikon, 34 set. Bankacılıktan marka ikonlarına, ürün arayüzlerinde tutarlı kullanım için tek referans."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        İkonlar <code>currentColor</code> kullanır; rengi CSS <code>color</code> ile verin. Dekoratif ikonlarda{' '}
+        <code>aria-hidden</code>, tek başına anlam taşıyanlarda <code>aria-label</code> kullanın.
+      </p>
+    </DocTip>
+
+    <IconGallery />
+
+    <IconsUsage
+      dos={[
+        'Rengi CSS color özelliğiyle verin; ikon currentColor ile uyum sağlar.',
+        'Boyut için 16, 24, 32 veya 48 px değerlerini kullanın.',
+        'Tek başına anlam taşıyan ikonlara title veya aria-label verin.',
+        'Kod parçacığını almak için galerideki ikona tıklayın.',
+      ]}
+      donts={[
+        'SVG içindeki fill ve stroke değerlerini elle değiştirmeyin.',
+        "İkonu 24×24 grid'in dışına taşıran ara boyutlar kullanmayın.",
+        'Dekoratif ikonlara title vermeyin; ekran okuyucular gereksiz okur.',
+        'İkonu tek başına eylem öğesi yapmayın; her zaman görünür bir etiketle kullanın.',
+      ]}
+    />
+  </div>
+</div>

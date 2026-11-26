@@ -1,0 +1,48 @@
+.toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 44px;
+  height: 20px;
+  margin: 0;
+  flex: none;
+  border-radius: var(--radius-full);
+  background: var(--odea-neutral-athens-grey);
+  position: relative;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.toggle::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-full);
+  background: var(--odea-text-inverse);
+  box-shadow: var(--shadow-default), 0 0 0 2px var(--odea-border-control-light-only);
+  transition: left 150ms ease, box-shadow 150ms ease;
+}
+
+.toggle:checked {
+  background: var(--odea-status-success);
+}
+
+.toggle:checked::after {
+  left: 26px;
+  box-shadow: var(--shadow-default);
+}
+
+.toggle:disabled {
+  cursor: not-allowed;
+}
+
+.toggle:disabled::after {
+  background: var(--odea-neutral-blue-oxford);
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+}

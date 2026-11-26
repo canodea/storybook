@@ -1,0 +1,100 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './ActivityItem.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="442-19786" />
+
+Hesap, kart ve kredi hareketlerini listeleyen satır. Tek görünümü vardır. Tarih, başlık, açıklama, meta bilgileri, tutar, durum ve aksiyonlar içerikten gelir; boş bırakılan bölüm hiç çizilmez.
+
+## Playground
+
+Figma'daki özelliklerin aynısı, ilgili kontroller gruplar hâlinde. İkon seçimlerinde **Yok**, Figma'daki Show … Icon anahtarını kapatmakla aynıdır; **Theme** kontrolüyle bileşeni koyu temada da görebilirsiniz.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Hesap, kart ve kredi hareketlerini listelerken kullanılır; her hareket tek satırda gösterilir.
+
+## Varyantlar
+
+### Kart harcaması
+
+Bekleyen kart harcaması: Chip-Para ve ödül bilgisi, taksitlendirme linki ve iki ikon aksiyonu.
+
+<Canvas of={Stories.KartHarcamasi} />
+
+### Hesaptan para çekme
+
+Hesaptan çıkan para; tutar - işaretli ve birincil metin renginde. Para çekme ödül kazandırmaz; durum ve aksiyon da yok.
+
+<Canvas of={Stories.HesaptanParaCekme} />
+
+### Hesaba gelen para
+
+Gelen transfer; tutar + işaretli ve yeşil.
+
+<Canvas of={Stories.GelenTransfer} />
+
+### Para transferi
+
+Giden transfer; ödül yoktur. Tekrarlama linki ve dekont ikonu.
+
+<Canvas of={Stories.ParaTransferi} />
+
+### Sade satır
+
+Sadece başlık, açıklama ve tutar.
+
+<Canvas of={Stories.SadeSatir} />
+
+## Uç durumlar
+
+### Uzun metin
+
+Başlık ve açıklama tek satırda "…" ile kesilir, satır yüksekliği değişmez.
+
+<Canvas of={Stories.UzunMetin} />
+
+### Eksik veri
+
+Açıklama, meta, durum ve aksiyonlar verilmezse ilgili bölümler çizilmez.
+
+<Canvas of={Stories.EksikVeri} />
+
+### Büyük tutar
+
+Uzun tutar sağ sütunda tek satırda kalır.
+
+<Canvas of={Stories.BuyukTutar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Hesaba gelen para için Incoming=True kullanılır: tutar + işaretli ve yeşildir (status/success). Giden işlemler (para çekme, harcama, transfer dahil) Incoming=False: tutar - işaretli ve birincil metin rengindedir.',
+    'Başlık ve açıklama tek satırdır; sığmayan metin "…" ile kesilir.',
+    'Sağdaki ikon aksiyonları yalnız ikondur ve her biri erişilebilir bir etiket (aria-label) taşır.',
+    'Metin linki (TAKSİTLENDİR, TEKRARLA) büyük harfle ve tek eylem olarak yazılır.',
+  ]}
+  donts={[
+    'Bağlamına uymayan aksiyon (ör. para çekmede TAKSİTLENDİR) eklenmez.',
+    'Kullanıcının hareketleri yetkisiz ekranlarda gösterilmez; örnek veriler gerçek müşteri verisi değildir.',
+    'Satırda ikiden fazla ikon aksiyonu kullanılmaz.',
+    'Para çekme gelen işlem değildir; tutarı - işaretiyle yazılır, yeşil gösterilmez.',
+    'Ödül (ör. 1.234,56 TL - Ödül) yalnız ödül kazandıran işlemlerde (kart harcaması) gösterilir; para transferinde ve para çekmede gösterilmez.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

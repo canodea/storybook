@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Coin.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="479-5946" />
+
+Birikim ve para tutarlarını temsil eden para illüstrasyonu. Altın ve beyaz renk, tek para ve para yığını ile birleşir.
+
+## Playground
+
+Figma'daki Color ve Amount özellikleri ve Size. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Birikim, kazanç veya tutar anlatımında destekleyici görsel olarak kullanılır; tutar ve birim her zaman metinle yazılır.
+
+## Varyantlar
+
+Tüm varyantlar bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Birikim, kazanç veya tutar anlatımında destekleyici görsel olarak kullan.',
+    'Tutarı ve birimi her zaman metinle yaz.',
+    'Ölçek için Size kullan; görsel oranı korunur.',
+  ]}
+  donts={[
+    'Görseli gerçek bakiye veya kur bilgisi yerine kullanma.',
+    'Tutarı yalnız para görseliyle anlatma.',
+    'Figma dışında renk veya miktar kombinasyonu üretme.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

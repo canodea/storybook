@@ -1,0 +1,28 @@
+.root {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  background: var(--odea-background-canvas);
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  box-shadow: var(--shadow-default);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.handle {
+  position: absolute;
+  top: var(--space-8);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  border-radius: var(--radius-xl);
+  background: var(--odea-border-emphasis);
+  z-index: 1;
+}
+
+.divider {
+  margin-top: var(--space-16);
+}

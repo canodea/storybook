@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-4);
+  align-items: center;
+  padding: 0 var(--space-8);
+  background: var(--odea-surface-chip);
+  border-radius: var(--radius-xl);
+  height: 24px;
+  border: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.root:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+}
+
+.code {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+}
+
+.icon {
+  color: var(--odea-icon-color-default);
+}

@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { ElevationDocs } from './TokenDocs';
+
+<Meta title="Foundations/Elevation" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Foundations"
+    title="Gölge"
+    lead="Dört gölge seviyesi (Card, Default, Dropdown, Modal) ve yarı saydam yüzeyler için opaklık ölçeği."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Her seviyenin rengi kendi <code>--shadow-*-color</code> değişkeninden gelir; Card ve Default tema ile değişen <code>--odea-effect-shadow</code> kullanır. Gölgeyi elle renklendirmeyin.
+      </p>
+    </DocTip>
+
+    <ElevationDocs />
+  </div>
+</div>

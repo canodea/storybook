@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { SizeDocs } from './TokenDocs';
+
+<Meta title="Foundations/Size" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Foundations"
+    title="Boyut"
+    lead="İkon, avatar, kontrol yüksekliği ve dokunma alanı gibi sabit ölçüler; hepsi Figma 06 - Boyut koleksiyonundan."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Dokunulabilir her öğenin alanı en az <code>--touch-target-min</code> (44 px) olmalıdır; ikon 16 px olsa bile buton alanı küçülmez.
+      </p>
+    </DocTip>
+
+    <SizeDocs />
+  </div>
+</div>

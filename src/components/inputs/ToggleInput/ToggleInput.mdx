@@ -1,0 +1,55 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ToggleInput.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4575" />
+
+Etiketli açık/kapalı anahtarı. Tek satırda yalnızca etiket, çok satırda avatar + başlık/açıklama gösterir. Tüm satır bir label'dır; satırın herhangi bir yerine tıklamak anahtarı değiştirir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Açık/kapalı bir ayarı etiketiyle birlikte sunmak için kullanılır. Çok satırlı kullanımda avatar, başlık ve açıklama bağlam verir.
+
+## Varyantlar
+
+### Tek satır
+
+<Canvas of={Stories.TekSatir} />
+
+### Çok satır
+
+<Canvas of={Stories.CokSatir} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tüm satır tıklanabilir tek bir label olmalıdır.',
+    'Çok satırlı kullanımda başlık ve açıklama ile bağlam verilir.',
+    'Anahtar gerçek switch elemanıdır; klavye ve ekran okuyucu doğru çalışır.',
+  ]}
+  donts={[
+    'Primitive Toggle tek başına bu bileşenin dışında kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,57 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Toggle.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4550" />
+
+> **Primitive**: Bu bileşen ürün ekranında TEK BAŞINA kullanılamaz; yalnızca üst bileşenlerin (Toggle Input) içinde kullanılır.
+
+Açık/kapalı anahtarı. Gerçek switch elemanıdır (role=switch, aria-checked); görünümü CSS ile çizilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Toggle Input içinde açık/kapalı anahtarı olarak kullanılır. Durum 150ms geçiş animasyonu ile değişir; klavye ve ekran okuyucu doğru çalışır.
+
+## Varyantlar
+
+### Açık
+
+<Canvas of={Stories.Acik} />
+
+### Kapalı
+
+<Canvas of={Stories.Kapali} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız üst bileşenlerin (Toggle Input) içinde kullanılır.',
+    'Klavye ve ekran okuyucu doğru çalışır: role=switch, aria-checked, native disabled.',
+    'Durum 150ms geçiş animasyonu ile değişir.',
+  ]}
+  donts={[
+    'Tek başına bir ekrana yerleştirilmez; her zaman etiketli bir Toggle Input içinde olmalıdır.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  padding: var(--space-16);
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  width: 327px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.topRow {
+  display: flex;
+  gap: var(--space-16);
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+  color: var(--odea-text-primary);
+}
+
+.description {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-secondary);
+}

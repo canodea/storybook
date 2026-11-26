@@ -1,0 +1,60 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './TrendIndicator.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-25000" />
+
+Değer değişim göstergesi. Artışta yukarı üçgen ve yeşil metin, azalışta 180° döndürülmüş üçgen ve kırmızı metin, sabit durumda ikonsuz ikincil metin gösterir.
+
+## Playground
+
+**Trend** yönü, **Value** metni belirler; Value boş bırakılırsa trend'in varsayılanı (positive "0,36%", fixed "0%") kullanılır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Tutar, kur, getiri ya da stok değişimi gösteren tablo hücrelerinde ve özet satırlarında kullanılır.
+- `trend="positive"` artış (yeşil, yukarı ok), `trend="negative"` azalış (kırmızı, aşağı ok), `trend="fixed"` değişimsiz durum.
+- Değer metni `value` ile verilir; boş bırakılırsa trendin varsayılanı gösterilir.
+- Hücrelerde sağa yaslı kullanılır; renk tek başına anlam taşımaz, metin zorunludur.
+
+## Varyantlar
+
+Üç yön bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Büyük değer
+
+Uzun değer tek satırda kalır.
+
+<Canvas of={Stories.BuyukDeger} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Renk tek başına anlam taşımaz; değer metni her zaman gösterilir.',
+    'Tutar/stok tablosu hücrelerinde sağa yaslı kullanılır.',
+  ]}
+  donts={[
+    'Sabit (fixed) durumda ikon gösterilmez.',
+    'Yalnız renkli ok ile yetinilmez; metin zorunludur.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

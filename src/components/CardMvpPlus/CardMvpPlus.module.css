@@ -1,0 +1,144 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+  padding: var(--inset-md) var(--inset-lg);
+  background: var(--odea-surface-default);
+  box-sizing: border-box;
+}
+
+.card {
+  padding: var(--inset-md);
+  border-radius: var(--radius-md, 8px);
+  filter: drop-shadow(
+    var(--shadow-default-offset-x, 0px) var(--shadow-default-offset-y, 8px)
+      calc(var(--shadow-default-blur, 16px) / 2) var(--odea-effect-shadow)
+  );
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.topMedia {
+  gap: var(--space-16);
+}
+
+.leadingIcon {
+  flex: none;
+  color: var(--odea-icon-color-default);
+}
+
+.name {
+  margin: 0;
+  min-width: 1px;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-base-font-size);
+  line-height: var(--ui-display-base-line-height);
+  letter-spacing: var(--ui-display-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.number {
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.info .name {
+  width: 100%;
+}
+
+/* Alt iki satır arasında -4px: satırlar Figma'daki gibi birbirine yaklaşır. */
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.row + .row {
+  margin-top: -4px;
+}
+
+.label {
+  flex: 1;
+  margin: 0;
+  min-width: 1px;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+}
+
+.value {
+  margin: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-primary);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.valueLarge {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+}
+
+.actionButton {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--odea-icon-color-default);
+}
+
+.actionButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}

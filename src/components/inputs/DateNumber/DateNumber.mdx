@@ -1,0 +1,51 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './DateNumber.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-22844" />
+
+Takvim günü hücresi; Date Picker içinde kullanılan gizli yapı taşı. 32x32 tam yuvarlak bir butondur.
+
+## Playground
+
+**State** hücre durumunu, **Day** gün numarasını değiştirir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Date Picker'ın gün ızgarasında hücre olarak kullanılır. Bugün (today) 1px iç kenarlıkla, seçili (selected) dolu zeminle gösterilir; pasif günler soluk metin rengindedir.
+
+## Varyantlar
+
+### Durumlar
+
+Dört durum bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Bugün (today) 1px iç kenarlık ile, seçili (selected) dolu zemin ile gösterilir.',
+    'Pasif (disabled) günler buton olarak devre dışıdır.',
+  ]}
+  donts={[
+    'Tek başına ekranda kullanılmaz; Date Picker içinde yer alır.',
+    'Pasif gün tıklanabilir yapılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

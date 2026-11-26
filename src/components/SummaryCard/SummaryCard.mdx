@@ -1,0 +1,95 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './SummaryCard.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="442-17414" />
+
+Hesap ve kredi özet kartı. Type (Card | Account | Loan) seçilir; Media yalnız Card için aç/kapa özelliğidir, Account ve Loan her zaman görselli çizilir. Dropdown aç/kapa özelliğidir. Card/Media=True dropdown içermez.
+
+## Playground
+
+Figma'daki özelliklerin aynısı. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Kart, hesap ve kredi özetlerini tek kart bileşeninde göstermek için kullanılır.
+
+## Varyantlar
+
+### Kredi kartı
+
+Kart görseli, maskeli kart numarası ve kullanılabilir limit ile özet. Card + Media görünümünde dropdown yoktur.
+
+<Canvas of={Stories.KrediKarti} />
+
+### Kart listesi
+
+Kart görseli olmadan (Media=False), yalnız ürün adı ve maskeli numarayla özet.
+
+<Canvas of={Stories.KartListesi} />
+
+### Vadesiz hesap
+
+Döviz avatarı, hesap numarası, bakiye ve etiketle hesap özeti.
+
+<Canvas of={Stories.VadesizHesap} />
+
+### Kredi
+
+Kredi ikonu, kredi numarası, son ödeme tarihi ve kalan borç özeti.
+
+<Canvas of={Stories.Kredi} />
+
+## Uç durumlar
+
+### Uzun başlık
+
+Uzun kart adı tek satırda "…" ile kesilir, kart yüksekliği değişmez.
+
+<Canvas of={Stories.UzunBaslik} />
+
+### Eksik veri
+
+Dropdown, etiket ve tutar verilmezse kart Media=False ile yalnız ürün adı ve numarasıyla çizilir.
+
+<Canvas of={Stories.EksikVeri} />
+
+### Büyük tutar
+
+Uzun tutar tek satırda kalır ve sağa hizalanır.
+
+<Canvas of={Stories.BuyukTutar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Type=Card kart ürünleri, Type=Account vadesiz/döviz hesapları, Type=Loan krediler için kullanılır.',
+    'Tek boyut vardır; bakiye ve etiket her zaman birlikte gösterilir.',
+    'Media yalnız Card için kapatılır; Account ve Loan görseliyle birlikte çizilir.',
+    'Dropdown yalnız tıklanabilir bir detay aksiyonu varsa verilir; ikon-only buton aria-label taşır.',
+    'Tutar ve hesap numarası tek satırda kalır; sığmayan başlık "…" ile kesilir.',
+    'Metinler dummy örnektir; gerçek bakiye ve hesap bilgisi yetkili kaynaktan gelir.',
+  ]}
+  donts={[
+    'Card/Media=True kombinasyonuna dropdown eklenmez.',
+    'Account ve Loan görselsiz gösterilmez; Media yalnız Card özelliğidir.',
+    'Hesap veya kart numarasının tamamı maskesiz gösterilmez.',
+    'Özet kartı, detay ekranı yerine kullanılmaz; tüm hareketler bu karta sığdırılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

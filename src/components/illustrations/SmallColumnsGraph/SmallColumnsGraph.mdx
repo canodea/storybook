@@ -1,0 +1,59 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './SmallColumnsGraph.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-25071" />
+
+Küçük kolon grafiği. Dekoratiftir, gerçek veri göstermez; yalnız görsel ritim için kullanılır.
+
+## Playground
+
+Figma'da varyantı yoktur; yalnız Size özelliği vardır. Kontrol adları Figma panelindeki adlarla eşleşir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Kart içinde dekoratif grafik öğesi olarak kullanılır; gerçek veri ve trend her zaman sayı ve etiketlerle gösterilir.
+
+## Varyantlar
+
+Görsel iki farklı ölçekte.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### Küçük ölçek
+
+Size küçültüldüğünde görsel oranı korunur ve kutuyu taşmaz.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kart içinde dekoratif grafik öğesi olarak kullan.',
+    'Gerçek veriyi her zaman sayı ve etiketlerle göster.',
+    'Ölçek için Size kullan; en-boy oranı korunur.',
+  ]}
+  donts={[
+    'Grafiği gerçek veri veya trend göstergesi olarak sunma.',
+    'Eksen, değer veya yüzde etiketi ekleme.',
+    'Figma dışında renk veya kolon sayısı uydurma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />

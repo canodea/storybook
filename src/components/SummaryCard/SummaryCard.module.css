@@ -1,0 +1,381 @@
+/* Shared shell */
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 375px;
+  padding: var(--inset-md, 16px) var(--inset-lg, 24px);
+  background: var(--odea-surface-default);
+}
+
+.extended {
+  flex-direction: column;
+  gap: var(--space-4, 4px);
+}
+
+.extendedMedia {
+  gap: var(--gap-md, 16px);
+}
+
+.typeCard.extended {
+  overflow: hidden;
+}
+
+/* Top block */
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md, 16px);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.topStacked {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.topColumn {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.topInline {
+  gap: var(--space-4, 4px);
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.typeLoan .topInline {
+  gap: var(--gap-xs, 8px);
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md, 16px);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.topRow {
+  display: flex;
+  gap: var(--gap-lg, 24px);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.inlineCluster {
+  display: flex;
+  flex: 1 0 0;
+  gap: var(--space-4, 4px);
+  align-items: center;
+  min-width: 1px;
+}
+
+.typeLoan .inlineCluster {
+  gap: var(--gap-xs, 8px);
+}
+
+/* Text block */
+
+.info {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  min-width: 1px;
+  overflow-wrap: break-word;
+}
+
+.nameGrow {
+  display: block;
+  width: 100%;
+  font-family: var(--font-family-display, 'Red Hat Display', sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-base-font-size, 14px);
+  line-height: var(--ui-display-base-line-height, 24px);
+  letter-spacing: var(--ui-display-base-letter-spacing, 0.7px);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inlineName {
+  flex: 1 0 0;
+  min-width: 1px;
+  font-family: var(--font-family-display, 'Red Hat Display', sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-base-font-size, 14px);
+  line-height: var(--ui-display-base-line-height, 24px);
+  letter-spacing: var(--ui-display-base-letter-spacing, 0.7px);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.typeCard .inlineName {
+  display: block;
+}
+
+.number {
+  width: 100%;
+  flex-shrink: 0;
+  font-family: var(--font-family-body, 'Inter', sans-serif);
+  font-style: var(--font-style-regular, normal);
+  font-weight: 400;
+  font-size: var(--ui-text-sm-font-size, 12px);
+  line-height: var(--ui-text-sm-line-height, 16px);
+  letter-spacing: var(--ui-text-sm-letter-spacing, 0px);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Label / value rows */
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 0;
+  overflow-wrap: break-word;
+}
+
+.primaryRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  font-family: var(--font-family-body, 'Inter', sans-serif);
+  font-style: var(--font-style-regular, normal);
+  font-weight: 400;
+  font-size: var(--ui-text-sm-font-size, 12px);
+  letter-spacing: var(--ui-text-sm-letter-spacing, 0px);
+}
+
+.primaryLabel {
+  flex: 1 0 0;
+  min-width: 1px;
+  line-height: var(--ui-text-sm-line-height, 16px);
+  color: var(--odea-text-secondary);
+}
+
+.primaryValue {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1px;
+  text-align: right;
+  line-height: 0;
+  color: var(--odea-text-primary);
+}
+
+.primaryValue p {
+  line-height: var(--ui-text-sm-line-height, 16px);
+  white-space: nowrap;
+}
+
+.secondaryRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.secondaryLabel {
+  flex: 1 0 0;
+  min-width: 1px;
+  font-family: var(--font-family-body, 'Inter', sans-serif);
+  font-style: var(--font-style-regular, normal);
+  font-weight: 400;
+  font-size: var(--ui-text-sm-font-size, 12px);
+  line-height: var(--ui-text-sm-line-height, 16px);
+  letter-spacing: var(--ui-text-sm-letter-spacing, 0px);
+  color: var(--odea-text-secondary);
+}
+
+.secondaryValue {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: center;
+  height: 20px;
+  min-width: 1px;
+  text-align: right;
+  line-height: 0;
+  font-family: var(--font-family-display, 'Red Hat Display', sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-md-font-size, 16px);
+  letter-spacing: var(--ui-display-md-letter-spacing, 0.8px);
+  color: var(--odea-text-primary);
+}
+
+.secondaryValue p {
+  line-height: var(--ui-display-md-line-height, 24px);
+  white-space: nowrap;
+}
+
+/* Card-type row geometry */
+
+.typeCard .primaryRow {
+  align-items: center;
+  gap: var(--space-4, 4px);
+  margin-bottom: -4px;
+}
+
+.typeCard .primaryValue {
+  flex: none;
+  flex-shrink: 0;
+  width: 160px;
+}
+
+.typeCard .secondaryRow {
+  gap: var(--space-4, 4px);
+  height: 24px;
+}
+
+.typeCard .secondaryValue {
+  flex: none;
+  flex-shrink: 0;
+  height: auto;
+  width: 160px;
+}
+
+/* Dropdown icon */
+
+.dropdownButton {
+  position: relative;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dropdownButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm, 4px);
+}
+
+.dropdownIcon {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  color: var(--odea-icon-color-default);
+}
+
+/* Card physical */
+
+.physicalCard {
+  position: relative;
+  flex-shrink: 0;
+  width: 64px;
+  height: 40px;
+}
+
+.physicalFrame {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-sm, 4px);
+}
+
+.physicalClip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: var(--radius-sm, 4px);
+  pointer-events: none;
+}
+
+.physicalImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100.92%;
+  height: 100%;
+  max-width: none;
+}
+
+/* Card mastercard logo */
+
+.cardLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs, 8px);
+  flex-shrink: 0;
+}
+
+.paymentMethod {
+  position: relative;
+  flex-shrink: 0;
+  width: 35px;
+  height: 24px;
+}
+
+.mastercard {
+  position: absolute;
+  inset: 20.83% 17.14% 21.64% 18.57%;
+}
+
+.mastercard img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+/* Account currency avatar */
+
+/* Avatarı koyu tema token'larıyla saran zarf; kendisi zemin/renk çizmez. */
+.currencyAvatarDark {
+  display: inline-flex;
+  line-height: 0;
+  background: transparent;
+}
+
+.currencyAvatar16 {
+  position: relative;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-xl, 16px);
+  background: var(--odea-surface-selected, #2d353c);
+}
+
+.currencyGlyph {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: var(--odea-icon-color-inverse);
+}
+
+/* Loan banking icons */
+
+.bankingIcon16 {
+  position: relative;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--odea-icon-color-default);
+}

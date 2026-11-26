@@ -1,0 +1,78 @@
+.root,
+.part {
+  display: block;
+  box-sizing: border-box;
+  background: var(--odea-surface-chip);
+  animation: odea-pulse 1.2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+.root[data-shape='line'],
+.part[data-shape='line'] {
+  width: 160px;
+  height: 12px;
+  border-radius: var(--radius-sm);
+}
+
+.root[data-shape='circle'],
+.part[data-shape='circle'] {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+}
+
+.root[data-shape='block'],
+.part[data-shape='block'] {
+  width: 327px;
+  height: 96px;
+  border-radius: var(--radius-md);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  padding: var(--space-16) 0;
+}
+
+.listBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  flex: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding: var(--space-16);
+  width: 327px;
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  box-sizing: border-box;
+}
+
+@keyframes odea-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root,
+  .part {
+    animation: none;
+  }
+}

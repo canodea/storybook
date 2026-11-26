@@ -1,0 +1,13 @@
+.root {
+  border-radius: var(--radius-full);
+  background: var(--odea-background-canvas);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.icon {
+  color: var(--odea-icon-color-default);
+}

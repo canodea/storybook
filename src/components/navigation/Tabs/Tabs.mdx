@@ -1,0 +1,58 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Tabs.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-6930" />
+
+1–4 sekmeli kontrol (375x48). Seçili sekme birincil renkte ve altında 24x4 ters zemin çubuğu taşır; diğerleri ikincil renktedir. Etiketler sığmazsa satır yatay kaydırılır. Ok tuşlarıyla gezinilebilir.
+
+## Playground
+
+**Tab Count** sekme sayısını (1–4) belirler; Tab Count'tan büyük numaralı etiketler yok sayılır. **Selected Tab** seçili sekmeyi belirler.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Aynı ekrandaki 1–4 görünüm/segment arasında geçiş için kullanılır (ör. hesap detayı, işlem türleri).
+- Etiketler `labels` dizisiyle verilir; seçili sekme `selected` ile 1–4 arası sıra numarası olarak belirlenir.
+- Değişiklik `onChange` ile bildirilir; ok tuşlarıyla gezinilir.
+- Etiketler sığmazsa satır yatay kaydırılır; dörtten fazla sekme eklenmez.
+
+## Varyantlar
+
+### Dört sekme
+
+<Canvas of={Stories.DortSekme} />
+
+### Kaydırılabilir (uzun etiketler)
+
+Dört uzun etiket satıra sığmaz; satır yatay kaydırılır ve scrollbar gizlenir.
+
+<Canvas of={Stories.Kaydirilabilir} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Seçili sekme role="tab" + aria-selected="true" taşır.',
+    'Ok tuşlarıyla (←/→) sekmeler arasında gezinilir.',
+    'Sekme sayısı 1–4 arasındadır; fazlası yok sayılır.',
+    'Etiketler sığmadığında satır yatay kaydırılır; tıklanan sekme görünür alana gelir.',
+  ]}
+  donts={[
+    'Dörtten fazla sekme gösterilmez.',
+    'Seçili olmayan sekme birincil renkte çizilmez.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

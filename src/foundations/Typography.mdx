@@ -1,0 +1,27 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { TypographyDocs } from './TokenDocs';
+
+<Meta title="Foundations/Typography" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Foundations"
+    title="Tipografi"
+    lead="Figma kütüphanesindeki 38 metin stilinin tamamı: Heading, Text, UI Display, UI Text ve UI Numbers grupları, kodda birer .odea-* sınıfıyla."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        Tutar ve rakam içeren her metin <code>UI Numbers</code> stillerini kullanır. Orantılı rakamlar sütunları kaydırır; tablo
+        rakamları hizayı korur.
+      </p>
+    </DocTip>
+
+    <TypographyDocs />
+  </div>
+</div>

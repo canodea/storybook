@@ -1,0 +1,53 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ToastMessage.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-5979" />
+
+İşlem geri bildirimi için kısa süreli mesaj (toast). Önde başarı rozeti (StatusTag success) ve mesaj metni bulunur; ters zeminde (inverse) çizilir ve ekran okuyuculara `status` + `aria-live=polite` ile duyurulur.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Kısa süreli işlem geri bildirimi için kullanılır (ör. "IBAN kopyalandı"); kalıcı bildirim yerine geçmez.
+- Mesaj `message` ile verilir; tek satırlık ve kısa tutulur.
+- Başarı durumunda `icon` açık, yalnız metin gerektiğinde kapalı bırakılır.
+- Hata bildirimi için kullanılmaz; success rozeti taşır.
+
+## Varyantlar
+
+### İkonlu
+
+<Canvas of={Stories.Ikonlu} />
+
+### İkonsuz
+
+<Canvas of={Stories.Ikonsuz} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kısa, tek satırlık işlem geri bildirimleri için kullanılır (ör. "IBAN kopyalandı").',
+    'role="status" ve aria-live="polite" ile ekran okuyucuya duyurulur.',
+    'icon true ise önde 24x24 success StatusTag gösterilir; false ise yalnız metin.',
+  ]}
+  donts={[
+    'Uzun paragraflar veya kalıcı bildirimler için kullanılmaz.',
+    'Hata bildirimi için success rozeti kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

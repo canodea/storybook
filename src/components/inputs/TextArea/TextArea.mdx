@@ -1,0 +1,70 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './TextArea.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="536-697" />
+
+Çok satırlı serbest metin girişi. Transfer açıklaması, talep/şikâyet ve not gibi uzun metinler için kullanılır. Altta yardım metni ve isteğe bağlı karakter sayacı gösterir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Transfer açıklaması, talep/şikâyet ve not gibi uzun metinlerde kullanılır. Karakter sınırı varsa sayaç gösterilir; hata durumunda yardım metni ve sayaç tehlike renginde çizilir.
+
+## Varyantlar
+
+### Açıklama
+
+Dolu alan; etiket kenarlığa yüzer, sayaç ve yardım metni altta.
+
+<Canvas of={Stories.Aciklama} />
+
+### Hata
+
+Doğrulama hatası; etiket, yardım ve sayaç tehlike renginde.
+
+<Canvas of={Stories.Hata} />
+
+### Devre dışı
+
+Düzenlenemeyen alan.
+
+<Canvas of={Stories.DevreDisi} />
+
+## Uç durumlar
+
+### Uzun metin
+
+Metin alan içinde alt satırlara akar; sayaç uzunluğu takip eder.
+
+<Canvas of={Stories.UzunMetin} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Çok satırlı serbest metin (açıklama, not, şikâyet) için kullanılır.',
+    'Karakter sınırı varsa sayaç gösterilir; sayaç değer uzunluğundan otomatik hesaplanır.',
+    'Hata durumunda açıklayıcı mesaj ve tehlike rengi kullanılır.',
+  ]}
+  donts={[
+    'Tek satırlık değerler için kullanılmaz (bkz. Text Field).',
+    'Alan elle yeniden boyutlandırılmaz (resize kapalı).',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

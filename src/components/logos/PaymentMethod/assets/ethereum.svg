@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="188 56 35 24" fill="none"><g id="Method=Ethereum">
+<g id="BASE_15">
+<mask id="path-67-inside-15_412_2023" fill="white">
+<path d="M188 60C188 57.7909 189.791 56 192 56H219C221.209 56 223 57.7909 223 60V76C223 78.2091 221.209 80 219 80H192C189.791 80 188 78.2091 188 76V60Z" />
+</mask>
+<path d="M188 60C188 57.7909 189.791 56 192 56H219C221.209 56 223 57.7909 223 60V76C223 78.2091 221.209 80 219 80H192C189.791 80 188 78.2091 188 76V60Z" fill="white" />
+<path d="M192 56V57H219V56V55H192V56ZM223 60H222V76H223H224V60H223ZM219 80V79H192V80V81H219V80ZM188 76H189V60H188H187V76H188ZM192 80V79C190.343 79 189 77.6569 189 76H188H187C187 78.7614 189.239 81 192 81V80ZM223 76H222C222 77.6569 220.657 79 219 79V80V81C221.761 81 224 78.7614 224 76H223ZM219 56V57C220.657 57 222 58.3431 222 60H223H224C224 57.2386 221.761 55 219 55V56ZM192 56V55C189.239 55 187 57.2386 187 60H188H189C189 58.3431 190.343 57 192 57V56Z" fill="#F7FAFC" mask="url(#path-67-inside-15_412_2023)" />
+</g>
+<g id="Ethereum">
+<circle id="Background" cx="205.435" cy="67.935" r="7.93499" fill="#6481E7" />
+<path id="Vector_16" fill-rule="evenodd" clip-rule="evenodd" d="M201.968 68.2578L205.528 70.362V62.3518L201.968 68.2578Z" fill="white" />
+<path id="Vector_17" fill-rule="evenodd" clip-rule="evenodd" d="M205.528 62.3518V70.362L209.087 68.2578L205.528 62.3518Z" fill="#C1CCF5" />
+<path id="Vector_18" fill-rule="evenodd" clip-rule="evenodd" d="M205.528 66.6401L201.968 68.2577L205.528 70.3619L209.087 68.258L205.528 66.6401Z" fill="#8299EC" />
+<path id="Vector_19" fill-rule="evenodd" clip-rule="evenodd" d="M205.528 66.6401L201.968 68.2577L205.528 70.3619L205.528 66.6401Z" fill="#C1CCF5" />
+<path id="Vector_20" fill-rule="evenodd" clip-rule="evenodd" d="M201.968 68.9329L205.528 73.9488V71.0359L201.968 68.9329Z" fill="white" />
+<path id="Vector_21" fill-rule="evenodd" clip-rule="evenodd" d="M205.528 71.0359V73.9491L209.09 68.9329L205.528 71.0359Z" fill="#C1CCF5" />
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_412_2023" x1="338.121" y1="107.696" x2="343.962" y2="107.696" gradientUnits="userSpaceOnUse">
+<stop stop-color="#58B03A" />
+<stop offset="1" stop-color="#55B330" />
+</linearGradient>
+<linearGradient id="paint1_linear_412_2023" x1="324.943" y1="108.136" x2="330.809" y2="108.136" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0F6EB6" />
+<stop offset="1" stop-color="#006DBA" />
+</linearGradient>
+<linearGradient id="paint2_linear_412_2023" x1="331.606" y1="107.834" x2="337.45" y2="107.834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DE0D3D" />
+<stop offset="1" stop-color="#E30138" />
+</linearGradient>
+</defs>
+</svg>

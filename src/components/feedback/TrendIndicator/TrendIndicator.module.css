@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-4);
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.positive {
+  color: var(--odea-status-success);
+}
+
+.negative {
+  color: var(--odea-status-danger);
+}
+
+.negative .icon {
+  transform: rotate(180deg);
+}
+
+.fixed {
+  color: var(--odea-text-secondary);
+}
+
+.icon {
+  display: inline-flex;
+  flex: none;
+}
+
+.value {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}

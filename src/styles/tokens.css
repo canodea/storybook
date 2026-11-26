@@ -1,0 +1,26 @@
+/* Odea Foundation — renk alias'ları ve yazı aileleri. Ölçüler src/styles/foundation.css içinde (Figma'dan üretilir). */
+:root {
+  --color-accent-primary: var(--odea-accent-primary);
+  --color-background-canvas: var(--odea-background-canvas);
+  --color-border-strong: var(--odea-border-strong);
+  --color-status-success: var(--odea-status-success);
+  --color-surface-chip: var(--odea-surface-chip);
+  --color-surface-contrast: var(--odea-surface-selected);
+  --color-surface-default: var(--odea-surface-default);
+  --color-surface-inactive: var(--odea-surface-inactive);
+  --color-text-label: var(--odea-text-label);
+  --color-text-muted: var(--odea-text-muted);
+  --color-text-primary: var(--odea-text-primary);
+  --color-text-primary-soft: var(--odea-text-primary-soft);
+  --color-text-secondary: var(--odea-text-secondary);
+  --color-text-subtle: var(--odea-text-subtle);
+  --font-family-body: "Inter", system-ui, sans-serif;
+  --font-family-display: "Red Hat Display", system-ui, sans-serif;
+  --font-style-regular: normal;
+  --palette-neutral-athens-grey: var(--odea-neutral-athens-grey);
+  --palette-orange-500: var(--odea-orange-500);
+  --color-brand-primary: var(--odea-brand-primary);
+  --color-status-warning: var(--odea-status-warning);
+  --color-icon-color-default: var(--odea-icon-color-default);
+  --palette-neutral-eerie-black: var(--odea-neutral-eerie-black);
+}

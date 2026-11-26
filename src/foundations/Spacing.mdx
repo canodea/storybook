@@ -1,0 +1,27 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { SpacingDocs } from './TokenDocs';
+
+<Meta title="Foundations/Spacing" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Foundations"
+    title="Boşluk"
+    lead="0–96 px arası 13 adımlık boşluk ölçeği; öğeler arası gap, iç boşluk inset ve sayfa grid değerleri."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>
+        İki ayrı kavram var: <strong>gap</strong> öğelerin arasındaki uzaklık, <strong>inset</strong> içeriğin kabuğa olan uzaklığıdır.
+        Aynı px değerine sahip olsalar da yerlerine göre seçilir.
+      </p>
+    </DocTip>
+
+    <SpacingDocs />
+  </div>
+</div>

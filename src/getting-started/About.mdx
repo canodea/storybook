@@ -1,0 +1,137 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocCardGrid } from '../docs-ui/DocCardGrid';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocLink } from '../docs-ui/DocLink';
+import { DocToc } from '../docs-ui/DocToc';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+import { ColorsPreview, ComponentsPreview, IconsPreview } from './CardPreviews';
+import styles from './About.module.css';
+
+<Meta title="Getting Started/About" />
+
+<div className={`${page.wide} sb-unstyled`}>
+  <DocHero
+    eyebrow="Getting Started"
+    title="Odea Design System"
+    lead="Odea'nın mobil ürünlerinde kullanılan renkleri, ikonları ve kart bileşenlerini tek bir yerde toplayan dokümantasyon."
+  />
+
+  <div className={styles.layout}>
+    <div className={content.doc}>
+      <DocTip>
+        <p>
+          İlk kez mi bakıyorsunuz? Bileşenlerin nasıl kullanıldığını görmek için <DocLink href="?path=/docs/getting-started-usage--docs">Kullanım</DocLink>{' '}
+          sayfasıyla başlayın; renk token'larını ise <DocLink href="?path=/docs/foundations-colors--docs">Renkler</DocLink> sayfasında bulabilirsiniz.
+        </p>
+      </DocTip>
+
+      <DocCardGrid
+        items={[
+          {
+            title: 'Bileşenler',
+            description: 'Buton, giriş, kart ve modül bileşenleri; Figma component set’lerinden üretildi.',
+            href: '?path=/docs/components-cards-summary-card--docs',
+            preview: <ComponentsPreview />,
+          },
+          {
+            title: 'İkonlar',
+            description: 'Bankacılık ve arayüz ikonları; ürün ekranlarında tutarlı kullanım için.',
+            href: '?path=/docs/foundations-icons--docs',
+            preview: <IconsPreview />,
+          },
+          {
+            title: 'Renkler',
+            description: 'Temel palet, anlamsal token’lar ve ürün renkleri; Light/Dark mod desteğiyle.',
+            href: '?path=/docs/foundations-colors--docs',
+            preview: <ColorsPreview />,
+          },
+        ]}
+      />
+
+      <h2 id="neler-var">Neler var?</h2>
+      <p>
+        Odea Design System üç bölümden oluşur: başlangıç sayfaları (<strong>Getting Started</strong>), tasarımın temelini
+        oluşturan <strong>Foundations</strong> ve bu temelin üzerine kurulan <strong>Components</strong> bileşenleri.
+      </p>
+
+      <h3>Foundations</h3>
+      <ul>
+        <li>
+          <DocLink href="?path=/docs/foundations-colors--docs">Renkler</DocLink> — temel palet, anlamsal token’lar, ürün ve varlık renkleri.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-typography--docs">Tipografi</DocLink> — 2 yazı tipi, Figma ile birebir 41 metin stili.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-spacing--docs">Boşluk</DocLink> — 13 adımlık ölçek, gap, inset ve grid.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-size--docs">Boyut</DocLink> — ikon, kontrol yüksekliği ve dokunma alanı.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-radius--docs">Köşe yarıçapı</DocLink> — köşe ölçeği ve kenarlık kalınlıkları.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-elevation--docs">Gölge</DocLink> — dört gölge seviyesi ve opaklık ölçeği.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-icons--docs">İkonlar</DocLink> — bankacılık ve arayüz ikon seti.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-logos-logo--docs">Logolar</DocLink> — Odea/Odeabank, ödeme yöntemi logoları ve fiziksel kart görseli.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/foundations-illustrations-campaign--docs">İllüstrasyonlar</DocLink> — kampanya, para, banka, uyarı ve OTP illüstrasyonları.
+        </li>
+      </ul>
+
+      <h3>Getting Started</h3>
+      <ul>
+        <li>
+          <DocLink href="?path=/docs/getting-started-usage--docs">Kullanım</DocLink> — sol menü hiyerarşisi, bileşen, token ve ikon kullanımı.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/getting-started-contributing--docs">Katkı</DocLink> — yeni bileşen ekleme ve doğrulama adımları.
+        </li>
+        <li>
+          <DocLink href="?path=/docs/getting-started-changelog--docs">Değişiklik günlüğü</DocLink> — sürüm sürüm yapılan değişiklikler.
+        </li>
+      </ul>
+
+      <h3>Components</h3>
+      <ul>
+        <li><strong>Buttons</strong> — Button, Shortcut, Shortcut Large, Action Card.</li>
+        <li><strong>Inputs</strong> — Text Field, Text Area, Search Bar, Toggle, Checkbox, Radio, Pin, Date Picker ve etiketli hâlleri.</li>
+        <li><strong>List Item</strong> — liste satırları, Divider, Overview, Illustration.</li>
+        <li><strong>Dropdown</strong> — Dropdown ve Account Dropdown.</li>
+        <li><strong>Cards</strong> — Step Bars, Summary Card, Message Card, In-App Notification, Product Card, Activity Item, Campaign Card, Card MVP+, New Asset Card, Tooltip.</li>
+        <li><strong>Modules</strong> — Info, Currency Converter, Action Sheet, Toast Message, Quick Filter ve In-App Notifications.</li>
+        <li><strong>Navigation</strong> — Navigation Bar, Bottom Bar, Tabs, Section Divider, Progress, Currency Switcher, Pagination, Landing Title.</li>
+        <li><strong>Feedback</strong> — Dialog, Spinner, Skeleton, Badge, Status Tag, Trend Indicator.</li>
+        <li><strong>Avatars</strong> — Icon, Currency, Flag ve Company Avatar.</li>
+        <li><strong>Shared</strong> — iOS Status Bar ve Home Indicator.</li>
+      </ul>
+
+      <p>
+        Kurulum, token kullanımı ve erişilebilirlik notları için{' '}
+        <DocLink href="?path=/docs/getting-started-usage--docs">Kullanım</DocLink> sayfasına bakın.
+      </p>
+
+      <h2 id="kaynak">Kaynak</h2>
+      <ul>
+        <li>Tasarım kaynağı Figma <strong>Foundation</strong> dosyasıdır.</li>
+        <li>Bileşenler Figma’daki master component’lerden üretilmiştir; detach edilmez.</li>
+        <li>Sayfalardaki metin, tutar ve görseller dummy (örnek) veridir; gerçek müşteri verisi içermez.</li>
+      </ul>
+    </div>
+
+    <DocToc
+      items={[
+        { id: 'neler-var', label: 'Neler var?' },
+        { id: 'kaynak', label: 'Kaynak' },
+      ]}
+    />
+  </div>
+</div>

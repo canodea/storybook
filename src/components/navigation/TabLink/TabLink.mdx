@@ -1,0 +1,63 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './TabLink.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-5699" />
+
+Alt tab bar sekmesi. Üstte ikon ve gösterge noktası, altta etiket. Sekme seçiliyken nokta görünür ve renkler birincile döner; seçili değilken nokta gizlenir ve renkler ikincile düşer.
+
+## Playground
+
+**Tab** sekme tipini, **Indicator** seçili olup olmadığını, **Label** özel etiketi belirler; Label boş bırakılırsa sekmenin varsayılan etiketi kullanılır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Alt tab bar içindeki tek sekmeyi temsil eder; tek başına değil tab bar satırında kullanılır.
+- Sekme tipi `tab` ile seçilir, etiket `label` ile ezilebilir; boş bırakılırsa sekmenin varsayılan etiketi kullanılır.
+- Seçili sekme `indicator` açık olarak işaretlenir; bir bar içinde yalnızca biri açık olur.
+- Nokta yalnız seçili durumda görünür; ikon ve etiket rengi birlikte değişir.
+
+## Varyantlar
+
+### Tab bar
+
+Beş sekmeli satır; yalnızca ilki (Home) seçili.
+
+<Canvas of={Stories.TabBar} />
+
+## Uç durumlar
+
+### Sekme kapalı
+
+Indicator kapalıyken nokta gizlenir, ikon ve etiket ikincil renge döner.
+
+<Canvas of={Stories.SekmeKapali} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Bir tab bar içinde yalnızca bir sekme Indicator On olur.',
+    'İkon ve etiket rengi her zaman birlikte değişir; ikisi aynı renktedir.',
+    'Etiket tek satırdır; sığmazsa "…" ile kesilir.',
+  ]}
+  donts={[
+    'Aynı tab bar içinde birden fazla sekme On yapılmaz.',
+    'Sekme ikonu ve etiketi bağlamından kopuk kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

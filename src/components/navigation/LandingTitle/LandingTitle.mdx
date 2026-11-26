@@ -1,0 +1,61 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './LandingTitle.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-7260" />
+
+Karşılama başlığı (375x100); koyu zemin üzerindedir. Üstte ters durum çubuğu, altta UI Display/LG başlık ve sağda bir veya iki ikon.
+
+## Playground
+
+Koyu zemin temadan bağımsız olarak `--odea-neutral-oxford-black` ile sarılır; bileşen her iki temada da beyaz metin/ikon kullanır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Karşılama/ana sayfa açılışında, koyu zemin üzerindeki büyük başlık olarak kullanılır.
+- Başlık `title` ile verilir; solunda avatar istenirse `avatar` + `initials` açılır.
+- Sağda tek ikon için `icons="one"`, iki ikon için `icons="two"`; ikonlar `icon1`/`icon2` ile seçilir.
+- Başlık tek satırdır, uzarsa "…" ile kesilir; ikonlar ters renkte olmalıdır.
+
+## Varyantlar
+
+### Tek ikon
+
+<Canvas of={Stories.TekIkon} />
+
+### İki ikon
+
+<Canvas of={Stories.IkiIkon} />
+
+### Avatarlı
+
+Başlığın solunda 32px beyaz daire ve baş harfler; her iki temada da sabit renklerdedir.
+
+<Canvas of={Stories.Avatarli} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Başlık UI Display/LG stilinde ve ters renktedir.',
+    'Durum çubuğu koyu zeminde beyaz ikonlarla (invert) çizilir.',
+    'İki ikon durumunda ikonlar 16px boşlukla yan yana dizilir.',
+  ]}
+  donts={[
+    'Başlık çok uzunsa "…" ile kesilir; ikinci satıra inmez.',
+    'İkonlar ters renkte olmalıdır; varsayılan renk kullanılmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,73 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Info.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-5206" />
+
+Öncelikli/ikincil bilgi, gereklilik listesi ve repo bilgisi gösteren bilgi kutusu. Dört düzeni vardır: `primary` (birincil bilgi), `secondary` (ikincil bilgi), `requirements` (tek sütunlu gereklilik listesi) ve `bonds-repo` (blok notu + etiket/değer).
+
+## Playground
+
+**Style** dört düzeni seçer. **Requirements** yalnız `requirements` düzeninde, **Blocked Note** ve **Label / Value** yalnız `bonds-repo` düzeninde görünür.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Bir ekranda vurgulanması gereken bilgi notu, gereklilik listesi ya da bono/repo bilgisi için kullanılır.
+- `style` düzeni seçer: `primary`, `secondary`, `requirements`, `bonds-repo`.
+- Tek satır bilgi ve sağa yaslı aksiyon linki `primary`/`secondary` + `message` ve `actionLabel` ile verilir.
+- Gereklilikler `requirements` dizisiyle (en çok 4 madde), bono/repo `blockedNote` + `bondsRepoLabel`/`bondsRepoValue` ile verilir.
+
+## Varyantlar
+
+### Birincil bilgi
+
+<Canvas of={Stories.Birincil} />
+
+### İkincil bilgi
+
+<Canvas of={Stories.Ikincil} />
+
+### Gereklilikler
+
+<Canvas of={Stories.Gereklilikler} />
+
+### Bono / Repo
+
+<Canvas of={Stories.BonoRepo} />
+
+## Uç durumlar
+
+### Uzun metin
+
+Uzun mesaj satırı kutu genişliğinde hizalanır.
+
+<Canvas of={Stories.UzunMetin} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'primary/secondary tek satır bilgi içindir; isteğe bağlı aksiyon linki sağa yaslı durur.',
+    'requirements maddelerini tek sütunda, her maddeyi 16px Status Tag (Bullet) + metin olarak 4px aralıkla çizer.',
+    'bonds-repo iç kutuya (surface-inset) blok notunu ve label/değer satırını koyar.',
+    'Yalnız mevcut düzenler kullanılır; yeni bir düzen uydurulmaz.',
+  ]}
+  donts={[
+    'requirements düzeninde 4\'ten fazla madde gösterilmez.',
+    'primary/secondary düzeninde gereklilik listesi çizilmez.',
+    'Kutu genişliği 327px sabittir; başka genişliğe zorlanmaz.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

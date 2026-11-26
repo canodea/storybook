@@ -1,0 +1,85 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './TextField.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="261-3055" />
+
+Tek satırlık metin girişi. Ad-soyad, IBAN, telefon numarası gibi kısa ve tek satırlık değerler için kullanılır. Etiket boş alanda içeride durur; alan dolu ya da odaktayken kenarlığın üst çizgisine yüzer.
+
+## Playground
+
+Figma'daki özelliklerin aynısı, ilgili kontroller gruplar hâlinde. İkon seçimlerinde **Yok**, Figma'daki Trailing Icon anahtarını kapatmakla aynıdır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Kısa ve tek satırlık değerlerde (ad-soyad, IBAN, telefon) kullanılır. Telefon numarası için Number Selector ülke kodu + numara gösterir ve trailing ikon kullanılmaz; uzun değerler tek satırda "…" ile kesilir.
+
+## Varyantlar
+
+### Ad soyad
+
+Dolu alan; etiket kenarlığa yüzer, trailing ikon sağda durur.
+
+<Canvas of={Stories.AdSoyad} />
+
+### IBAN
+
+Odaktaki alan; 2px güçlü kenarlık ve yazma imleci.
+
+<Canvas of={Stories.Iban} />
+
+### Telefon numarası
+
+Number Selector: ülke kodu + numara, trailing ikon yok.
+
+<Canvas of={Stories.TelefonNumarasi} />
+
+### Hata
+
+Doğrulama hatası; 2px tehlike kenarlığı, etiket ve yardım metni kırmızı.
+
+<Canvas of={Stories.Hata} />
+
+### Devre dışı
+
+Düzenlenemeyen alan; soluk kenarlık ve metinler.
+
+<Canvas of={Stories.DevreDisi} />
+
+## Uç durumlar
+
+### Uzun değer
+
+Değer alan genişliğine sığmazsa "…" ile kesilir, yükseklik değişmez.
+
+<Canvas of={Stories.UzunDeger} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kısa ve tek satırlık değerler (ad-soyad, IBAN, telefon) için kullanılır.',
+    'Hata durumunda açıklayıcı bir hata mesajı verilir.',
+    'Number Selector yalnız telefon numarası içindir; trailing ikonla birlikte kullanılmaz.',
+    'Uzun değerler tek satırda "…" ile kesilir.',
+  ]}
+  donts={[
+    'Çok satırlı serbest metin için kullanılmaz (bkz. Text Area).',
+    'Etiketsiz alan kullanılmaz; etiket her durumda erişilebilir olmalıdır.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

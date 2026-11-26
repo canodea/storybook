@@ -1,0 +1,17 @@
+.root {
+  width: 176px;
+  height: 4px;
+  flex: 1 1 0%;
+  min-width: 0;
+  border-radius: var(--radius-sm);
+  background: var(--odea-neutral-athens-grey);
+}
+
+.completed {
+  background: var(--odea-background-inverse);
+}
+
+.current {
+  background: var(--odea-brand-primary);
+  border-radius: var(--radius-full);
+}

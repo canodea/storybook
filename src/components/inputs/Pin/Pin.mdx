@@ -1,0 +1,62 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Pin.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="308-5695" />
+
+> **Primitive**: Bu bileşen ürün ekranında TEK BAŞINA kullanılamaz; yalnızca üst bileşenlerin (Pin Input) içinde kullanılır.
+
+Doğrulama kodu hücresi. PIN rakamları asla açık gösterilmez; dolu hücrede her zaman maskeleme noktası gösterilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Pin Input içinde doğrulama kodu hücresi olarak kullanılır. Hatalı doğrulamada hücre kenarlığı status/danger rengine döner.
+
+## Varyantlar
+
+### Boş
+
+<Canvas of={Stories.Bos} />
+
+### Odaklı
+
+<Canvas of={Stories.Odakli} />
+
+### Dolu
+
+<Canvas of={Stories.Dolu} />
+
+### Hatalı
+
+<Canvas of={Stories.Hatali} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız üst bileşenlerin (Pin Input) içinde kullanılır.',
+    'Dolu hücre her zaman maskeli (•) gösterilir.',
+    'Hatalı doğrulamada hücre kenarlığı status/danger rengine döner (state="error").',
+  ]}
+  donts={[
+    'PIN rakamları asla açık gösterilmez.',
+    'Tek başına bir ekrana yerleştirilmez.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

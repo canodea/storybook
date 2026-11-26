@@ -1,0 +1,123 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+
+<Meta title="Getting Started/Changelog" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Getting Started"
+    title="Değişiklik günlüğü"
+    lead="Odea Design System’de yapılan değişiklikler, en yeniden eskiye doğru."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>Bileşen davranışı veya prop’u değiştiyse ilgili doküman sayfası da aynı tarihte güncellenir.</p>
+    </DocTip>
+
+    <h2 id="2026-11-23">23 Kasım 2026</h2>
+    <ul>
+      <li><strong>Sol menü</strong>: Foundations / Components olarak yeniden düzenlendi; Logos ve Illustrations Foundations altına taşındı.</li>
+      <li><strong>Tooltip (Cards)</strong>: Yeni bileşen — 6 ok konumu, başlık/kapatma seçenekleri.</li>
+      <li><strong>Campaign Card</strong>: İllüstrasyon soldan 16 px.</li>
+    </ul>
+
+    <h2 id="2026-11-18">18 Kasım 2026</h2>
+    <ul>
+      <li><strong>Landing Title</strong>: Başlığın soluna avatar eklendi (<strong>Avatar</strong> + <strong>Initials</strong>); 32 px daire, her iki temada beyaz zemin ve oxford-black baş harf.</li>
+      <li><strong>In-App Notifications</strong>: Kart zemini Figma’daki gibi şeffaf; zemin artık üstteki yüzeyden geliyor. “Koyu başlık alanında” örneği eklendi. Şeffaf kartta gölge kutu gibi göründüğü için gölge de kaldırıldı (Figma ile birlikte).</li>
+      <li><strong>Campaign Card</strong>: Kart yüksekliği sabit 120 px; başlık ve link tek satır, açıklama en çok iki satır gösterilip üç nokta ile kesilir. Sol medya panelinin zemini kaldırıldı, illüstrasyonun kendi çizimi görünür. Uzun metin örneği ve kesme kuralları eklendi.</li>
+      <li><strong>New Asset Card</strong>: Başlığın sağına 16 px bilgi ikonu eklendi (Security/Info; <code>onInfoClick</code> ile buton olur). CTA Toggles eklendi: CTA göster/gizle düğmesine dönüşür, etiket GİZLE/GÖSTER olur, tutar maskelenir; bu modda göz butonu varsayılan olarak gizlenir. CTA ikonu değiştirilebilir.</li>
+      <li><strong>Card MVP+</strong> yeniden yapılandırıldı: Minifield kaldırıldı. Yeni eksenler Leading (Payment Method | Icon | Card Image) ve Container (Flat | Card); kart/hesap/kredi hazır ayarları, değiştirilebilir aksiyon ikonu ve Ana Sayfa kullanımı eklendi.</li>
+      <li><strong>Section Divider</strong> (Figma): CTA ve Info &amp; CTA tiplerinde sağdaki bağlantı metni ayrı <strong>CTA Label</strong> özelliği oldu (kodda <code>ctaLabel</code> zaten vardı).</li>
+    </ul>
+
+    <h2 id="2026-11-17">17 Kasım 2026</h2>
+    <ul>
+      <li><strong>Dialog</strong>: Figma'daki <strong>Media</strong> seçeneği eklendi. Media=Icon ikonu (32 px), Media=Illustration 120×120 illüstrasyonu gösterir; <strong>Show Media</strong> medyayı gizler. Playground'a Media, Show Media, Icon ve Illustration kontrolleri; “İllüstrasyonlu” örneği eklendi.</li>
+      <li><strong>Empty State</strong> kaldırıldı; Kurallar sayfasındaki referansları temizlendi.</li>
+      <li><strong>Koyu tema önizlemesi</strong>: Koyu tema seçiliyken sayfa zemini de koyu; 25 story dosyasındaki sabit açık gri (#f3f3f3) zeminler tema tokenına çevrildi, böylece koyu temada metinler ve iskeletler görünür.</li>
+      <li><strong>Payment Method</strong>: koyu temada logo adları görünmüyordu (beyaz zemin üstünde beyaz yazı); örnek zemini tema tokenına çevrildi.</li>
+      <li><strong>Dialog</strong>: Open açıkken overlay artık tüm sayfayı kaplamıyor; telefon boyutlu çerçevenin içinde açılıyor. <strong>Date Picker</strong>: koyu temada aralıktaki günler Figma gibi sabit koyu renk (okunur). <strong>text/muted</strong> açık temada athens-grey → disabled-grey (Figma değişkeni de güncellendi): Step Bars sıradaki adımlar, takvim ay dışı günler, Dropdown pasif öğeler daha okunur.</li>
+      <li><strong>Skeleton Pattern, Skeleton'a birleşti</strong>: Shape=Line / Circle / Block / List Item / Card. List Item Count ile tekrarlanır; ölçüler öncekiyle aynı.</li>
+      <li><strong>Trend Indicator</strong> ikonu 12 px (Figma: 12×12, gap 4, satır yüksekliği 16).</li>
+      <li>Feedback 1. tur düzeltmeleri: Skeleton Pattern ve Dialog Senaryolar zemini tema tokenı (<code>--odea-background-canvas</code>), Dialog başlıkları “Title”.</li>
+      <li><strong>Currency Converter</strong> Figma ölçülerine göre yeniden düzenlendi ve etkileşimli: tutar yazılınca (kuruşlu) alt tutar kurla hesaplanır, ⇅ para birimlerini değiştirir, All Balance bakiyeyi doldurur.</li>
+      <li><strong>In-App Notifications</strong> Figma’daki yeni bileşene göre: yalnız ana sayfa kartı, durum etiketi durum renginde; Dashboard yerleşimi kaldırıldı.</li>
+      <li><strong>Quick Filter</strong> yatayda kaydırılır (Playground’da Tag Count); <strong>Quick Filter Tag</strong> artık Quick Filter’ın alt modülü.</li>
+      <li><strong>Action Sheet</strong> işlem listesinde satırlar arası Divider. <strong>Toast</strong> onay ikonu düzeltildi (Figma’da Status Tag ikonları daireden taşıyordu). <strong>Info</strong> tamamlandı (✅ DONE).</li>
+      <li><strong>Currency Converter</strong> uzun tutarlarda taşmıyor: en fazla 12 hane, sığmayan tutarda yazı küçülür; orta çizgi kenarlığın içinde biter. Modules grubu tamamlandı (✅ DONE).</li>
+      <li><strong>Navigation Bar</strong>: Title açma/kapama kaldırıldı (başlık her zaman görünür); Progress artık her ikon seçeneğiyle çalışır. <strong>Landing Title</strong>: bir veya iki ikon, ikonlar seçilebilir (Icon 1 / Icon 2); New Notification kaldırıldı. Notification Icon bileşeni kaldırıldı.</li>
+      <li><strong>Bottom Bar (Legacy)</strong> 3–5 sekme; her sekmenin ikonu ve metni değiştirilebilir. <strong>Tabs</strong> 1–4 sekme, sığmazsa yatay kaydırma. <strong>Navigation Bar</strong> dikey boşlukları Figma ile aynı. <strong>Landing Title</strong> koyu temada düzgün. Total Assets ve Notification Icon sayfaları kaldırıldı.</li>
+      <li><strong>Navigation</strong>: Navigation Bar’da çentik Figma’daki gibi görünmez (Status Bar’a Notch kontrolü); Landing Title ve Section Divider örnekleri dummy/Figma adlarıyla; Indicator senaryoları görünür.</li>
+    </ul>
+
+    <h2 id="2026-11-16">16 Kasım 2026</h2>
+    <ul>
+      <li>Bileşenlerin kendi varsayılan metinleri de dummy oldu (ör. Text Area etiketi “Label”, Summary Card “Title” / “1.234,56 TL”, Empty State “Title” / “BUTTON”). Kalan Türkçe örnek metinler (buton etiketleri, adım adları, sözleşme metinleri) da dummy’ye çevrildi. Ekran okuyucu etiketleri, logo ve para birimi adları değişmedi.</li>
+      <li>Figma’daki tüm bileşen metinleri de dummy oldu; kod varsayılanları Figma ile birebir aynı (ör. Dropdown “Select an option”, Account “Select an account”).</li>
+      <li><strong>Activity Item</strong>: Figma’da yeni <strong>Incoming</strong> varyantı (True: tutar “+” ve yeşil). Playground’a “Incoming” kontrolü eklendi.</li>
+      <li><strong>Card Physical</strong> Shared’dan <strong>Logos</strong> grubuna taşındı.</li>
+      <li><strong>Dropdown</strong>: açık listede satırlar Figma’daki gibi 24 px + 16 px aralık; seçili satır vurgulu (surface/indicator), seçili olmayanlar soluk; radyo/onay kutulu listede seçili satır vurgulu.</li>
+      <li><strong>Account Dropdown</strong>: Figma’daki yeni bileşene göre yeniden yazıldı (eski açılır liste “Account” kaldırıldı). Hesap kartı: ad, alt bilgi, iki bakiye satırı; State = Default / Hover / Checkbox, Dropdown = ok.</li>
+      <li><strong>Date Picker</strong>: tek tarih modunda aralık sonu (23) artık seçili görünmüyor.</li>
+      <li><strong>Date Picker</strong> ay seçimi: ay ve yıl sütunları bağımsız kaydırılan tekerlek (Figma Type=Months); ortadaki satır seçili, aylar döngüsel, yıllar 1950–2100. Başlığa dokununca takvime dönülür.</li>
+      <li><strong>Buttons</strong> ve <strong>Dropdown</strong> grupları tamamlandı (Figma’da ✅ DONE işaretli).</li>
+      <li>Cards Figma karşılaştırması: <strong>Summary Card</strong> hesap ikonu her iki temada koyu daire (Figma); <strong>Activity Item</strong> yüksekliği içeriğe göre (en kısa 72 px); <strong>Message Card</strong> metin alanı 183 px, açıklama 2 satır; <strong>In-App Notification</strong> IBAN’da kopyala ikonu sağ kenarda.</li>
+      <li><strong>In-App Notification</strong>: IBAN kopyalama durumu kaldırıldı; tek bileşen, üç seçenek: Show Avatar (sol ikon), Show Close (sağ üst kapatma), Show Text Link. Senaryolar: tam, linksiz, kalıcı, ikonsuz bildirim.</li>
+      <li><strong>Message Card</strong>: “Eksik veri” örneği kaldırıldı. Monthly Activity Item, Product Card, Step Bars, Summary Card ve Message Card tamamlandı (✅ DONE).</li>
+      <li>List Item: <strong>List Item Default</strong> tıklanabilir satır diğerleriyle aynı genişlikte; <strong>Overview</strong> bekleyen tutar satırı 16 px aşağıda, sıfır bakiyede “0,00 TL (0%)”. Figma’da Contract Check ve List Item/Illustration tek bileşen oldu.</li>
+      <li><strong>List Item Default</strong> adı <strong>List Item</strong> oldu (Figma + kod). Yeni “Liste” örneği: zeminli, alt alta satırlar ve aralarında Divider (Half).</li>
+      <li>Yeni renk token’ı <code>border/divider</code> (Light #2D353C %4, Dark #FFFFFF %8); <strong>Divider</strong> bu rengi kullanır. <strong>List Item</strong> Playground’u: 8 ikon, Clickable, List Mode (Rows, Show Divider, Divider Size, Background).</li>
+      <li>Modules Figma karşılaştırması: <strong>In-App Notifications</strong> Dashboard’da da nokta, kapatma, link ve uyarı illüstrasyonu (Figma); durum etiketleri Offer/Reminder/Warning. <strong>Info</strong> gereklilikler tek sütun madde işaretli. <strong>Toast</strong> ikonu 24 px. <strong>Currency Converter</strong> kur sağda, varsayılanda tutarlar. Figma’da Currency Converter bayrak hatası düzeltildi, Quick Filter tek bileşen.</li>
+      <li>Metin stilleri: birebir kopya olan <strong>UI Text/LG Medium</strong>, <strong>UI Numbers/LG Medium</strong> ve <strong>UI Numbers/2XL Medium</strong> kaldırıldı; yerine UI Text/LG, UI Numbers/LG ve UI Numbers/2XL kullanılır (değerler aynı). Toplam 38 metin stili.</li>
+    </ul>
+
+    <h2 id="2026-11-14">14 Kasım 2026</h2>
+    <ul>
+      <li>Tüm story ve doküman örnek metinleri dummy oldu (Title, Label, Sub text goes here, Lorem ipsum, 1.234,56 TL, TR00 0000…). Gerçek hesap, kişi, IBAN ve kampanya metni kullanılmaz.</li>
+      <li>Doküman sayfalarındaki bileşen önizlemeleri gri zeminde (<code>--odea-background-canvas</code>); beyaz kartların, butonların ve modüllerin gölgeleri (Elevation) artık görünür.</li>
+      <li><strong>Text Area</strong> ve <strong>Text Field</strong>: yüzen etiket Figma’daki gibi çerçevenin üstüne oturur, alan yüksekliği küçülmez (120 / 56 px). Alanlara yazılabilir: boşken Default, yazınca Filled, odakta Focused görünür; sayaç yazdıkça güncellenir. Text Field Number Selector + Focused artık Figma’daki gibi Phone Entry (“05|”) gösterir; Full Width’te dış boşluk yok.</li>
+      <li><strong>Toggle</strong> ve <strong>Toggle Input</strong>: Playground’da değer verildikten sonra da tıklayınca değişir. Toggle Input’ta avatar Figma’daki Icon Avatar (XLarge); kontrol adı Checked.</li>
+      <li><strong>Text Checkbox Input</strong>, <strong>Checkbox</strong>, <strong>Radio Button</strong>, <strong>Toggle</strong>: Playground’daki “Enabled” kontrolü Figma’daki adıyla <strong>Disabled</strong> oldu; devre dışıyken tıklama etkisiz.</li>
+      <li><strong>Radio Button Field</strong>: Multi Line artık Vertical Options’ta da çalışır (her seçenek başlık + açıklama); “Dikey seçenekler · çok satır” örneği eklendi.</li>
+    </ul>
+
+    <h2 id="2026-11-13">13 Kasım 2026</h2>
+    <ul>
+      <li>Inputs düzeltmeleri: <strong>Date Picker</strong> gerçek takvim oldu (günlere tıklama, önceki/sonraki ay, ay başlığından ay listesi, aralık seçimi; şerit uçlardaki dairelerin arkasından başlar). <strong>Pin Input</strong> “Hatalı PIN” durumu eklendi (Figma’da Pin Style=Error); PIN rakamları asla açık gösterilmez, “Açık” örneği kaldırıldı. <strong>Search Bar</strong> Figma’ya göre: Default boş + placeholder, Focused yazıyor, Filled dolu + temizle. <strong>Checkbox Input</strong> “Çoklu seçim listesi” ve “Çok satırlı liste” örnekleri. <strong>Radio Button Field</strong> Playground kontrolleri ve tıklama düzeltildi. Shortcut etiketi en fazla iki satır, sonrası “…”; Shortcut Large’da yalnız Playground.</li>
+      <li>Action → <strong>Action Card</strong> (Figma ile aynı ad; kodda <code>ActionCard</code>). Varyantı yok, yalnız Playground kaldı. Shortcut etiketi kırpılmaz, iki satıra iner. Shortcut Large’dan “Uzun değer” örneği kaldırıldı.</li>
+      <li>Shared grubu sadeleşti; parçalar asıl yerlerine taşındı (Figma ve Storybook): avatarlar → <strong>Avatars</strong>; illüstrasyonlar ve küçük grafikler → <strong>Illustrations</strong>; Status Tag ve Trend Indicator → <strong>Feedback</strong>; Pagination ve Tab Link → <strong>Navigation</strong>; Date Picker ve Number → <strong>Inputs</strong>. Shared’da yalnız iOS Status Bar, Home Indicator ve Card Physical kaldı.</li>
+      <li>Navigation temizliği: Bottom Bar artık <strong>Bottom Bar (Legacy)</strong> (yeni tasarımlarda kullanılmaz) ve tek değerli Home Indicator özelliği kaldırıldı; Currency Switcher tek component oldu (Variant=Default kaldırıldı); Tabs’ta State 1–4 → <strong>Selected Tab = 1–4</strong>. Section Divider (Tone), Progress (Current) ve Total Assets (Label, Currency) Playground’larında Figma’da olmayan kontroller gizlendi.</li>
+    </ul>
+
+    <h2 id="2026-11-12">12 Kasım 2026</h2>
+    <ul>
+      <li>Figma Cards güncellemesi koda yansıdı: New Asset Card kaldırıldı; Message Card yalnız Promo + Description; In-App Notification’dan Timer varyantı kaldırıldı (Variant = Button / IBAN); Summary Card’da Card + Media görünümünde dropdown yok.</li>
+      <li>Bileşen adları güncellendi: Summary Card MVP+ → <strong>Summary Card</strong>, Monthly Activity Item MVP+ → <strong>Monthly Activity Item</strong> (kodda <code>MonthlyActivityItem</code>). Figma’da tek değerli özellikler kaldırıldı (Summary Card Size, Step Bars Total Steps); Product Card tek component oldu; In-App Notification varyantları <strong>Variant = Timer / Button / IBAN</strong> olarak adlandırıldı. Story adları Türkçe senaryo adlarına çevrildi (ör. “Usd False” → “TL toplamı”, “All Variants” → “Senaryolar”).</li>
+      <li>Playground kontrolleri gruplandı (İçerik, Durum, Ödül, Metin linki, Aksiyon ikonları…); ilgili göster/metin/ikon kontrolleri yan yana. Figma’daki “Show … Icon” anahtarı ile ikon değiştirme tek seçimde birleşti: <strong>Yok</strong> ikonu gizler (Activity Item, Message Card, Product Card, Monthly Activity Item, In-App Notification).</li>
+      <li>Activity Item: para çekmede ödül gösterilmez. Figma’da Show Reward Icon ve tek değerli Tone özelliği kaldırıldı; Activity Item artık varyant seti değil tek component.</li>
+      <li>Figma Cards sayfasındaki sadeleştirme koda yansıdı: Step Bars yalnız 4 adım; Summary Card yalnız Extended (Media yalnız Card’da seçilir); Message Card yalnız Promo ve Promo + Description; Product Card tek görünüm; In-App Notification’da Close yalnız Button varyantında; Activity Item Playground’una Show Action Icons ve ikon değiştirme kontrolleri eklendi.</li>
+      <li>Activity Item: para transferinde ödül gösterilmez; Figma’ya Show Reward özelliği eklendi.</li>
+      <li>Activity Item MVP+ → <strong>Activity Item</strong> (Figma ile aynı ad). Tone=Positive ve durum noktası kaldırıldı: tek görünüm, tutar her zaman birincil metin renginde.</li>
+      <li>Tüm Playground’lara <strong>Theme</strong> (Light / Dark) kontrolü eklendi.</li>
+      <li>Baklava kalıbında bileşen dokümanları: Kullanım, Senaryolar, Uç durumlar ve API bölümleri eklendi.</li>
+      <li>Tipografi, Boşluk, Boyut, Köşe yarıçapı ve Gölge sayfaları eklendi. Tüm ölçüler Figma değişkenlerinden üretiliyor (<code>scripts/gen-foundation.py</code>): 41 metin stili <code>{'.odea-*'}</code> sınıfı olarak, boşluk, boyut, grid, kenarlık, opaklık, dört gölge seviyesi (renkleriyle) ve buton ölçüleri CSS değişkeni olarak. Figma’daki 12 değişken koleksiyonunun tamamı (renkler 185, tipografi 104, boşluk 21, boyut 18, grid 6, radius 8, kenarlık 5, opaklık 15, gölge 21, buton 30) Storybook’ta karşılığına sahip.</li>
+      <li>Açık/koyu tema seçici Storybook araç çubuğuna eklendi.</li>
+      <li>Kartlar <code>--odea-*</code> renk token’larına taşındı.</li>
+      <li>Step Bars tek kurala döndü: yalnızca Current Step seçilir.</li>
+      <li>Playground kontrolleri Figma özellik adlarıyla birebir eşleşiyor; ham prop kontrolleri gizlendi.</li>
+      <li>Kartlarda ikon aç/kapa ve ikon değiştirme özellikleri eklendi.</li>
+    </ul>
+
+    <h2 id="2026-11-11">11 Kasım 2026</h2>
+    <ul>
+      <li>Varyant sadeleştirme: Activity Item 12 → 2 (Tone), Summary Card 12 → 7.</li>
+      <li>Message Card tek Type eksenine indirildi; Step Bars Total Steps × Current Step olarak düzenlendi.</li>
+      <li>Bileşenler içerikten beslenir hâle geldi; tüm ikonlar ortak <code>&lt;Icon&gt;</code> bileşenine geçti.</li>
+    </ul>
+  </div>
+</div>

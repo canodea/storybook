@@ -1,0 +1,89 @@
+.root {
+  width: 375px;
+  height: 100px;
+  position: relative;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.statusBar {
+}
+
+.content {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-16);
+  padding: 0 var(--space-24);
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: var(--space-8);
+  min-width: 0;
+}
+
+/* Her iki temada sabit: beyaz daire, oxford-black baş harfler. */
+.avatar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--odea-neutral-white);
+  color: var(--odea-neutral-oxford-black);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+}
+
+.title {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-lg-font-size);
+  line-height: var(--ui-display-lg-line-height);
+  letter-spacing: var(--ui-display-lg-letter-spacing);
+  color: var(--odea-text-inverse);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-16);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-neutral-white);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.iconButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+}

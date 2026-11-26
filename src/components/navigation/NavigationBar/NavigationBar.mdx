@@ -1,0 +1,70 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './NavigationBar.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="412-7285" />
+
+Üst gezinme çubuğu. `base` ve `sheet-view` olmak üzere iki görünümü vardır; solda geri oku, ortada başlık (isteğe bağlı alt başlık), sağda kapat/iki ikon/ekle aksiyonları. Altta isteğe bağlı Progress gösterilebilir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Detay, form ve sheet ekranlarının üst barında geri/kapat ve sayfa aksiyonları için kullanılır.
+- Görünüm `style` ile seçilir: `base` tam ekran sayfalar, `sheet-view` modal gibi açılan yüzeyler.
+- Başlık `label`, isteğe bağlı alt başlık `subtitle` ile verilir; sağdaki aksiyon `icon` ile seçilir (`zero`, `one`, `two`, `add-icon`).
+- Adımlı akışlarda `progress` açılır; sheet-view ile birlikteyken yükseklik 8 px artar.
+
+## Varyantlar
+
+### Base
+
+<Canvas of={Stories.Base} />
+
+### Alt başlık
+
+<Canvas of={Stories.AltBaslik} />
+
+### Kapat + Progress
+
+<Canvas of={Stories.Kapat} />
+
+### İki ikon
+
+<Canvas of={Stories.IkiIkon} />
+
+### Ekle
+
+<Canvas of={Stories.Ekle} />
+
+### Sheet view
+
+<Canvas of={Stories.SheetView} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Tüm ikon butonları aria-label taşır (Geri, Kapat, Ekle, Favori, Alarm).',
+    'subtitle açıkken başlık bloğu iki satır (alt başlık + başlık) olur.',
+    'progress ikon seçiminden bağımsızdır; her ikon varyantıyla gösterilebilir.',
+    'sheet-view, modal gibi açılan yüzeylerin üst barı içindir.',
+  ]}
+  donts={[
+    'icon="zero" iken sağda ikon gösterilmez.',
+    'sheet-view ile progress birlikteyken yükseklik 8px artar; buna dikkat edilir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

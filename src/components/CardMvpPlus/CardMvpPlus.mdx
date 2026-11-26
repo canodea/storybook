@@ -1,0 +1,81 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './CardMvpPlus.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="747-2687" />
+
+Kart özeti: solda **leading** (ödeme yöntemi, ikon veya kart görseli), sağda ad, kart numarası ve iki etiket/değer satırı. İki container vardır: **Flat** (köşesiz, 16 24 px padding) ve **Card** (8 px köşe, 16 px padding, kart gölgesi).
+
+## Playground
+
+Type, Leading, Leading Icon, Container, Show Action ve Action Icon kontrolleri. Hazır ayar seçiliyken leading ve numara o ayardan gelir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- **Kart:** Leading Payment Method; kart numarası `0000 **** **** 0000`.
+- **Hesap:** Leading Icon (Math/Bank); kart numarası `000 - 0000 - 000`.
+- **Kredi:** Leading Icon (Banking/Money); kart numarası `0000 - 000000 - 000`, ilk değer `01.01.2025`.
+- **Ana Sayfa:** Üç kart alt alta, 24 px kenar boşluklu canvas zeminde, 16 px aralıkla ve Card container ile gösterilir.
+
+## Varyantlar
+
+### Kart
+
+<Canvas of={Stories.Kart} />
+
+### Hesap
+
+<Canvas of={Stories.Hesap} />
+
+### Kredi
+
+<Canvas of={Stories.Kredi} />
+
+## Yapı
+
+- **Payment Method / Icon:** Üst satırda leading + ad, sağda 24 px aksiyon butonu; altında kart numarası ve iki etiket/değer satırı. Kök aralık 4 px.
+- **Card Image:** Üst satırda 64×40 Card Physical, dikey ad/kart numarası ve aksiyon butonu; kök aralık 16 px.
+- **Type:** `card`, `account`, `loan` hazır ayarları leading, ikon, kart numarası ve değerleri belirler. Açık verilen prop her zaman kazanır.
+
+## Ana Sayfa kullanımı
+
+Card container, canvas zemin üzerinde 24 px padding ve üç kart alt alta 16 px aralıkla.
+
+<Canvas of={Stories.AnaSayfaKullanimi} />
+
+## Tüm varyantlar
+
+Üç leading ve iki container’ın altı kombinasyonu.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Listede Card container kullan; üç kartı 16 px aralıkla alt alta diz.',
+    'Flat container’ı 16 24 px padding ile köşesiz kullan.',
+    'Leading seçimini içeriğe göre yap: ödeme yöntemi, 24 px ikon veya kart görseli.',
+    'Aksiyon ikonunu ve etiketini işleme göre ver; varsayılan DotsThree / “Diğer işlemler”.',
+    'Hazır ayarlarda yalnız değişmesi gereken prop’u açıkça ver.',
+  ]}
+  donts={[
+    'Aynı kartta iki leading gösterme.',
+    'Kart numarasını maskesiz yazma; dummy format kullan.',
+    'Card container’da padding’i 16 px’ten farklı verme.',
+    'Leading ikonu 24 px’ten büyük veya küçük kullanma.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

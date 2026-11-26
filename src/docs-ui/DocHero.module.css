@@ -1,0 +1,33 @@
+.hero {
+  background: #f7fafc;
+  border-bottom: 1px solid #e2e7ee;
+  padding: 56px 0 44px;
+  margin: 0 0 40px;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #535c68;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-family-display);
+  font-size: clamp(40px, 6vw, 56px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #2d353c;
+}
+
+.lead {
+  max-width: 640px;
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #535c68;
+}

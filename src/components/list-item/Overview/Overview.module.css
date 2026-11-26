@@ -1,0 +1,129 @@
+.root {
+  width: 375px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-16);
+  background: var(--odea-surface-default);
+  flex-shrink: 0;
+}
+
+.wideBottom {
+  padding-bottom: var(--space-24);
+}
+
+.valueRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-16);
+  padding: 0 var(--space-24);
+}
+
+.amountGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-8);
+  flex: 1;
+  min-width: 0;
+}
+
+.amount {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-xl-font-size);
+  line-height: var(--ui-display-xl-line-height);
+  letter-spacing: var(--ui-display-xl-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+}
+
+.eyeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-icon-color-default);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.eyeButton:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.detailIcon {
+  color: var(--odea-icon-color-default);
+  flex-shrink: 0;
+}
+
+.changeRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+  padding: 0 var(--space-24);
+  color: var(--odea-status-success);
+}
+
+.changeRowMuted {
+  color: var(--odea-text-secondary);
+}
+
+.changeAmount {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: inherit;
+}
+
+.paren {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--ui-numbers-sm-font-size);
+  line-height: var(--ui-numbers-sm-line-height);
+  letter-spacing: var(--ui-numbers-sm-letter-spacing);
+  color: inherit;
+}
+
+.pendingRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-8);
+  margin-top: var(--space-16);
+  padding: 0 var(--space-24);
+}
+
+.pendingCaption {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  white-space: nowrap;
+}
+
+.pendingValue {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+}

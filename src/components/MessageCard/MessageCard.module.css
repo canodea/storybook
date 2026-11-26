@@ -1,0 +1,108 @@
+.card {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-md, 16px);
+  width: 327px;
+  padding: var(--inset-md, 16px);
+  border-radius: var(--radius-md, 8px);
+  background: var(--odea-surface-default);
+  filter: drop-shadow(
+    var(--shadow-default-offset-x, 0px) var(--shadow-default-offset-y, 8px)
+      calc(var(--shadow-default-blur, 16px) / 2)
+      var(--odea-effect-shadow)
+  );
+}
+
+.illustration {
+  display: block;
+  flex: none;
+  width: 56px;
+  height: 56px;
+}
+
+.illustration img {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.data {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4, 4px);
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+/* Type=Promo: Figma'da metin alanı 72 px sabit; başlık üstte, aksiyon altta (kart 104 px). */
+.dataPromo {
+  min-height: 72px;
+  justify-content: space-between;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: var(--odea-text-primary);
+}
+
+.title {
+  width: 100%;
+  font-family: var(--font-family-display, 'Red Hat Display', system-ui, sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-base-font-size, 14px);
+  line-height: var(--ui-display-base-line-height, 24px);
+  letter-spacing: var(--ui-display-base-letter-spacing, 0.7px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Figma metin alanı 183 px; Inter 12 px'te 2. satır 183,17 px istediği için 4 px pay verilir
+   (pay 16 px'lik boşluğa taşar, görünmez). */
+.body {
+  width: calc(100% + 4px);
+  font-family: var(--font-family-body, 'Inter', system-ui, sans-serif);
+  font-weight: 400;
+  font-size: var(--ui-text-sm-font-size, 12px);
+  line-height: var(--ui-text-sm-line-height, 16px);
+  letter-spacing: var(--ui-text-sm-letter-spacing, 0px);
+}
+
+.action {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-family-display, 'Red Hat Display', system-ui, sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-sm-font-size, 12px);
+  line-height: var(--ui-display-sm-line-height, 16px);
+  letter-spacing: var(--ui-display-sm-letter-spacing, 1.2px);
+  color: var(--odea-accent-primary);
+  text-transform: uppercase;
+}
+
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--odea-text-primary);
+  cursor: pointer;
+}

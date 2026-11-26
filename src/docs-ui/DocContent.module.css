@@ -1,0 +1,95 @@
+/* Typography for MDX docs bodies. Apply to the wrapper that holds the markdown. */
+.doc {
+  color: #2d353c;
+}
+
+.doc h2 {
+  margin: 48px 0 14px;
+  font-family: var(--font-family-display);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #2d353c;
+  scroll-margin-top: 96px;
+}
+
+.doc h3 {
+  margin: 32px 0 10px;
+  font-family: var(--font-family-display);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #2d353c;
+  scroll-margin-top: 96px;
+}
+
+.doc p {
+  margin: 0 0 16px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #42494f;
+}
+
+.doc ul,
+.doc ol {
+  margin: 0 0 20px;
+  padding-left: 22px;
+}
+
+.doc li {
+  margin: 6px 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #42494f;
+}
+
+.doc li > ul {
+  margin: 6px 0;
+}
+
+.doc a {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.doc a:hover {
+  text-decoration: underline;
+}
+
+.doc strong {
+  color: #2d353c;
+  font-weight: 600;
+}
+
+.doc code {
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #eff2f4;
+  color: #2d353c;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.88em;
+}
+
+.doc pre {
+  margin: 0 0 24px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  background: #f7fafc;
+  border: 1px solid #e2e7ee;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.doc pre code {
+  padding: 0;
+  background: none;
+  font-size: inherit;
+}
+
+.doc hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #e2e7ee;
+}

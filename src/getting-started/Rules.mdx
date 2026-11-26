@@ -1,0 +1,112 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { DocHero } from '../docs-ui/DocHero';
+import { DocTip } from '../docs-ui/DocTip';
+import content from '../docs-ui/DocContent.module.css';
+import page from '../docs-ui/DocPage.module.css';
+
+<Meta title="Getting Started/Kurallar" />
+
+<div className={`${page.page} sb-unstyled`}>
+  <DocHero
+    eyebrow="Getting Started"
+    title="Kurallar"
+    lead="Odea mobil bankacılık tasarım sisteminin tek kaynak kural sayfası (Figma › 📘 Kurallar). Bir kural bileşen açıklamasıyla çelişirse bu sayfa geçerlidir."
+  />
+
+  <div className={content.doc}>
+    <DocTip>
+      <p>Kaynak: Figma Foundation dosyası, “📘 Kurallar” sayfası (son güncelleme 9 Kasım 2026). Tasarımcılar, geliştiriciler ve AI araçları bir bileşeni kullanmadan önce bu sayfayı okur.</p>
+    </DocTip>
+
+    <h2 id="yapi">Dosya yapısı</h2>
+    <p>Her Figma sayfasının tek amacı vardır; Storybook’ta da aynı gruplar kullanılır. Logos ve Illustrations, Foundations kökünün alt gruplarıdır.</p>
+    <ul>
+      <li><strong>Foundations</strong> — renkler, tipografi, boşluk, boyut, köşe, gölge, 989 ikon (34 set, 24 px ızgara). Alt grupları: <strong>Logos</strong> (Odea/Odeabank logoları, ödeme yöntemi logoları, fiziksel kart görseli) ve <strong>Illustrations</strong> (Campaign, Woman Analyze, Coin, Bank Assets, Warning Signs, Notifications, OTPs…).</li>
+      <li><strong>Buttons</strong> — Button, Shortcut, Shortcut Large, Action Card.</li>
+      <li><strong>Inputs</strong> — Text Field, Text Area, Toggle, Checkbox, Radio, Pin, Search Bar, Date Picker ve etiketli (Input/Field) hâlleri.</li>
+      <li><strong>List Item</strong> — liste satırları, Divider, Overview, Simple 2 columns text.</li>
+      <li><strong>Dropdown</strong> — Dropdown ve Account seçicileri.</li>
+      <li><strong>Cards</strong> — kart ailesi.</li>
+      <li><strong>Modules</strong> — birden fazla bileşenden oluşan modüller: Info, Currency Converter, Action Sheet, Toast…</li>
+      <li><strong>Navigation</strong> — Navigation Bar, Bottom Bar, Tabs, Section Divider, Progress, Currency Switcher, Pagination, Tab Link.</li>
+      <li><strong>Feedback</strong> — Dialog, Spinner, Skeleton, Badge, Status Tag, Trend Indicator.</li>
+      <li><strong>Avatars</strong> — Icon, Currency, Flag ve Company Avatar.</li>
+      <li><strong>Shared</strong> — ortak sistem parçaları: iOS Status Bar, Home Indicator.</li>
+    </ul>
+
+    <h2 id="token">Token mimarisi</h2>
+    <p>Üç katman: <strong>Temel</strong> (ham değer) → <strong>Anlamsal</strong> (rol) → <strong>Component</strong>. Tasarımda ve kodda her zaman anlamsal katman kullanılır.</p>
+    <ul>
+      <li>Kodda token adı <code>var(--odea-…)</code> biçimindedir: <code>text/primary</code> → <code>var(--odea-text-primary)</code> (eski <code>{'--color-*'}</code> adları da aynı değere bağlıdır).</li>
+      <li>Rolü seçin: metin → <code>{'text/*'}</code>, ikon → <code>{'icon/color/*'}</code>, zemin → <code>{'surface/*'}</code> veya <code>{'background/*'}</code>, çizgi → <code>{'border/*'}</code>.</li>
+      <li>Ham hex değer kullanılmaz; karşılığı yoksa yeni anlamsal token önerilir. Temel paletten doğrudan bağlanmaz.</li>
+      <li>Logo, bayrak, illüstrasyon ve iOS sistem çizimlerindeki sabit renkler bilinçli olarak token dışıdır.</li>
+      <li>Yarı saydam renklerde opaklık token değerinde tutulur (ör. <code>surface/tint</code> Dark’ta %8 beyaz).</li>
+      <li><code>{'button/*'}</code> renkleri yalnız Button içinde kullanılır. <code>{'status/*'}</code> renkleri metinde tek başına kullanılmaz; ikon ve zeminde kullanılır.</li>
+    </ul>
+
+    <h2 id="dark">Dark Mode</h2>
+    <ul>
+      <li>Bileşenlerde Dark Mode varyantı yoktur; tema, variable modu ile değişir (Figma: 02 - Renkler - Anlamsal → Dark).</li>
+      <li>Kodda <code>[data-theme="dark"]</code> altında anlamsal koleksiyonun Dark değerleri yazılır; class veya prop ile ikinci bileşen üretilmez.</li>
+      <li>Yeni bileşen için Light/Dark ayrı varyant açılmaz; renkler anlamsal token’a bağlanınca Dark görünüm otomatik oluşur.</li>
+    </ul>
+
+    <h2 id="tipografi">Tipografi ve içerik</h2>
+    <ul>
+      <li>Tüm metinler bir text style kullanır: başlık ve buton için Red Hat Display, metin ve rakamlar için Inter. Elle font boyutu/ağırlığı verilmez.</li>
+      <li><strong>Heading</strong> sayfa/bölüm başlığı; <strong>Text</strong> uzun gövde metni; <strong>UI Display</strong> kısa vurgulu etiket (Button SM/LG yalnız buton etiketi); <strong>UI Text</strong> arayüz metni (XS yalnız 10 px mikro etiket); <strong>UI Numbers</strong> tutar, oran, tarih.</li>
+      <li>Button etiketleri FULL CAPS yazılır; Türkçe karakterler (İ, Ş, Ğ, Ü, Ö, Ç) doğru kullanılır. Section Divider etiketleri de büyük harflidir.</li>
+      <li>Tutar formatı: <code>53.843,00 TL</code> (binlik nokta, ondalık virgül, para birimi sonda).</li>
+      <li>Tutar yönü: giden işlem (para çekme, harcama, transfer) <code>-</code> işaretli ve birincil metin renginde; hesaba gelen para <code>+</code> işaretli ve yeşil (<code>status/success</code>). Para çekme hiçbir zaman <code>+</code> yazılmaz.</li>
+    </ul>
+
+    <h2 id="olcu">Boşluk, köşe, kenarlık, gölge</h2>
+    <ul>
+      <li>Padding: inset sm 8 · md 16 · lg 24 · xl 32. Öğe arası: gap xs 8 · sm 12 · md 16 · lg 24.</li>
+      <li>Köşe: kart 12 · alan ve buton 8 · çip ve daire full. Kenarlık: 1 varsayılan, 2 odak ve seçili durum.</li>
+      <li>Kontrol yüksekliği: sm 40 · md 48 · lg 56 (Button, Text Field, Search Bar).</li>
+      <li>Gölge: Elevation / Default (kart) · Card · Dropdown · Modal · Button · Strong (alt bar, bildirim, kısayol). Gölge rengi Dark’ta otomatik koyulaşır.</li>
+    </ul>
+
+    <h2 id="kullanim">Bileşen kullanım kuralları</h2>
+    <ul>
+      <li>Instance detach edilmez; yalnız mevcut varyant kombinasyonları kullanılır (setler seyrek olabilir).</li>
+      <li>Katman göstermek/gizlemek için boolean property; ikon/avatar/illüstrasyon değiştirmek için instance swap kullanılır.</li>
+      <li>Adı nokta ile başlayan bileşenler (.Number, .Country Flag, .Company Logo) gizli yapı taşıdır; üst bileşenleri üzerinden kullanılır.</li>
+      <li>Checkbox, Toggle ve Radio Button tek başına kullanılmaz; Checkbox Input, Toggle Input, Radio Button Field gibi etiketli hâlleri kullanılır.</li>
+      <li>Her tam ekran tasarımında üstte Status Bar, altta Home Indicator bulunur; alt parçaları (Battery, Time…) ayrı kullanılmaz.</li>
+      <li>Shortcut Large yalnız IBAN kopyalama içindir; Shortcut yalnız “More” kısayoludur.</li>
+      <li>Onay ve uyarı için Dialog (ortada, karar ister); seçenek listesi için Action Sheet (alttan açılır); kısa geri bildirim için Toast Message.</li>
+      <li>Yükleme: içeriğin şekli biliniyorsa Skeleton (Line, Circle, Block, List Item, Card), bilinmiyorsa Spinner. 300 ms altı yüklemede hiçbiri gösterilmez.</li>
+      <li>Sayaç için Badge; işlem durumu için Status Tag. Birbirinin yerine kullanılmaz.</li>
+      <li>Başka sayfaya giden kart için Product Card; çok satırlı serbest metin için Text Area, tek satırlık değer için Text Field.</li>
+    </ul>
+
+    <h2 id="isimlendirme">İsimlendirme</h2>
+    <ul>
+      <li>Bileşen: İngilizce, Title Case (“Text Field”); gizli yapı taşı “.” ile başlar.</li>
+      <li>Özellik: anlamlı ad (“Message”, “Trailing Icon”); boolean adı gösterdiği katmanın adıdır.</li>
+      <li>Token: küçük harf, “/” ile hiyerarşi (rol/öğe/durum).</li>
+      <li>Açıklama “ODEA MOBILE | Ad.” ile başlar; amaç, varyantların anlamı, ne zaman kullanılmaz. Rehber Türkçe, adlar İngilizce.</li>
+    </ul>
+
+    <h2 id="ai">AI için talimatlar</h2>
+    <ul>
+      <li>Önce bu sayfayı, sonra kullanılacak bileşenin açıklamasını oku.</li>
+      <li>Ekranı bileşenlerle kur; çizim yapma, detach etme, ham renk/ölçü yazma.</li>
+      <li>Koyu tema istenirse varyant arama; tema modunu değiştir.</li>
+      <li>Varyant kombinasyonu yoksa en yakın mevcut kombinasyonu seç ve eksikliği not et.</li>
+      <li>Metinleri gerçek Türkçe içerikle doldur; buton etiketlerini FULL CAPS, tutarları 53.843,00 TL biçiminde yaz.</li>
+      <li>Koda çevirirken token kod adlarını (<code>var(--…)</code>) kullan; Figma katman adlarını değil.</li>
+    </ul>
+
+    <h2 id="aciklar">Bilinen açıklar</h2>
+    <ul>
+      <li>Kontrast: <code>status/success</code>, <code>status/warning</code>, <code>status/danger</code> ve <code>text/muted</code> Light modda metin olarak 4.5:1’in altında kalır; metinde kullanılmaz (istisna: hesaba gelen tutarın yeşil gösterimi).</li>
+      <li>Dokunma alanı: yalnız ikonlu küçük Button (40×40), Quick Filter Tags (32 yükseklik) ve Tab Link (32 genişlik) 44 px önerisinin altındadır.</li>
+      <li>Code Connect henüz kurulmadı.</li>
+      <li><code>{'product/*'}</code> ve <code>{'asset/*'}</code> renkleri grafikler için ayrılmıştır; şu an bileşenlerde kullanılmıyor.</li>
+    </ul>
+  </div>
+</div>

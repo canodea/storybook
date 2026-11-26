@@ -1,0 +1,61 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './Checkbox.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="281-4699" />
+
+> **Primitive**: Bu bileşen ürün ekranında TEK BAŞINA kullanılamaz; yalnızca üst bileşenlerin (Checkbox Input / Text Checkbox Input) içinde kullanılır.
+
+Onay kutusu. Gerçek checkbox elemanıdır; görünümü CSS ile çizilir. base, active ve indeterminate durumları vardır.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Checkbox Input ve Text Checkbox Input gibi etiketli üst bileşenlerin içinde kullanılır. Çoklu seçimde indeterminate (belirsiz) durumu grup seçimini gösterir.
+
+## Varyantlar
+
+### Boş
+
+<Canvas of={Stories.Bos} />
+
+### Aktif
+
+<Canvas of={Stories.Aktif} />
+
+### Belirsiz
+
+<Canvas of={Stories.Belirsiz} />
+
+### Devre dışı
+
+<Canvas of={Stories.DevreDisi} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Yalnız üst bileşenlerin (Checkbox Input / Text Checkbox Input) içinde kullanılır.',
+    'Klavye ve ekran okuyucu doğru çalışır (aria-checked, native disabled).',
+    'Çoklu seçimde indeterminate (belirsiz) durumu kullanılır.',
+  ]}
+  donts={[
+    'Tek başına bir ekrana yerleştirilmez; her zaman etiketli bir üst bileşen içinde olmalıdır.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

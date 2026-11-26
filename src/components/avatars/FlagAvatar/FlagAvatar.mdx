@@ -1,0 +1,49 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './FlagAvatar.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-14206" />
+
+Dairesel ülke bayrağı avatanı. Dört boy sunar; bayrak görseli boya göre ölçeklenir. Görsel dekoratiftir.
+
+## Playground
+
+**Size** avatar boyunu, **Country** ülkeyi değiştirir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Ülke bilgisini bayrak avatarı olarak göstermek için kullanılır.
+
+## Varyantlar
+
+İki ülke, dört boy bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Bayrak görseli dekoratiftir; ülke adı ayrıca metinle verilir.',
+    'Görsel alt="" ve aria-hidden ile işaretlenir.',
+  ]}
+  donts={[
+    'Bilgi yalnız bayrağa bırakılmaz; erişilebilirlik için metin eşlik eder.',
+    'Boyut, verilen dört boyun dışına çıkarılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

@@ -1,0 +1,90 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../docs-ui/ComponentBadges';
+import { DocRules } from '../../docs-ui/DocRules';
+import * as Stories from './Tooltip.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="769-5480" />
+
+Tooltip: bir bilgi ikonuna bağlı, kısa ve bağlamsal açıklama balonu. New Asset Card'daki Info ikonu, kur bilgisi gibi bir değerin nasıl hesaplandığını anlatmak için kullanılır.
+
+## Playground
+
+Figma'daki Show Title, Show Close ve Placement özellikleri. **Show Title** kapalıyken kapatma butonu açıklamanın sağında aynı satırda kalır.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- **Bilgi ikonuna bağlı açıklama:** İkon tıklanınca balon ikonun altında açılır; ok ikonu gösterir. New Asset Card'daki Info ikonu ve kur bilgisi bunun tipik örneğidir.
+- **Dokunmatik:** Balon tıklayınca açılır, X ile kapanır. Balon açıkken tekrar ikona dokunmak da kapatır.
+- Başlık kısa ve konuyu adlandırır (ör. "Kur bilgisi"); açıklama en çok üç satırda değeri söyler.
+- Kapatma butonu `aria-label="Kapat"` taşır; balon `role="tooltip"` ve `id` ile ikona `aria-describedby` üzerinden bağlanır.
+- Balon genişliği bulunduğu alana göre %100'dür, en fazla 327 px olur. Ok balonun arkasındadır; gölge balonla birlikte oku da kapsar.
+
+## Varyantlar
+
+### Ok konumları
+
+Altı ok konumu alt alta, 24 px aralıkla.
+
+<Canvas of={Stories.OkKonumlari} />
+
+### Başlıksız
+
+Başlık yokken açıklama ve kapatma butonu tek satırda yan yana durur.
+
+<Canvas of={Stories.Basliksiz} />
+
+### Kapatmasız
+
+Kapatma butonu olmadan kullanım; dokunmatik dışı, kendiliğinden kapanan yerlerde tercih edilir.
+
+<Canvas of={Stories.Kapatmasiz} />
+
+### Bilgi ikonuyla
+
+16 px Info ikonuna tıklayınca balon ikonun altında açılır; X ile kapanır.
+
+<Canvas of={Stories.BilgiIkonuyla} />
+
+### Tüm senaryolar
+
+Altı ok konumu ile başlıksız ve kapatmasız kullanım birlikte.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Ok yeri seçimi
+
+Okun yeri `placement` ile seçilir. Balon ikonun altındaysa `top-*`, üstündeyse `bottom-*` kullanılır; ok her zaman ikonu gösterir.
+
+- `top-left`, `top`, `top-right`: Ok balonun üstünde; balon ikonun altına açılır.
+- `bottom-left`, `bottom`, `bottom-right`: Ok balonun altında; balon ikonun üstüne açılır.
+- `*-left` okun merkezi soldan 36 px, `*-right` sağdan 36 px; orta konum balonun tam ortasıdır.
+- Ekran kenarına yakın yerlerde balon taşmasın diye ok konumunu kenara doğru seç (ör. sağdaki ikonda `top-right`).
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Kısa ve tek konulu açıklama yaz; en çok üç satır.',
+    'Kapatma butonunu koru; dokunmatikte balonu X ile kapat.',
+    'Ok konumunu ikonun ekrandaki yerine göre seç.',
+    'Kritik bilgiyi değil, destekleyici açıklamayı tooltip’e taşı.',
+  ]}
+  donts={[
+    'Uzun paragraf veya birden fazla konu yazma; en çok üç satır.',
+    'Kritik bilgiyi yalnız tooltip’e saklama; tooltip kapanınca bilgi kaybolur.',
+    '`position: fixed` ile balonu sayfaya sabitleme; balon bağlı olduğu öğeyle birlikte konumlanır.',
+    'Ham renk veya sabit zemin kullanma; renkler token üzerinden gelir.',
+  ]}
+/>
+
+## Props
+
+<ArgTypes of={Stories} />

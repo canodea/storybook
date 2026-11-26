@@ -1,0 +1,58 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './ListItemIllustration.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="676-421" />
+
+Ürün ve özellik tanıtımı için 80x80 illüstrasyonlu satır. Başlık ve destekleyici metin birincil renkte; ok simgesi varsayılan gizlidir.
+
+## Playground
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Ürün ve özellik tanıtımı yapılan listelerde 80x80 illüstrasyonlu satır olarak kullanılır. Tıklanabilirse `onClick` verilir ve trailing ok gösterilir.
+
+## Varyantlar
+
+### Yer tutuculu
+
+<Canvas of={Stories.YerTutucu} />
+
+### Tıklanabilir
+
+<Canvas of={Stories.Oklu} />
+
+## Uç durumlar
+
+### Uzun metin
+
+<Canvas of={Stories.UzunMetin} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'İllüstrasyon, tanıtılan ürün/özelliğe uygun, onaylı bir görselle verilir.',
+    'Başlık display md, destekleyici metin text base birincil renkte çizilir.',
+    'Tıklanabilirse `onClick` verilir ve ok simgesi gösterilir.',
+  ]}
+  donts={[
+    'Sarı yer tutucu gerçek ürün içeriği olarak kullanılmaz.',
+    'İllüstrasyon 80x80 kutusundan taşmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

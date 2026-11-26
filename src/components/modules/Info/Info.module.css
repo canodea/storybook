@@ -1,0 +1,154 @@
+.root {
+  box-sizing: border-box;
+  width: 327px;
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-default);
+  display: flex;
+  flex-shrink: 0;
+}
+
+.root[data-style='primary'],
+.root[data-style='secondary'] {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-8);
+  min-height: 40px;
+  padding: var(--space-8) var(--space-16);
+}
+
+.root[data-style='requirements'],
+.root[data-style='bonds-repo'] {
+  flex-direction: column;
+  gap: var(--space-8);
+  min-height: 124px;
+  padding: var(--space-8) var(--space-16);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  min-width: 0;
+}
+
+.root[data-style='primary'] .header,
+.root[data-style='secondary'] .header {
+  flex: 1;
+}
+
+.icon {
+  flex: none;
+  color: var(--odea-icon-color-default);
+}
+
+.message {
+  margin: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-base-font-size);
+  line-height: var(--ui-text-base-line-height);
+  letter-spacing: var(--ui-text-base-letter-spacing);
+  color: var(--odea-text-primary);
+  min-width: 0;
+}
+
+.root[data-style='secondary'] .message {
+  color: var(--odea-text-secondary);
+}
+
+.action {
+  flex: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-sm-font-size);
+  line-height: var(--ui-display-sm-line-height);
+  letter-spacing: var(--ui-display-sm-letter-spacing);
+  color: var(--odea-accent-primary);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.action:focus-visible {
+  outline: 2px solid var(--odea-accent-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.requirement {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding-left: 9px;
+  min-width: 0;
+}
+
+.requirementText {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-text-sm-font-size);
+  line-height: var(--ui-text-sm-line-height);
+  letter-spacing: var(--ui-text-sm-letter-spacing);
+  color: var(--odea-text-label);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.repoBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  background: var(--odea-surface-inset);
+  border-radius: var(--radius-sm);
+  padding: var(--space-16) var(--space-8);
+}
+
+.blockedNote {
+  margin: 0;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-sm-font-size);
+  line-height: var(--text-sm-line-height);
+  letter-spacing: var(--text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+}
+
+.repoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+
+.repoLabel {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+  color: var(--odea-text-primary);
+}
+
+.repoValue {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--ui-numbers-base-font-size);
+  line-height: var(--ui-numbers-base-line-height);
+  letter-spacing: var(--ui-numbers-base-letter-spacing);
+  font-variant-numeric: tabular-nums;
+  color: var(--odea-text-primary);
+  white-space: nowrap;
+}

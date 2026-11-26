@@ -1,0 +1,13 @@
+.standard {
+  display: block;
+  width: 64px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+}
+
+.diji {
+  display: block;
+  width: 40px;
+  height: 64px;
+  border-radius: var(--radius-sm);
+}

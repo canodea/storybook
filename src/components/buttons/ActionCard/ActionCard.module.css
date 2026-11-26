@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-8);
+  padding: var(--inset-md);
+  width: 327px;
+  background: var(--odea-surface-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-default);
+  box-sizing: border-box;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--odea-background-canvas);
+  color: var(--odea-icon-color-default);
+  flex: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--ui-display-md-font-size);
+  line-height: var(--ui-display-md-line-height);
+  letter-spacing: var(--ui-display-md-letter-spacing);
+  color: var(--odea-text-primary);
+}
+
+.info {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-sm-font-size);
+  line-height: var(--text-sm-line-height);
+  letter-spacing: var(--text-sm-letter-spacing);
+  color: var(--odea-text-secondary);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

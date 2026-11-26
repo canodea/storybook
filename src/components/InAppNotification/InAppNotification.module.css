@@ -1,0 +1,92 @@
+.card {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xs, 8px);
+  overflow: hidden;
+  width: 327px;
+  padding: var(--inset-md, 16px);
+  border-radius: var(--radius-md, 8px);
+  background: var(--odea-surface-default);
+  box-shadow: var(--shadow-default-offset-x, 0px) var(--shadow-default-offset-y, 8px)
+    var(--shadow-default-blur, 16px) var(--shadow-default-spread, 0px)
+    var(--odea-effect-shadow);
+}
+
+.avatar {
+  position: relative;
+  flex: none;
+  width: 32px;
+  height: 32px;
+}
+
+.data {
+  position: relative;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4, 4px);
+  min-width: 1px;
+  word-break: break-word;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: var(--odea-text-primary);
+}
+
+.title {
+  width: 100%;
+  font-family: var(--font-family-display, 'Red Hat Display', system-ui, sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-md-font-size, 16px);
+  line-height: var(--ui-display-md-line-height, 24px);
+  letter-spacing: var(--ui-display-md-letter-spacing, 0.8px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.body {
+  width: 100%;
+  font-family: var(--font-family-body, 'Inter', system-ui, sans-serif);
+  font-weight: 400;
+  font-size: var(--ui-text-sm-font-size, 12px);
+  line-height: var(--ui-text-sm-line-height, 16px);
+  letter-spacing: var(--ui-text-sm-letter-spacing, 0px);
+}
+
+.action {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-family-display, 'Red Hat Display', system-ui, sans-serif);
+  font-weight: 700;
+  font-size: var(--ui-display-sm-font-size, 12px);
+  line-height: var(--ui-display-sm-line-height, 16px);
+  letter-spacing: var(--ui-display-sm-letter-spacing, 1.2px);
+  color: var(--odea-accent-primary);
+  text-transform: uppercase;
+}
+
+.iconButton {
+  position: relative;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  color: var(--odea-text-primary);
+}

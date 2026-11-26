@@ -1,0 +1,49 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './CurrencyAvatar.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-19363" />
+
+Para birimi ikonu avatarı. İki boy sunar (Medium 24, Small 16); zemin `surface/contrast`, para birimi işareti `icon/color/default` rengindedir ve avatarı tamamen kaplar. Varsayılan ikon Türk Lirası (Try) simgesidir.
+
+## Playground
+
+**Size** avatar boyunu, **Icon** para birimini değiştirir.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+Tutarların yanında para birimi ikonunu avatar olarak göstermek için kullanılır.
+
+## Varyantlar
+
+İki boy bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'İkon boyu, avatar boyuna göre ölçeklenir (medium 20, small 12).',
+    'Para birimi bağlamında (bakiye, tutar) kullanılır.',
+  ]}
+  donts={[
+    'Arka plan ve ikon rengi elle değiştirilmez.',
+    'Boyut, verilen iki boyun dışına çıkarılmaz.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

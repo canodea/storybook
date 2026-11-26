@@ -1,0 +1,50 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './StatusTag.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-14107" />
+
+16x16 durum göstergesi. Başarı, dikkat, bekleme ve başarısız durumlarında renkli daire içinde beyaz ikon; bullet durumunda ortada nötr bir nokta gösterir.
+
+## Playground
+
+**Status** gösterilecek durumu seçer.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+- Liste satırı, işlem sonucu ya da hesap durumu gibi yerlerde 16×16 durum göstergesi olarak kullanılır; her zaman bir metin/etiketle birlikte.
+- `status` seçimi: `success` başarılı, `alarm` dikkat, `pending` beklemede, `unsuccess` başarısız.
+- `status="bullet"` ikon yerine nötr nokta gösterir; gereklilik listesi gibi maddelerde kullanılır.
+
+## Varyantlar
+
+Beş durum bir arada.
+
+<Canvas of={Stories.Senaryolar} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'Durum ekran okuyucuya aria-label ile söylenir (Başarılı/Beklemede/Başarısız/Dikkat).',
+    'İkon dairenin içinde taşmaz; taşan kısım kırpılır.',
+  ]}
+  donts={[
+    'Anlamı yalnız renge bırakılmaz; her zaman bir metin ya da etiket eşlik eder.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez (ör. `onChange` verilmezse değişiklik dışarı bildirilmez).
+
+<ArgTypes of={Stories} />

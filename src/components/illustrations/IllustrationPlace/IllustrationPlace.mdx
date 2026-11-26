@@ -1,0 +1,65 @@
+import { Meta, Title, Canvas, Controls, ArgTypes } from '@storybook/addon-docs/blocks';
+import { ComponentBadges } from '../../../docs-ui/ComponentBadges';
+import { DocRules } from '../../../docs-ui/DocRules';
+import * as Stories from './IllustrationPlace.stories';
+
+<Meta of={Stories} />
+
+<Title />
+
+<ComponentBadges figmaNode="475-19474" />
+
+İllüstrasyonu sabit ölçülü bir alanda tutar; içine konan görsel kutuyu taşmadan sığar. İçerik verilmezse sarı daire yer tutucusu gösterilir.
+
+## Playground
+
+Figma'daki Size özelliği ve kutuya konan örnek illüstrasyon.
+
+<Canvas of={Stories.Playground} />
+
+<Controls of={Stories.Playground} />
+
+## Kullanım
+
+İllüstrasyonu sabit ölçülü bir alanda tutmak için kullanılır; kutu Figma Size değerlerinden biriyle boyutlanır ve içerik yoksa yer tutucu gösterilir.
+
+## Varyantlar
+
+Altı ölçünün tamamı, aynı illüstrasyonla.
+
+<Canvas of={Stories.Senaryolar} />
+
+## Uç durumlar
+
+### İçerik yok
+
+İllüstrasyon verilmediğinde yer tutucu sarı daire gösterilir.
+
+<Canvas of={Stories.IcerikYok} />
+
+### Küçük ölçek
+
+Büyük bir illüstrasyon küçük kutuya sığdırıldığında oranı korunur.
+
+<Canvas of={Stories.KucukOlcek} />
+
+## YAP / YAPMA
+
+<DocRules
+  dos={[
+    'İllüstrasyonu sabit ölçülü bir alanda tutmak için kullan.',
+    'Kutuyu Figma Size değerlerinden biriyle boyutlandır.',
+    'İçerik yoksa yer tutucu gösterilir; boş alanı metinle açıkla.',
+  ]}
+  donts={[
+    'Kutuyu içerikten bağımsız, rastgele pikselle boyutlandırma.',
+    'İllüstrasyonu kutunun dışına taşıracak ölçü verme.',
+    'Yer tutucuyu gerçek illüstrasyon gibi sunma.',
+  ]}
+/>
+
+## Props
+
+Bileşenin kod tarafındaki prop'ları. **Description** sütununda prop'un tipi yazar; **Default** sütunundaki “-”, prop'un varsayılan değeri olmadığını gösterir: verilmezse ilgili bölüm çizilmez ya da davranış devreye girmez.
+
+<ArgTypes of={Stories} />
